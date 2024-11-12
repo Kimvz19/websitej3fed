@@ -1,12 +1,12 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
-
 
 
 
@@ -16,16 +16,29 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background1:#eee;
+	--color-background2: #EFD7E5;
+}
+
+/*********************/
+/*       General     */
+/*********************/
+
+.melding{
+background: var(--color-background2);
+text-align: center;
+font-family:'Titillium Web',Arial;
+font-size: 13px;
+line-height: 23px;
 }
 
 
 
+/****************/
+/*  Home page   */
+/****************/
 
 
 /****************/
-/* JOUW STYLING */
+/*  reward page */
 /****************/
-
-/* jouw code */
-
