@@ -34,9 +34,32 @@ line-height: 23px;
 
 
 
+
 /****************/
 /*  Home page   */
 /****************/
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+  }
+  
+  a.logo {
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+  }
+  
+  a.logo svg {
+	fill: #000;
+	width: 100%;
+	height: auto;
+	transition: fill 0.3s ease;
+  }
+  
+  a.logo:hover svg {
+	fill: #ff69b4; /* Roze kleur bij hover */
+  }
 
 
 /****************/
