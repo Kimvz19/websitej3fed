@@ -53,7 +53,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik moet de foto's van mijn onderzoek erin zetten! Samen gedaan met Belle.
 
 </details>
 
@@ -64,7 +64,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  
+   <img src="readme-images/breakdown-menu-kylie.png" width="250px" alt="breakdown 1">
 
   ### dynamisch deel (bijv menu): 
   
