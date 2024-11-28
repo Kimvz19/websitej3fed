@@ -64,13 +64,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-   <img src="readme-images/breakdown-menu-kylie.png" width="250px" alt="breakdown 1">
+   
 
   ### dynamisch deel (bijv menu): 
+  <img src="readme-images/breakdown-menu-kylie.png" width="250px" alt="breakdown 1">
+
   
   ### wellicht nog een dynamisch deel (bijv filter): 
-
-
+<img src="readme-images/breakdown-sectie.png" width="400px" alt="breakdown 2">
+<img src="readme-images/breakdown-sectie2.png" width="400px" alt="breakdown 3">
 </details>
 
 
