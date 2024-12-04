@@ -55,11 +55,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Ik heb het onderzoek samen met Belle uitgevoerd.
   De images van mijn van bevindingen : 
-  <img src="readme-images/wcg-checklist-1" width="350px" alt="wcg checklist">
-    <img src="readme-images/wcg-checklist-2" width="350px" alt="wcg checklist">
-      <img src="readme-images/wcg-checklist-3" width="350px" alt="wcg checklist">
-        <img src="readme-images/wcg-checklist-4" width="350px" alt="wcg checklist">
-          <img src="readme-images/wcg-checklist-5" width="350px" alt="wcg checklist">
+  <img src="readme-images/wcg-checklist-1.png" width="350px" alt="wcg checklist">
+    <img src="readme-images/wcg-checklist-2.png" width="350px" alt="wcg checklist">
+      <img src="readme-images/wcg-checklist-3.png" width="350px" alt="wcg checklist">
+        <img src="readme-images/wcg-checklist-4.png" width="350px" alt="wcg checklist">
+          <img src="readme-images/wcg-checklist-5.png" width="350px" alt="wcg checklist">
         
  
 
