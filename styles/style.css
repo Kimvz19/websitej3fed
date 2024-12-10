@@ -75,6 +75,16 @@ header nav ol li {
 	align-items: center;
 }
 
+header nav ol li svg {
+	width: 165px;
+    height: auto;
+	color: var(--color-gray-dark);
+	text-align: center;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+
 header p {
 	background-color: var(--color-pink-300);
 	line-height: var(--line-height);
