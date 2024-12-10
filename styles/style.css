@@ -53,19 +53,35 @@ header {
 	width: 100%;
 }
 
-header nav{
+header nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 }
 
+header nav ol {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	width: 100%;
+	max-width: 1200px;
+}
+
+header nav ol li {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+}
+
 header p {
 	background-color: var(--color-pink-300);
-	text-align: center;
-	font-family: var(--font-family3);
-	font-size: 13px;
 	line-height: var(--line-height);
+	font-family: var(--font-family3);
+	text-align: center;
+	font-size: 13px;
+	width: 100%;
 }
 
 
