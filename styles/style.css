@@ -2,10 +2,12 @@
 /* CSS REMEDY */
 /**************/
 
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 
@@ -14,16 +16,16 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	--color-text:rgb(57, 57, 57);
-	--color-text-2: rgb(179, 132, 143);
-
-
-
-
-
-	--color-background1:#eee;
-	--color-background2: #EFD7E5;
+	--color-gray-dark: #393939;
+	--color-white: rgb(255, 255, 255);
+	--color-pink-100: #f8f1f4;
+	--color-pink-200: #e7dae2;
+	--color-pink-300: #efd7e5;
+	--color-pink-500: #b3848f;
 }
+
+
+/*********************/
 
 /*       General     */
 /*********************/
@@ -36,15 +38,17 @@
 /****************/
 body {
 	font-family: "TTChocolatesTrl-Regular";
-	background-color: #f9f9f9;
-  }
+	background-color: var(--color-white);
+}
 
-h1{
+h1 {
 	font-family: "UniversLTStd-Bold";
 	color: var(--color-text-2);
 }
-  
-  /* a.logo {
+
+a {}
+
+/* a.logo {
 	display: block;
 	width: 200px;
 	margin: 20px auto;
@@ -60,7 +64,7 @@ h1{
   
   a.logo:hover svg {
 	fill: #ff69b4; /* Roze kleur bij hover */
-  
+
 
 
 /****************/
