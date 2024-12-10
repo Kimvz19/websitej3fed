@@ -31,9 +31,13 @@
 /*  Home page   */
 /****************/
 body {
-	font-family: Arial, sans-serif;
+	font-family: "TTChocolatesTrl-Regular";
 	background-color: #f9f9f9;
   }
+
+h1{
+	font-family: "UniversLTStd-Bold";
+}
   
   /* a.logo {
 	display: block;
