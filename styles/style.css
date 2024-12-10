@@ -24,6 +24,16 @@
 	--color-pink-500: #b3848f;
 }
 
+:root {
+    --font-family1: "TTChocolatesTrl-Regular";
+	--font-family2: "UniversLTStd-Bold";
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-large: 24px;
+    --line-height: 1.5;
+    --letter-spacing: 0.05em;
+}
+
 
 /*********************/
 
@@ -37,12 +47,13 @@
 /*  Home page   */
 /****************/
 body {
-	font-family: "TTChocolatesTrl-Regular";
+	font-family: var(--font-family1);
 	background-color: var(--color-white);
 }
 
-h1 {
-	font-family: "UniversLTStd-Bold";
+
+h1, h2, h3, h4, h5 {
+	font-family: var(--font-family2);
 	color: var(--color-text-2);
 }
 
