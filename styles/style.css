@@ -24,14 +24,6 @@
 /*       General     */
 /*********************/
 
-.melding{
-background: var(--color-background2);
-text-align: center;
-font-family:'Titillium Web',Arial;
-font-size: 13px;
-line-height: 23px;
-}
-
 
 
 
@@ -43,7 +35,7 @@ body {
 	background-color: #f9f9f9;
   }
   
-  a.logo {
+  /* a.logo {
 	display: block;
 	width: 200px;
 	margin: 20px auto;
@@ -59,7 +51,7 @@ body {
   
   a.logo:hover svg {
 	fill: #ff69b4; /* Roze kleur bij hover */
-  }
+  
 
 
 /****************/
