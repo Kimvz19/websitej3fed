@@ -14,14 +14,17 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
 	--color-text:rgb(57, 57, 57);
-	--color-text-heading: rgb(179, 132, 143);
+	--color-text-2: rgb(179, 132, 143);
+
+
+
+
+
 	--color-background1:#eee;
 	--color-background2: #EFD7E5;
 }
 
-*********************/
 /*       General     */
 /*********************/
 
@@ -38,7 +41,7 @@ body {
 
 h1{
 	font-family: "UniversLTStd-Bold";
-	color: var(--color-text-heading);
+	color: var(--color-text-2);
 }
   
   /* a.logo {
