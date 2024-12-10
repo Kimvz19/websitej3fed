@@ -27,6 +27,7 @@
 :root {
     --font-family1: "TTChocolatesTrl-Regular";
 	--font-family2: "UniversLTStd-Bold";
+	--font-family3: "Arial";
     --font-size-small: 12px;
     --font-size-medium: 16px;
     --font-size-large: 24px;
@@ -36,7 +37,6 @@
 
 
 /*********************/
-
 /*       General     */
 /*********************/
 
@@ -57,7 +57,9 @@ h1, h2, h3, h4, h5 {
 	color: var(--color-text-2);
 }
 
-a {}
+header p{
+
+}
 
 /* a.logo {
 	display: block;
