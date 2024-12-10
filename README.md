@@ -94,27 +94,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  In de eerste week had ik veel vooruitgang geboekt met mijn website, maar in de tweede week had ik een 
+  deadline van een ander vak waarom ik iets minder had uitgewerkt van de Html en css code.
 
+  Wel had ik een goed begin gemaakt aan de breakdown schetsen en de opbouw van de html. 
+  Wat ik lastig vond, was dat ik gewend ben om gebruik te maken van Classes. In de klas werd uitgelegd
+  dat er geen gebruik hiervan gemaakt mag worden, dus hier moet ik wel echt aan gaan wennen. 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Ik had in mijn code wel gebruik gemaakt van classes dus dit moet ik veranderen voordat ik verder ga met
+  mijn css code!
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+ In de meeting heb ik aangegeven dat ik het lastig vind om zonder classes te werken. 
+ De studentbegeleider heeft een paar voorbeelden laten zien zoals;
+ - nth of type 
+ - has()
+ Dus ik ga deze opties zeker uitproberen 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan aanpassen!
 </details>
 
 
