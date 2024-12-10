@@ -102,7 +102,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   dat er geen gebruik hiervan gemaakt mag worden, dus hier moet ik wel echt aan gaan wennen. 
 
   Ik had in mijn code wel gebruik gemaakt van classes dus dit moet ik veranderen voordat ik verder ga met
-  mijn css code!
+  mijn css code! 
+
+  <img src="readme-images/gebruik-van-class.png" width="300px" alt="gebruik van classes">
+  
 
 
   ### Verslag van meeting
