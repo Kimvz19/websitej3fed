@@ -47,7 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-## Toegankelijkheidstest 1/2 (week 1)
+## Toegankelijkheidstest 1/2
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
@@ -67,7 +67,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-## Breakdownschets (week 1)
+## Breakdownschets
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
@@ -88,7 +88,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
@@ -122,7 +122,7 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
@@ -155,7 +155,7 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
 
-## Toegankelijkheidstest 2/2 (week 4)
+## Toegankelijkheidstest 2/2 
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
@@ -169,7 +169,7 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
 
-## Voortgang 3 (week 4)
+## Voortgang 3 
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
@@ -202,7 +202,7 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
 
-## Eindgesprek (week 5)
+## Eindgesprek 
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
