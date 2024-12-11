@@ -155,6 +155,12 @@ footer button{
     font-size: 14px;
 }
 
+/* Sociale media sectie */
+footer p:nth-of-type(2), footer p a{
+	font-size: var(--font-size-small);
+	color: var(--color-gray-dark);
+}
+
 
 /* Sociale media sectie */
 footer ol:first-of-type {
@@ -193,7 +199,7 @@ footer ol:nth-of-type(3) {
 footer > p:last-of-type{
 display: flex;
 justify-content: center;
-font-size: 12px;
+font-size: var(--font-size-small);
 }
 
 
