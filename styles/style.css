@@ -66,11 +66,10 @@ header nav ol {
 	align-items: center;
 	list-style: none;
 	width: 100%;
-	max-width: 450px;
 }
 
 header nav ol li {
-	margin: 10px;
+	margin: 15px;
 	display: flex;
 	align-items: center;
 }
@@ -80,6 +79,7 @@ header nav ol li svg {
     height: auto;
 	color: var(--color-gray-dark);
 	text-align: center;
+	margin-top: 10px;
 }
 
 
