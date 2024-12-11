@@ -155,9 +155,15 @@ footer button{
 }
 
 /* Sociale media sectie */
+footer p:nth-of-type(1){
+margin-bottom: 5px;
+}
+
+/* Sociale media sectie */
 footer p:nth-of-type(2), footer p a{
 	font-size: var(--font-size-small);
 	color: var(--color-gray-dark);
+	margin-top: 8px;
 }
 
 
