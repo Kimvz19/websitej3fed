@@ -45,7 +45,6 @@ body {
 	background-color: var(--color-white);
 }
 
-
 header {
 	display: flex;
 	flex-direction: column;
@@ -62,14 +61,14 @@ header nav {
 
 header nav ol {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	list-style: none;
 	width: 100%;
 }
 
 header nav ol li {
-	margin: 15px;
+	margin: 0 10px;
 	display: flex;
 	align-items: center;
 }
@@ -81,7 +80,6 @@ header nav ol li svg {
 	text-align: center;
 	margin-top: 10px;
 }
-
 
 header p {
 	background-color: var(--color-pink-300);
