@@ -167,6 +167,12 @@ footer ol:nth-of-type(3) {
     margin: 20px 0;
 }
 
+footer > p:last-of-type{
+display: flex;
+justify-content: center;
+font-size: 12px;
+}
+
 
 
 
