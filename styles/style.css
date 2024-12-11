@@ -75,7 +75,7 @@ header nav ol li {
 
 header nav ol li svg {
 	width: 165px;
-    height: auto;
+	height: auto;
 	color: var(--color-gray-dark);
 	text-align: center;
 	margin-top: 10px;
@@ -90,28 +90,78 @@ header p {
 	width: 100%;
 }
 
-section, article{
+section,
+article {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 40px;
 }
 
-section ol, article ol{
+section ol,
+article ol {
 	list-style: none;
 	padding: 0;
 	text-align: center;
 }
 
-section ol li, article ol li{
+section ol li,
+article ol li {
 	margin: 10px 0;
 }
 
-img{
+img {
 	width: 100%;
 	max-width: 300px;
 	border-radius: 5px;
 }
+
+
+p {
+	font-size: var(--font-size-medium);
+	line-height: var(--line-height);
+	color: var(--color-gray-dark);
+	max-width: 500px;
+}
+
+/****************/
+/*    Footer    */
+/****************/
+
+footer {
+	background-color: var(--color-pink-200);
+	color: var(--color-gray-dark);
+	padding: 20px;
+}
+
+/* Sociale media sectie */
+footer ol:first-of-type {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+footer ol:first-of-type li a img {
+    width: 21px;
+    height: 22px;
+}
+
+
+footer ol:nth-of-type(2) {
+    list-style: none;
+	flex-direction: row;
+    padding: 0;
+    margin: 20px 0;
+}
+
+footer ol:nth-of-type(2) li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
 
 
 /****************/
