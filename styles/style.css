@@ -133,6 +133,29 @@ footer {
 	padding: 20px;
 }
 
+footer input{
+	width: 100%;
+	max-width: 400px;
+    padding: 10px;
+    border: 1px solid var(--color-gray-dark);
+	color: var(--color-gray-dark);
+	background-color: transparent; 
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+footer button{
+	padding: 10px 20px;
+    background-color: transparent; 
+    color: var(--color-gray-dark);
+	border: 1px solid var(--color-gray-dark);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
 /* Sociale media sectie */
 footer ol:first-of-type {
     display: flex;
