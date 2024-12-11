@@ -90,11 +90,34 @@ header p {
 	width: 100%;
 }
 
+section, article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+section ol, article ol{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+section ol li, article ol li{
+	margin: 10px 0;
+}
+
+img{
+	width: 100%;
+	max-width: 300px;
+	border-radius: 5px;
+}
 
 
 /****************/
 /*  Home page   */
 /****************/
+
 
 
 /****************/
