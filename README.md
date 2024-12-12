@@ -73,7 +73,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - Maakt alleen gebruik van h2, geen goede ordening van de headings
  - De video op de pagina kan je niet zelf stoppen
  - geen dark mode omdat alles in het roze is
- 
+
 
         
  
@@ -87,16 +87,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+
+
+
    
 
-  ### dynamisch deel (bijv menu): 
+ ### Breakdowns before feedback: 
+
+  #### dynamisch deel (bijv menu): 
   <img src="readme-images/breakdown-menu-kylie.png" width="250px" alt="breakdown 1">
 
-  
-  ### wellicht nog een dynamisch deel (bijv filter): 
+  #### wellicht nog een dynamisch deel (bijv filter): 
 <img src="readme-images/breakdown-sectie.png" width="400px" alt="breakdown 2">
 <img src="readme-images/breakdown-sectie2.png" width="400px" alt="breakdown 3">
+
+
+ ### Breakdowns after feedback: 
+ #### de hele pagina: 
+
+
+
+ 
 </details>
 
 
