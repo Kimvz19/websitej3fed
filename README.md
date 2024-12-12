@@ -37,12 +37,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://kyliejennercosmetics.eu/en-nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/homepage-kylie.jpg" width="250px" alt="omschrijving van de pagina">
+  <img src="readme-images/homepage-kylie.jpg" width="250px" alt="Home pag">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/rewardpage-kylie.jpg" width="250px" alt="omschrijving van de pagina">
+  <img src="readme-images/rewardpage-kylie.jpg" width="250px" alt="Decoratie page">
  
 </details>
 
@@ -60,6 +58,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
       <img src="readme-images/wcg-checklist-3.png" width="350px" alt="wcg checklist">
         <img src="readme-images/wcg-checklist-4.png" width="350px" alt="wcg checklist">
           <img src="readme-images/wcg-checklist-5.png" width="350px" alt="wcg checklist">
+
+  ### Belangrijkste bevindingen
+  Uit mijn onderzoek is gebleken dat de reader niet goed werkt in de pagina,
+  want hij gaat het hele menu langs, ook als het menu niet is uitgeklapt. Dit is niet
+  erg gebruiksvriendelijk want dan moet de gebruiker super lang wachten voordat de juiste 
+  informatie wordt opgenoemd!
+
+
+ - Images hebben niet overal beschrijvingen of de alts worden niet goed beschreven bij de content
+ - Veel fouten in de validator 
+ - Alles op mobiel ziet er goed uit, maar als je op de website telefoon niveau doet,
+ ziet het er raar uit!
+ - Maakt alleen gebruik van h2, geen goede ordening van de headings
+ - De video op de pagina kan je niet zelf stoppen
+ - geen dark mode omdat alles in het roze is
+ 
+
         
  
 
