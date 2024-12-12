@@ -162,7 +162,17 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
  ### Verslag van meeting
- (uitkomsten van de meeting)
+ Mijn vooruitgang was positief, wel waren er een paar (kleine) dingetjes waar ik nog wel tijd aan moet besteden!
+ De punten waar ik aandacht aan moet besteden:
+ - headings aanpassen
+ - grid oefenen maken en dit toevoegen aan website 
+ - Grid in navigatie toepassen (als grid lukt) > grid met 8 lijnen
+ - 5 punten uitkiezen voor surface plane
+ - Dark mode hoeft niet per se zwart te zijn, maar dat ik wel kan aantonen dat ik weet hoe het werkt > goede mogelijkheid is om de donkere en lichte kleuren roze om te draaien!
+ - micro interacties toevoegen
+ - fish oefening voor grid 
+ - codepen voor grid met een product, https://codepen.io/shooft/pen/yLKjzWa
+
 </details>
 
 
