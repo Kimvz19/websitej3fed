@@ -107,8 +107,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  <img src="readme-images/reward-full-breakdown.png" width="400px" alt="full breakdown reward after feedback">
  <img src="readme-images/home-breakdown-after-feedback.png" width="400px" alt="full breakdown reward after feedback">
 
-
-
 </details>
 
 
@@ -134,7 +132,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/gebruik-van-class.png" width="300px" alt="gebruik van classes">
   
 
-
   ### Verslag van meeting
  In de meeting heb ik aangegeven dat ik het lastig vind om zonder classes te werken. 
  De studentbegeleider heeft een paar voorbeelden laten zien zoals;
@@ -155,17 +152,13 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Wat heb ik tot nu toe gedaan:
+  - breakdown schetsen aangepast, meer gebruik gemaakt van lists, geen classes, beter gebruik van sections & articles
+  - Html code volledig gemaakt voor beide pagina's
+  - Css styling van navigatie (nog niet volledig)
+  - Css styling van footer (nog niet perfect)
+  - Css general styling 
+  - Css geoefent met nth-of-type, last-of-type, custom properties enzv
 
 
   ### Verslag van meeting
