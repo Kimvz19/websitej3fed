@@ -161,14 +161,8 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   - Css geoefent met nth-of-type, last-of-type, custom properties enzv
 
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+ ### Verslag van meeting
+ (uitkomsten van de meeting)
 </details>
 
 
