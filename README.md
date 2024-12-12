@@ -105,7 +105,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  ### Breakdowns after feedback: 
  #### de hele pagina: 
  <img src="readme-images/reward-full-breakdown.png" width="400px" alt="full breakdown reward after feedback">
- <img src="readme-images/home-breakdown-after.png" width="400px" alt="full breakdown reward after feedback">
+ <img src="readme-images/home-breakdown-after-.png" width="400px" alt="full breakdown reward after feedback">
 
 </details>
 
