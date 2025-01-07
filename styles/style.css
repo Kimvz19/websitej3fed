@@ -42,7 +42,7 @@
 	--font-family3: "Arial";
 	--font-size-small: 12px;
 	--font-size-medium: 16px;
-	--font-size-large: 24px;
+	--font-size-large: 25px;
 	--line-height: 1.5;
 	--letter-spacing: 0.05em;
 }
@@ -122,18 +122,21 @@ article ol li {
 	margin: 10px 0;
 }
 
-img {
-	width: 100%;
-	max-width: 300px;
-	border-radius: 5px;
-}
-
 
 p {
 	font-size: var(--font-size-medium);
 	line-height: var(--line-height);
 	color: var(--color-gray-dark);
 }
+
+h1{
+	font-size: var(--font-size-large);
+	font-family: var(--font-family2);
+	line-height: var(--line-height);
+	color: var(--color-pink-500);
+}
+
+
 
 
 /****************/
@@ -227,6 +230,7 @@ font-size: var(--font-size-small);
 /*  Home page   */
 /****************/
 
+/*  surface plane options   */
 section:nth-of-type(1):has( button ){
 	/* background-color:hotpink; */
 	display: flex;
@@ -243,6 +247,26 @@ section:nth-of-type(1):has(button) button {
 	border-style: none;
 	padding: 0.5em;
 }
+
+
+/*   Holiday gift guide list  */
+article:nth-of-type(1):has(h1) {
+    background-color: #FF007F;
+	height: 35em;
+}
+
+article:nth-of-type(1):has( h1 ) img{
+	max-width: 33em;
+}
+
+article:nth-of-type(1):has( h1 ) h1{
+	width: 6em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
 
 
 
