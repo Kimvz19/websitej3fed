@@ -251,18 +251,29 @@ section:nth-of-type(1):has(button) button {
 
 /*   Holiday gift guide list  */
 article:nth-of-type(1):has(h1) {
-    background-color: #FF007F;
-	height: 35em;
+    background-color:var(--color-pink-200);
+	height: 55em;
 }
 
 article:nth-of-type(1):has( h1 ) img{
 	max-width: 33em;
+	clip-path: polygon(0 0, 100% 0, 100% 76%, 0 76%);
 }
 
 article:nth-of-type(1):has( h1 ) h1{
 	width: 6em;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+article:nth-of-type(1):has( h1 ) p{
+	text-align: center;
+}
+
+article:nth-of-type(1):has( h1 ) a:last-of-type{
+	background-color: white;
+	border-radius: 0.5em;
+	padding: 1em 1em 1em 1em;
 }
 
 
