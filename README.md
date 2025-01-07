@@ -195,7 +195,8 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
   #### 7 januari 2025
   Dagplanning: headings weghalen, fish grid toevoegen, micro interacties uitkiezen 
-
+  Ik ben op deze dag alle opdrachten van grid nagelopen
+   <img src="readme-images/code-article-grid.png" width="400px" alt="opdracht grid fish">
 
 
 
