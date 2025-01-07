@@ -184,6 +184,22 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   Voor surface plane is 1 optie dark mode. Ik heb hiervoor andere kleuren roze uitgekozen.
   <img src="readme-images/darkmode-colors.png" width="400px" alt="colors of darkmode colors">
 
+  De 5 punten van surface plane:
+  <ol>
+  <li>1.Darkmode, custom properties aanpassen met js </li>
+   <li>2. video/geluidje toevoegen "rise and shine"</li>
+    <li>3. animatie "feedback" of "loading" </li>
+     <li>4. (has)</li>
+      <li>5. complete micro interacties, werkende hamburgermenu</li>
+  </ol>
+
+  #### 7 januari 2025
+  Dagplanning: headings weghalen, fish grid toevoegen, micro interacties uitkiezen 
+
+
+
+
+
 </details>
 
 
