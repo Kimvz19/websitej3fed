@@ -15,6 +15,8 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+/* Colors */
 :root {
 	--color-gray-dark: #393939;
 	--color-white: rgb(255, 255, 255);
@@ -22,8 +24,16 @@
 	--color-pink-200: #e7dae2;
 	--color-pink-300: #efd7e5;
 	--color-pink-500: #b3848f;
+
+/* Colors for change mode */
+    --color-pink-new-100: #FFC1E3;
+	--color-pink-new-200: #FF8CB6;
+	--color-pink-new-300: #FF70A6;
+	--color-pink-new-500: #FF007F;
 }
 
+
+/* Fonts styling */
 :root {
 	--font-family1: "TTChocolatesTrl-Regular";
 	--font-family2: "UniversLTStd-Bold";

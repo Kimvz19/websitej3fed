@@ -175,6 +175,17 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 </details>
 
+## Wat is nieuw, wat is er veranderd?
+
+<details>
+  <summary>Mijn aanpassingen </summary>
+
+  ### Wat is nieuw?
+  Voor surface plane is 1 optie dark mode. Ik heb hiervoor andere kleuren roze uitgekozen.
+  <img src="readme-images/darkmode-colors.png" width="400px" alt="colors of darkmode colors">
+
+</details>
+
 
 
 
