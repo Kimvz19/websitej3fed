@@ -104,9 +104,9 @@ header p {
 
 section,
 article {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; */
 	margin-bottom: 40px;
 }
 
@@ -251,12 +251,22 @@ section:nth-of-type(1):has(button) button {
 }
 
 
+
+
+/*******************************/
 /*   Holiday gift guide list  */
+/******************************/
+
 /*   article  */
 article:nth-of-type(1):has(h1) {
     background-color:var(--color-pink-200);
-	height: 55em;
+	height: 49em;
 	gap: 0.8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 2em;
 }
 /*   image  */
 article:nth-of-type(1):has( h1 ) img{
@@ -275,7 +285,6 @@ article:nth-of-type(1):has( h1 ) h1{
 /*   p  */
 article:nth-of-type(1):has( h1 ) p{
 	text-align: center;
-
 }
 
 /*   a, last type */
@@ -287,7 +296,38 @@ article:nth-of-type(1):has( h1 ) a:last-of-type{
 	color: var(--color-gray-dark);
 }
 
+/*******************************/
+/*  new products list */
+/******************************/
 
+/*  section */
+section:nth-of-type(2):has( article ) {
+    background-color: hotpink;
+}
+
+section:nth-of-type(2):has( article ) article:nth-of-type(1) {
+    background-color: blue;
+	
+	display: grid;
+	/* 3 rijen */
+	/* 1 --> 10 em */
+	grid-template-columns: 10em max-content max-content;
+	grid-template-columns: 1fr max-content;
+}
+
+section:nth-of-type(2):has( article ) article:nth-of-type(1) img {
+    background-color: purple;
+	grid-column-start: 1;
+	grid-column-end: -1;
+	grid-row-start: 1;
+}
+
+/* li 1*/
+section:nth-of-type(2):has( article ) article:nth-of-type(1) li:nth-of-type(2) p{
+background-color: #efd7e5;
+}
+
+/*  section with stars*/
 
 
 
