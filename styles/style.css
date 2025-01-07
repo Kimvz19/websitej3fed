@@ -252,17 +252,19 @@ section:nth-of-type(1):has(button) button {
 
 
 /*   Holiday gift guide list  */
+/*   article  */
 article:nth-of-type(1):has(h1) {
     background-color:var(--color-pink-200);
 	height: 55em;
 	gap: 0.8em;
 }
-
+/*   image  */
 article:nth-of-type(1):has( h1 ) img{
 	max-width: 33em;
 	clip-path: polygon(0 0, 100% 0, 100% 76%, 0 76%);
 }
 
+/*   h1  */
 article:nth-of-type(1):has( h1 ) h1{
 	width: 6em;
 	text-align: center;
@@ -270,11 +272,13 @@ article:nth-of-type(1):has( h1 ) h1{
 	margin-top: -6em;
 }
 
+/*   p  */
 article:nth-of-type(1):has( h1 ) p{
 	text-align: center;
 
 }
 
+/*   a, last type */
 article:nth-of-type(1):has( h1 ) a:last-of-type{
 	background-color: white;
 	border-radius: 0.5em;
