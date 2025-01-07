@@ -256,7 +256,7 @@ article:nth-of-type(1):has(h1) {
 }
 
 article:nth-of-type(1):has( h1 ) img{
-	max-width: 33em;
+	max-width: 30em;
 	clip-path: polygon(0 0, 100% 0, 100% 76%, 0 76%);
 }
 
@@ -264,6 +264,7 @@ article:nth-of-type(1):has( h1 ) h1{
 	width: 6em;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: -5em;
 }
 
 article:nth-of-type(1):has( h1 ) p{
