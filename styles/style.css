@@ -587,7 +587,7 @@ section:nth-of-type(5):has(article) {
 
 /*  surface plane options   */
 section:nth-of-type(6):has(h2) {
-	background-color:hotpink;
+	background-color:var(--color-pink-200);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -597,7 +597,32 @@ section:nth-of-type(6):has(h2) {
 	margin-bottom: 20px;
 }
 
-section:nth-of-type(6):has(h2) a:nth-child(5){
+section:nth-of-type(6):has(h2) container{
+display: flex;
+flex-direction: row;
+}
+
+section:nth-of-type(6):has(h2) section:nth-of-type(1) a img,  section:nth-of-type(2) a img , section:nth-of-type(3) a img {
+background-color: green;
+width: 12em;
+height: 15em;
+border-radius: 2em;
+margin: 0.5em;
+}
+
+section:nth-of-type(6):has(h2) section:nth-of-type(1) p,  section:nth-of-type(2) p , section:nth-of-type(3) p{
+background-color: #FF007F;
+font-size: var(--font-size-large);
+	font-family: var(--font-family2);
+	line-height: var(--line-height);
+	color: var(--color-white);
+	text-align: center;
+	text-transform: uppercase;
+	width: 5em;
+} 
+
+
+section:nth-of-type(6):has(h2) a:nth-child(4){
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
@@ -605,4 +630,3 @@ section:nth-of-type(6):has(h2) a:nth-child(5){
 	text-decoration: none;
 	color: var(--color-gray-dark);
 }
-
