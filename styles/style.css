@@ -578,9 +578,31 @@ article:nth-of-type(3):has(img) a:last-of-type {
 /* other products */
 /******************************/
 
-
 /*  section */
 section:nth-of-type(5):has(article) {
 	background-color: var(--color-pink-200);
 	padding-top: 5em;
 }
+
+
+/*  surface plane options   */
+section:nth-of-type(6):has(h2) {
+	background-color:hotpink;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	padding-top: 5em;
+	margin-bottom: 20px;
+}
+
+section:nth-of-type(6):has(h2) a:nth-child(5){
+	border-radius: 0.5em;
+	border-color: transparent;
+	border: 0.1em solid var(--color-gray-dark);
+	padding: 0.6em 1.5em;
+	text-decoration: none;
+	color: var(--color-gray-dark);
+}
+
