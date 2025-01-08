@@ -378,7 +378,7 @@ section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(5) but
 /******************************/
 
 article:nth-of-type(2):has(video) {
-	background-color: #FF007F;
+	background-color: var(--color-pink-200);
 	height: 55em;
 
 	display: flex;
@@ -388,7 +388,7 @@ article:nth-of-type(2):has(video) {
 }
 
 article:nth-of-type(2):has(video) li {
-	background-color: aqua;
+	background-color: var(--color-pink-200);
 	display: flex;
 	justify-content: center;
 	padding: 0.3em;
@@ -404,20 +404,16 @@ article:nth-of-type(2):has(video) h2 {
 	width: 10em;
 	text-align: center;
 	text-transform: uppercase;
-
-	background-color: #FFC1E3;
 }
 
 /*   p  */
 article:nth-of-type(2):has(video) p {
-	background-color: green;
 	text-align: center;
 	width: 25.5em;
 }
 
 /*   p  */
 article:nth-of-type(2):has(video) li:nth-of-type(3) p{
-	background-color: blue;
 	text-align: center;
 	text-transform: uppercase;
 	width: 25.5em;
@@ -433,7 +429,6 @@ article:nth-of-type(2):has(video) li:nth-of-type(6) a {
 	text-decoration: none;
 	color: var(--color-gray-dark);
 }
-
 
 article:nth-of-type(2):has(video) video{
 	display: none;
