@@ -118,11 +118,6 @@ article ol {
 	text-align: center;
 }
 
-section ol li,
-article ol li {
-	margin: 10px 0;
-}
-
 
 p {
 	font-size: var(--font-size-medium);
@@ -311,24 +306,22 @@ section:nth-of-type(2):has(article) {
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1) {
-	border-radius: 1em;
-	border: 0.1em solid var(--color-pink-300);
+	border-radius: 0.2em;
+	border: 0.1em solid rgba(179, 132, 143, 0.5); /* 50% transparantie */
 
 	background-color: var(--color-white);
 
 	display: grid;
-	margin: 1.5em;
+	margin: 1em 1.6em 1.5em 1.5em;
 	/* 3 rijen */
 	/* 1 --> 10 em */
-	grid-template-rows: 50em max-content max-content;
+	grid-template-rows: 41em max-content max-content;
 	grid-template-columns: 1fr max-content;
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1) img {
-	width: 27em;
-	grid-column-start: 1;
-	grid-column-end: -1;
-	grid-row-start: 1;
+	width: 28em;
+
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p {
