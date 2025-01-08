@@ -28,11 +28,12 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-	--color-pink-100: #FFC1E3;
-	--color-pink-200: #FF8CB6;
-	--color-pink-300: #FF70A6;
-	--color-pink-500: #FF007F;
-	}}
+		--color-pink-100: #FFC1E3;
+		--color-pink-200: #FF8CB6;
+		--color-pink-300: #FF70A6;
+		--color-pink-500: #FF007F;
+	}
+}
 
 
 /* Fonts styling */
@@ -129,7 +130,7 @@ p {
 	color: var(--color-gray-dark);
 }
 
-h1{
+h1 {
 	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
 	line-height: var(--line-height);
@@ -149,34 +150,35 @@ footer {
 	padding: 20px;
 }
 
-footer input{
+footer input {
 	width: 100%;
 	max-width: 400px;
-    padding: 10px;
-    border: 1px solid var(--color-gray-dark);
-	background-color: transparent; 
-    border-radius: 4px;
-    font-size: 14px;
-    margin-right: 10px;
-}
-
-footer button{
-	padding: 10px 20px;
-    background-color: transparent; 
-    color: var(--color-gray-dark);
+	padding: 10px;
 	border: 1px solid var(--color-gray-dark);
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
+	background-color: transparent;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+footer button {
+	padding: 10px 20px;
+	background-color: transparent;
+	color: var(--color-gray-dark);
+	border: 1px solid var(--color-gray-dark);
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
 }
 
 /* Sociale media sectie */
-footer p:nth-of-type(1){
-margin-bottom: 5px;
+footer p:nth-of-type(1) {
+	margin-bottom: 5px;
 }
 
 /* Sociale media sectie */
-footer p:nth-of-type(2), footer p a{
+footer p:nth-of-type(2),
+footer p a {
 	font-size: var(--font-size-small);
 	color: var(--color-gray-dark);
 	margin-top: 8px;
@@ -185,23 +187,23 @@ footer p:nth-of-type(2), footer p a{
 
 /* Sociale media sectie */
 footer ol:first-of-type {
-    display: flex;
+	display: flex;
 	justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-    gap: 15px;
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+	gap: 15px;
 }
 
 /*    social icons    */
 footer ol:first-of-type li a img {
-    width: 21px;
-    height: 22px;
+	width: 21px;
+	height: 22px;
 }
 
 /*    social icons    */
 footer ol:nth-of-type(2) {
-    list-style: none;
+	list-style: none;
 	display: flex;
 	justify-content: center;
 	gap: 19px;
@@ -213,14 +215,14 @@ footer ol:nth-of-type(3) {
 	justify-content: center;
 	gap: 20px;
 
-    list-style: none;
-    margin: 20px 0;
+	list-style: none;
+	margin: 20px 0;
 }
 
-footer > p:last-of-type{
-display: flex;
-justify-content: center;
-font-size: var(--font-size-small);
+footer>p:last-of-type {
+	display: flex;
+	justify-content: center;
+	font-size: var(--font-size-small);
 }
 
 
@@ -231,7 +233,7 @@ font-size: var(--font-size-small);
 /****************/
 
 /*  surface plane options   */
-section:nth-of-type(1):has( button ){
+section:nth-of-type(1):has(button) {
 	/* background-color:hotpink; */
 	display: flex;
 	flex-direction: row;
@@ -243,7 +245,7 @@ section:nth-of-type(1):has( button ){
 }
 
 section:nth-of-type(1):has(button) button {
-    background-color: var(--color-pink-300);
+	background-color: var(--color-pink-300);
 	color: var(--color-pink-500);
 	border-radius: 2em;
 	border-style: none;
@@ -259,7 +261,7 @@ section:nth-of-type(1):has(button) button {
 
 /*   article  */
 article:nth-of-type(1):has(h1) {
-    background-color:var(--color-pink-200);
+	background-color: var(--color-pink-200);
 	height: 49em;
 	gap: 0.8em;
 
@@ -269,14 +271,15 @@ article:nth-of-type(1):has(h1) {
 	flex-direction: column;
 	padding-bottom: 2em;
 }
+
 /*   image  */
-article:nth-of-type(1):has( h1 ) img{
+article:nth-of-type(1):has(h1) img {
 	max-width: 33em;
 	clip-path: polygon(0 0, 100% 0, 100% 76%, 0 76%);
 }
 
 /*   h1  */
-article:nth-of-type(1):has( h1 ) h1{
+article:nth-of-type(1):has(h1) h1 {
 	width: 6em;
 	text-align: center;
 	text-transform: uppercase;
@@ -284,12 +287,12 @@ article:nth-of-type(1):has( h1 ) h1{
 }
 
 /*   p  */
-article:nth-of-type(1):has( h1 ) p{
+article:nth-of-type(1):has(h1) p {
 	text-align: center;
 }
 
 /*   a, last type */
-article:nth-of-type(1):has( h1 ) a:last-of-type{
+article:nth-of-type(1):has(h1) a:last-of-type {
 	background-color: white;
 	border-radius: 0.5em;
 	padding: 1em 1em 1em 1em;
@@ -302,12 +305,12 @@ article:nth-of-type(1):has( h1 ) a:last-of-type{
 /******************************/
 
 /*  section */
-section:nth-of-type(2):has( article ) {
-    background-color: hotpink;
+section:nth-of-type(2):has(article) {
+	background-color: hotpink;
 }
 
-section:nth-of-type(2):has( article ) article:nth-of-type(1) {
-    background-color: blue;
+section:nth-of-type(2):has(article) article:nth-of-type(1) {
+	background-color: blue;
 	border-radius: 1em;
 
 	display: grid;
@@ -318,36 +321,60 @@ section:nth-of-type(2):has( article ) article:nth-of-type(1) {
 	grid-template-columns: 1fr max-content;
 }
 
-section:nth-of-type(2):has( article ) article:nth-of-type(1) img {
-    background-color: purple;
+section:nth-of-type(2):has(article) article:nth-of-type(1) img {
+	background-color: purple;
 	width: 27em;
 	grid-column-start: 1;
-	grid-column-end:-1;
+	grid-column-end: -1;
 	grid-row-start: 1;
 }
 
-/* li 1*/
-section:nth-of-type(2):has( article ) article:nth-of-type(1) li:nth-of-type(2) p{
-background-color: #efd7e5;
-margin: .5rem .5rem 0 .5rem;
+/* li 1 - titel*/
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p {
+	background-color: #efd7e5;
+	margin: .5rem .5rem 0 .5rem;
+	display: grid;
+	justify-content: start;
+
+	color: var(--color-gray-dark);
+	
+}
+
+/* li 2*/
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p {
+	background-color: hotpink;
+	margin: .5rem .5rem 0 .5rem;
+	display: grid;
+	justify-content: end;
+	margin-top: -2.1em;
+}
+
+/* li 3*/
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(4) p {
+	background-color: hotpink;
+	background-color: #efd7e5;
+	margin: .5rem .5rem 0 .5rem;
+	display: grid;
+	justify-content: start;
 }
 
 /*  section with stars*/
-section:nth-of-type(2):has( article ) section:has( li ){
+section:nth-of-type(2):has(article) section:has(li) {
 	background-color: green;
 	margin: .5rem .5rem 0 .5rem;
 	display: flex;
 	flex-direction: row;
-	}
+}
+
 
 /* button*/
-section:nth-of-type(2):has( article ) article:nth-of-type(1) li:nth-of-type(5) button{
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) button {
 	background-color: var(--color-gray-dark);
 	color: var(--color-pink-100);
 	border-style: none;
 	border-radius: 0.5em;
-	padding: 1em 5em ;
-	}
+	padding: 1em 12.5em;
+}
 
 
 
