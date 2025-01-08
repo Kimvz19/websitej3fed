@@ -297,6 +297,7 @@ article:nth-of-type(1):has(h1) a:last-of-type {
 /******************************/
 /*  advent calendar */
 /*  nail laquer trio */
+/* product holiday  */
 /******************************/
 
 /*  section */
@@ -306,7 +307,9 @@ section:nth-of-type(2):has(article) {
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1),
-section:nth-of-type(2):has(article) article:nth-of-type(2) {
+section:nth-of-type(2):has(article) article:nth-of-type(2),
+section:nth-of-type(4):has(article) article:nth-of-type(1),
+section:nth-of-type(4):has(article) article:nth-of-type(2) {
 	border-radius: 0.2em;
 	border: 0.1em solid rgba(179, 132, 143, 0.5);
 	/* 50% transparantie */
@@ -321,13 +324,18 @@ section:nth-of-type(2):has(article) article:nth-of-type(2) {
 	grid-template-columns: 1fr max-content;
 }
 
+
 section:nth-of-type(2):has(article) article:nth-of-type(1) img,
-section:nth-of-type(2):has(article) article:nth-of-type(2) img {
+section:nth-of-type(2):has(article) article:nth-of-type(2) img,
+section:nth-of-type(4):has(article) article:nth-of-type(1) img,
+section:nth-of-type(4):has(article) article:nth-of-type(2) img {
 	width: 27em;
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p,
-section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(2) p {
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(2) p,
+section:nth-of-type(4):has(article) article:nth-of-type(1) li:nth-of-type(2) p,
+section:nth-of-type(4):has(article) article:nth-of-type(2) li:nth-of-type(2) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
@@ -339,7 +347,9 @@ section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(2) p {
 
 /* li 2*/
 section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p,
-section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(3) p {
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(3) p,
+section:nth-of-type(4):has(article) article:nth-of-type(1) li:nth-of-type(3) p,
+section:nth-of-type(4):has(article) article:nth-of-type(2) li:nth-of-type(3) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: end;
@@ -348,14 +358,16 @@ section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(3) p {
 
 /* li 3*/
 section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(4) p,
-section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(4) p {
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(4) p,
+section:nth-of-type(4):has(article) article:nth-of-type(1) li:nth-of-type(4) p,
+section:nth-of-type(4):has(article) article:nth-of-type(2) li:nth-of-type(4) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
 }
 
 /*  section with stars*/
-section:nth-of-type(2):has(article) section:has(li) {
+section:nth-of-type(2):has(article) section:has(li), section:nth-of-type(4):has(article) section:has(li) {
 	margin: .5rem .5rem 0 .5rem;
 	display: flex;
 	flex-direction: row;
@@ -444,9 +456,9 @@ article:nth-of-type(2):has(video) video {
 
 
 section:nth-of-type(3):has(li) {
-	background-color: #FF007F;
-	height: 55em;
-	padding-top: 1.5em;
+	background-color: var(--color-pink-200);
+	height: 48em;
+	padding-top: 1.2em;
 
 	display: flex;
 	justify-content: center;
@@ -478,6 +490,71 @@ section:nth-of-type(3):has(li) a {
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
 	padding: 0.6em 0.9em;
+	text-decoration: none;
+	color: var(--color-gray-dark);
+}
+
+
+/******************************/
+/* product holiday  */
+/******************************/
+
+/*  section */
+section:nth-of-type(4):has(article) {
+	background-color: var(--color-pink-200);
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+/* button*/
+section:nth-of-type(4):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
+section:nth-of-type(4):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
+	color: var(--color-gray-dark);
+	border: 0.1em solid var(--color-gray-dark);
+	background-color: transparent;
+	border-radius: 0.2em;
+	margin-top: 1em;
+	padding: 1em 11.5em;
+	font-family: var(--font-family1);
+}
+
+/******************************/
+/* Kylie gala look */
+/******************************/
+
+/*   article  */
+article:nth-of-type(3):has(img) {
+	background-color: var(--color-white);
+	height: 47.8em;
+	gap: 0.8em;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 2em;
+}
+
+
+/*   image  */
+article:nth-of-type(3):has(img)  {
+	max-width: 33em;
+}
+
+article:nth-of-type(3):has(img) h2{
+	width: 15em;
+}
+
+article:nth-of-type(3):has(img) p{
+	width: 15em;
+}
+
+/*   a, last type */
+article:nth-of-type(3):has(img) a:last-of-type {
+	border-radius: 0.5em;
+	border-color: transparent;
+	border: 0.1em solid var(--color-gray-dark);
+	padding: 0.6em 1.1em;
 	text-decoration: none;
 	color: var(--color-gray-dark);
 }
