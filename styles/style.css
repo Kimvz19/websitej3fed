@@ -315,13 +315,12 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) {
 	margin: 1em 1.6em 1.5em 1.5em;
 	/* 3 rijen */
 	/* 1 --> 10 em */
-	grid-template-rows: 41em max-content max-content;
+	grid-template-rows: 38em max-content max-content;
 	grid-template-columns: 1fr max-content;
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1) img {
 	width: 28em;
-
 }
 
 section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p {
@@ -362,6 +361,7 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) but
 	color: var(--color-pink-100);
 	border-style: none;
 	border-radius: 0.5em;
+	margin-top: 1em;
 	padding: 1em 12.5em;
 }
 
