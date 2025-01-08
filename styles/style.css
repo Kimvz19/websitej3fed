@@ -260,6 +260,7 @@ article:nth-of-type(1):has(h1) {
 	padding-bottom: 2em;
 }
 
+
 /*   image  */
 article:nth-of-type(1):has(h1) img {
 	max-width: 33em;
@@ -293,7 +294,8 @@ article:nth-of-type(1):has(h1) a:last-of-type {
 /******************************/
 
 /******************************/
-/*  advent calendar */ /*  nail laquer trio */
+/*  advent calendar */
+/*  nail laquer trio */
 /******************************/
 
 /*  section */
@@ -302,9 +304,11 @@ section:nth-of-type(2):has(article) {
 	padding-top: 5em;
 }
 
-section:nth-of-type(2):has(article) article:nth-of-type(1), section:nth-of-type(2):has(article) article:nth-of-type(2) {
+section:nth-of-type(2):has(article) article:nth-of-type(1),
+section:nth-of-type(2):has(article) article:nth-of-type(2) {
 	border-radius: 0.2em;
-	border: 0.1em solid rgba(179, 132, 143, 0.5); /* 50% transparantie */
+	border: 0.1em solid rgba(179, 132, 143, 0.5);
+	/* 50% transparantie */
 
 	background-color: var(--color-white);
 
@@ -316,22 +320,25 @@ section:nth-of-type(2):has(article) article:nth-of-type(1), section:nth-of-type(
 	grid-template-columns: 1fr max-content;
 }
 
-section:nth-of-type(2):has(article) article:nth-of-type(1) img, section:nth-of-type(2):has(article) article:nth-of-type(2) img{
+section:nth-of-type(2):has(article) article:nth-of-type(1) img,
+section:nth-of-type(2):has(article) article:nth-of-type(2) img {
 	width: 27em;
 }
 
-
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(2) p {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p,
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(2) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
 
-	font-weight: bolder; /*werkt niet */
+	font-weight: bolder;
+	/*werkt niet */
 	font-size: var(--font-size-medium);
 }
 
 /* li 2*/
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(3) p {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p,
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(3) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: end;
@@ -339,25 +346,74 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p, 
 }
 
 /* li 3*/
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(4) p, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(4) p {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(4) p,
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(4) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
 }
 
 /*  section with stars*/
-section:nth-of-type(2):has(article) section:has(li){
+section:nth-of-type(2):has(article) section:has(li) {
 	margin: .5rem .5rem 0 .5rem;
 	display: flex;
 	flex-direction: row;
 }
 
 /* button*/
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) button, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
+section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
 	background-color: var(--color-gray-dark);
 	color: var(--color-pink-100);
 	border-style: none;
 	border-radius: 0.5em;
 	margin-top: 1em;
 	padding: 1em 11.5em;
+}
+
+
+/******************************/
+/*  Online exclusive */
+/*  Holiday Advent Calendar */
+/******************************/
+
+article:nth-of-type(2):has(video) {
+	background-color: #FF007F;
+	padding-bottom: 2em;
+	
+}
+
+article:nth-of-type(2):has(video) li {
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+}
+
+article:nth-of-type(2):has(video) h2 {
+	background-color: #FFC1E3;
+	text-align: center;
+	text-transform: uppercase;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+article:nth-of-type(2):has(video) p {
+	background-color: green;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 25.5em;
+}
+
+
+article:nth-of-type(2):has(video) li:nth-of-type(6) a {
+	background-color: white;
+	border-radius: 0.5em;
+	padding: 1em 1em 1em 1em;
+	text-decoration: none;
+	color: var(--color-gray-dark);
 }
