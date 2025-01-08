@@ -299,13 +299,17 @@ article:nth-of-type(1):has(h1) a:last-of-type {
 /*  new products list */
 /******************************/
 
+/******************************/
+/*  advent calendar */ /*  nail laquer trio */
+/******************************/
+
 /*  section */
 section:nth-of-type(2):has(article) {
 	background-color: var(--color-pink-200);
 	padding-top: 5em;
 }
 
-section:nth-of-type(2):has(article) article:nth-of-type(1) {
+section:nth-of-type(2):has(article) article:nth-of-type(1), section:nth-of-type(2):has(article) article:nth-of-type(2) {
 	border-radius: 0.2em;
 	border: 0.1em solid rgba(179, 132, 143, 0.5); /* 50% transparantie */
 
@@ -319,11 +323,12 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) {
 	grid-template-columns: 1fr max-content;
 }
 
-section:nth-of-type(2):has(article) article:nth-of-type(1) img {
+section:nth-of-type(2):has(article) article:nth-of-type(1) img, section:nth-of-type(2):has(article) article:nth-of-type(2) img{
 	width: 28em;
 }
 
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p {
+
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(2) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
@@ -333,7 +338,7 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(2) p {
 }
 
 /* li 2*/
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(3) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: end;
@@ -341,22 +346,21 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(3) p {
 }
 
 /* li 3*/
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(4) p {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(4) p, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(4) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
 }
 
 /*  section with stars*/
-section:nth-of-type(2):has(article) section:has(li) {
+section:nth-of-type(2):has(article) section:has(li){
 	margin: .5rem .5rem 0 .5rem;
 	display: flex;
 	flex-direction: row;
 }
 
-
 /* button*/
-section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) button {
+section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) button, section:nth-of-type(2):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
 	background-color: var(--color-gray-dark);
 	color: var(--color-pink-100);
 	border-style: none;
@@ -364,11 +368,3 @@ section:nth-of-type(2):has(article) article:nth-of-type(1) li:nth-of-type(5) but
 	margin-top: 1em;
 	padding: 1em 12.5em;
 }
-
-
-
-
-
-/****************/
-/*  reward page */
-/****************/
