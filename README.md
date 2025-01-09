@@ -162,6 +162,7 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
  ### Verslag van meeting
+ Gepsrek gevoerd met Danny
  Mijn vooruitgang was positief, wel waren er een paar (kleine) dingetjes waar ik nog wel tijd aan moet besteden!
  De punten waar ik aandacht aan moet besteden:
  - headings aanpassen
@@ -204,6 +205,30 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 </details>
 
 
+## Voortgang 3 
+<details>
+  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+
+  ### Stand van zaken
+  Wat heb ik tot nu toe gedaan:
+  - Feedback verwerkt van vorige voortgangsgesprek : headings veranderd, custom properties aangevuld, surface plane 5 opties uitgekozen, ik heb meer gebruik gemaakt van unordered lists, geoefend met grid. 
+
+  De punten waar ik tegenaan loop:
+  Heb bijna de hele styling van pagina 1 af alleen pagina 2 is dan moeilijker te stijlen, hoe los ik dit op? Ik had voor nu voor de main van page 2 een class gebruikt. 
+
+
+ ### Verslag van meeting
+ Gepsrek gevoerd met Danny
+ De vooruitgang was vrij positief. 
+
+ De punten waar ik aan nog moet werken:
+ - Voor surface plan zijn de 5 punten nu: 1. background kylie, 2. darkmode, 3.geluidje toevoegen, 4. gebruik van has(), 5. dialog transition toevoegen + de hamburgermenu micro interaction
+ - Ik moet nog goed gaan kijken naar wat is article, section zodat het makkelijker is bij stylen. 
+ - Buttons en general css code los zetten van andere extra stylingen, scheelt werk!
+ - Class mag je wel gebruiken als het niet anders kan
+ - Gebruik van class bij reward pagina > vip tiers, points 
+
+</details>
 
 
 
@@ -219,36 +244,6 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
 
-
-
-## Voortgang 3 
-
-<details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
 
 
 
