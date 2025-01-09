@@ -4,6 +4,7 @@ console.log("it works");
 
 // variabelen
 let darkModeButton = document.querySelector('.pinkModeButton');
+let kylieSound = document.querySelector('.soundButton');
 
 // Functies
 
