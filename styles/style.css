@@ -26,15 +26,6 @@
 	--color-pink-500: #b3848f;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-pink-100: #FFC1E3;
-		--color-pink-200: #FF8CB6;
-		--color-pink-300: #FF70A6;
-		--color-pink-500: #FF007F;
-	}
-}
-
 
 /* Fonts styling */
 :root {
