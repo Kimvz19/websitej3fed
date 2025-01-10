@@ -195,14 +195,12 @@ article button{
 
 /*  surface plane options   */
 section:nth-of-type(1):has(button) {
-	/* background-color:hotpink; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-content: space-around;
 	gap: 2em;
 	padding-top: 0.6em;
-	margin-bottom: 20px;
+	margin-bottom: 1.5em;
 }
 
 section:nth-of-type(1):has(button) button {
@@ -211,7 +209,15 @@ section:nth-of-type(1):has(button) button {
 	padding: 0.5em;
 	border: 0.15em solid var(--color-pink-500);
 	border-radius: 1em;
+	display: flex; 
+	align-items: center; 
+	gap: 0.5em; 
 }
+
+section:nth-of-type(1):has(button) img {
+	width: 1.5em;
+}
+
 
 
 /*******************************/
