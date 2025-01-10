@@ -38,18 +38,32 @@ kylieSound.addEventListener('click', ()=> {
 
 
 kingKy.addEventListener('click', () => {
-    // Selecteer de header
+    //variabelen
     let header = document.querySelector('header');
-    
+    let buttons = document.querySelectorAll('button');
+
     if (isKylieBackgroundActive) {
-        // Verwijder de achtergrondafbeelding
+        // Verwijder de achtergrondafbeelding van de header en buttons
         header.style.backgroundImage = "";
+        buttons.forEach(button => {
+            button.style.backgroundImage = "";
+            button.style.color = ""; // Reset tekstkleur naar standaard
+        });
         isKylieBackgroundActive = false;
+
+        
     } else {
-        // Voeg de achtergrondafbeelding toe
+        // Voeg de achtergrondafbeelding toe aan de header en buttons
         header.style.backgroundImage = "url('images/extra-features/new-kylie-old-logo-background.png')";
         header.style.backgroundSize = "cover";
         header.style.backgroundPosition = "center";
+
+        buttons.forEach(button => {
+            button.style.backgroundImage = "url('images/extra-features/new-kylie-old-logo-background.png')";
+            button.style.backgroundSize = "cover";
+            button.style.backgroundPosition = "center";
+            button.style.color = "black"; // Zet de tekstkleur van de knop op zwart
+        });
         isKylieBackgroundActive = true;
     }
 });
