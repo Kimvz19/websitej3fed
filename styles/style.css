@@ -454,50 +454,6 @@ section:nth-of-type(8):has(article) {
 
 
 /*  surface plane options   */
-/* section:nth-of-type(6):has(h2) {
-	background-color:var(--color-pink-200);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-	padding-top: 5em;
-	margin-bottom: 20px;
-}
-
-section:nth-of-type(6):has(h2) container{
-display: flex;
-flex-direction: row;
-}
-
-section:nth-of-type(6):has(h2) section:nth-of-type(1) a img,  section:nth-of-type(2) a img , section:nth-of-type(3) a img {
-background-color: green;
-width: 12em;
-height: 15em;
-border-radius: 2em;
-margin: 0.5em;
-}
-
-section:nth-of-type(6):has(h2) section:nth-of-type(1) p,  section:nth-of-type(6):has(h2) section:nth-of-type(2) p , section:nth-of-type(6):has(h2) section:nth-of-type(3) p{
-background-color: #FF007F;
-font-size: var(--font-size-large);
-	font-family: var(--font-family2);
-	line-height: var(--line-height);
-	color: var(--color-white);
-	text-align: center;
-	text-transform: uppercase;
-	width: 5em;
-} 
-
-
-section:nth-of-type(6):has(h2) a:nth-child(4){
-	border-radius: 0.5em;
-	border-color: transparent;
-	border: 0.1em solid var(--color-gray-dark);
-	padding: 0.6em 1.5em;
-	text-decoration: none;
-	color: var(--color-gray-dark);
-} */
 
 
 /******************************/
@@ -506,7 +462,7 @@ section:nth-of-type(6):has(h2) a:nth-child(4){
 
 
 /*   article  */
-.reward article:nth-of-type(1):has(h1) {
+article:nth-of-type(1):has(h1) {
 	background-color: #5f554f;
 
 	display: flex;
@@ -518,31 +474,31 @@ section:nth-of-type(6):has(h2) a:nth-child(4){
 }
 
 /*   image  */
-.reward article:nth-of-type(1):has(h1) img {
+ article:nth-of-type(1):has(h1) img {
 	max-width: 33em;
 }
 
 /*   h1  */
-.reward article:nth-of-type(1):has(h1) h1 {
+ article:nth-of-type(1):has(h1) h1 {
 	color: var(--color-white);
 	width: 12em;
 	padding-top: 0.7em;
 }
 
 /*   p  */
-.reward article:nth-of-type(1):has(h1) p {
+article:nth-of-type(1):has(h1) p {
 	text-align: center;
 	color: var(--color-white);
 }
 
 /*   a, last type */
-.reward article:nth-of-type(1):has(h1) container {
+article:nth-of-type(1):has(h1) container {
 	display: flex;
 	flex-direction: row;
 	gap: 1em;
 }
 
-.reward article:nth-of-type(1):has(h1) a:first-of-type {
+article:nth-of-type(1):has(h1) a:first-of-type {
 	background-color: transparent;
 	border: 0.2em solid var(--color-white);
 	border-radius: 0.5em;
@@ -552,7 +508,7 @@ section:nth-of-type(6):has(h2) a:nth-child(4){
 }
 
 
-.reward article:nth-of-type(1):has(h1) a:last-of-type {
+article:nth-of-type(1):has(h1) a:last-of-type {
 	background-color: var(--color-gray-dark);
 	border-radius: 0.5em;
 	padding: 1em 2em 1em 2em;
