@@ -126,7 +126,10 @@ a{
 	text-decoration: none;
 }
 
+
+/***************************************/
 /*  General article styling products   */
+/***************************************/
 article{
 	border-radius: 0.2em;
 	border: 0.1em solid rgba(179, 132, 143, 0.5);
@@ -139,10 +142,12 @@ article{
 	grid-template-columns: 1fr max-content;
 }
 
+/* img */
 article img{
 	width: 27em;
 }
 
+/* p - 1 */
 article li:nth-of-type(2) p{
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
@@ -152,6 +157,7 @@ article li:nth-of-type(2) p{
 	font-size: var(--font-size-medium);
 }
 
+/* p - 3 */
 article li:nth-of-type(3) p{
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
@@ -159,6 +165,7 @@ article li:nth-of-type(3) p{
 	margin-top: -2.1em;
 }
 
+/* p - 4 */
 article li:nth-of-type(4) p{
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
@@ -172,6 +179,7 @@ article section:has(li){
 	flex-direction: row;
 }
 
+/* button */
 article button{
 	background-color: var(--color-gray-dark);
 	color: var(--color-pink-100);
@@ -204,9 +212,6 @@ section:nth-of-type(1):has(button) button {
 	border: 0.15em solid var(--color-pink-500);
 	border-radius: 1em;
 }
-
-
-
 
 
 /*******************************/
@@ -253,20 +258,9 @@ section:nth-of-type(2):has(h1) a:last-of-type {
 
 
 
-
-/*  Articles */
-
 /*******************************/
 /*  new products list */
 /******************************/
-
-/******************************/
-/*  advent calendar */
-/*  nail laquer trio */
-/* product holiday  */
-/******************************/
-
-/* general styling article */
 
 /*  section */
 section:nth-of-type(3):has(article) {
@@ -280,62 +274,60 @@ section:nth-of-type(3):has(article) {
 /*  Holiday Advent Calendar */
 /******************************/
 
-/* article:nth-of-type(2):has(video) {
+section:nth-of-type(4):has(video) {
 	background-color: var(--color-pink-200);
-	height: 55em;
+	height: 54em;
 	padding-top: 2em;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-} */
+} 
 
-/* article:nth-of-type(2):has(video) li {
+section:nth-of-type(4):has(video) li {
 	background-color: var(--color-pink-200);
 	display: flex;
 	justify-content: center;
 	padding: 0.3em;
-} */
+} 
 
 /*   image  */
-/* article:nth-of-type(2):has(video) img {
+section:nth-of-type(4):has(video) img {
 	max-width: 33em;
-} */
+} 
 
-/* 
-article:nth-of-type(2):has(video) h2 {
+
+section:nth-of-type(4):has(video) h2 {
 	width: 10em;
-} */
+} 
 
 /*   p  */
-/* article:nth-of-type(2):has(video) p {
+section:nth-of-type(4):has(video) p {
 	text-align: center;
 	width: 25.5em;
-} */
+} 
 
 /*   p  */
-/* article:nth-of-type(2):has(video) li:nth-of-type(3) p {
+section:nth-of-type(4):has(video) li:nth-of-type(3) p {
 	text-align: center;
 	text-transform: uppercase;
 	width: 25.5em;
 	size: var(--font-size-medium);
 	color: var(--color-pink-500);
 	font-family: var(--font-family2);
-} */
+} 
 
-/* article:nth-of-type(2):has(video) li:nth-of-type(6) a {
+section:nth-of-type(4):has(video) li:nth-of-type(6) a {
 	background-color: white;
 	border-radius: 0.5em;
 	padding: 1em 1em 1em 1em;
-	text-decoration: none;
 	color: var(--color-gray-dark);
-} */
+} 
 
-/* article:nth-of-type(2):has(video) video {
+section:nth-of-type(4):has(video) li:nth-of-type(2) video {
 	display: none;
-} */
-
+} 
 
 
 
@@ -344,8 +336,8 @@ article:nth-of-type(2):has(video) h2 {
 /*  holiday day paragraph */
 /******************************/
 
-/* 
-section:nth-of-type(3):has(li) {
+
+section:nth-of-type(5):has(li) {
 	background-color: var(--color-pink-200);
 	height: 48em;
 	padding-top: 1.2em;
@@ -354,66 +346,67 @@ section:nth-of-type(3):has(li) {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-} */
+} 
 
-/* section:nth-of-type(3):has(li) img {
+section:nth-of-type(5):has(li) img {
 	border-radius: 1.5em;
 	max-width: 28em;
 	margin: 2em;
-} */
-/* 
-section:nth-of-type(3):has(li) ol {
+} 
+
+
+section:nth-of-type(5):has(li) ol {
 	background-color: var(--color-white);
 	border-radius: 1.3em;
 	width: 28em;
 	padding: 1.5em;
-} */
+} 
 
-/* section:nth-of-type(3):has(li) p {
+section:nth-of-type(5):has(li) p {
 	width: 23em;
 	text-align: center;
 	padding-bottom: 1em;
-} */
+} 
 
-/* section:nth-of-type(3):has(li) a {
+section:nth-of-type(5):has(li) a {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
 	padding: 0.6em 0.9em;
-	text-decoration: none;
 	color: var(--color-gray-dark);
-} */
-
+} 
 
 /******************************/
-/* product holiday  */
+/*        product holiday      */
 /******************************/
 
 /*  section */
-section:nth-of-type(4):has(article) {
+section:nth-of-type(6):has(article) {
 	background-color: var(--color-pink-200);
 	padding-top: 1em;
 	padding-bottom: 2em;
-}
+} 
 
 /* button*/
-section:nth-of-type(4):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
-section:nth-of-type(4):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
+/* has gebruik */
+section:nth-of-type(6):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
+section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
 	color: var(--color-gray-dark);
 	border: 0.1em solid var(--color-gray-dark);
 	background-color: transparent;
-	border-radius: 0.2em;
 	margin-top: 1em;
-	padding: 1em 11.5em;
 	font-family: var(--font-family1);
 }
+
+
+
 
 /******************************/
 /* Kylie gala look */
 /******************************/
 
 /*   article  */
-article:nth-of-type(3):has(img) {
+section:nth-of-type(7):has(img) {
 	background-color: var(--color-white);
 	height: 47.8em;
 	gap: 0.8em;
@@ -427,25 +420,24 @@ article:nth-of-type(3):has(img) {
 
 
 /*   image  */
-article:nth-of-type(3):has(img) {
+section:nth-of-type(7):has(img) {
 	max-width: 33em;
 }
 
-article:nth-of-type(3):has(img) h2 {
+section:nth-of-type(7):has(img) h2 {
 	width: 15em;
 }
 
-article:nth-of-type(3):has(img) p {
+section:nth-of-type(7):has(img) p {
 	width: 15em;
 }
 
 /*   a, last type */
-article:nth-of-type(3):has(img) a:last-of-type {
+section:nth-of-type(7):has(img) a:last-of-type {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
 	padding: 0.6em 1.1em;
-	text-decoration: none;
 	color: var(--color-gray-dark);
 }
 
@@ -455,7 +447,7 @@ article:nth-of-type(3):has(img) a:last-of-type {
 /******************************/
 
 /*  section */
-section:nth-of-type(5):has(article) {
+section:nth-of-type(8):has(article) {
 	background-color: var(--color-pink-200);
 	padding-top: 5em;
 }
