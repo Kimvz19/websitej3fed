@@ -29,4 +29,9 @@ darkModeButton.addEventListener('click', () => {
     }
 });
 
+kylieSound.addEventListener('click', ()=> {
+    let audio = new Audio('audio/kylie_rise_and_shine.mp3');
+    audio.play();
+});
+
 
