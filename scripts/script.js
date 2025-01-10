@@ -5,9 +5,11 @@ console.log("it works");
 // variabelen
 let darkModeButton = document.querySelector('.pinkModeButton');
 let kylieSound = document.querySelector('.soundButton');
+let kingKy = document.querySelector('.kylieBackgroundButton');
+let isKylieBackgroundActive = false;  //default 
+
 
 // Functies
-
 //functie roze kleur te veranderen
 darkModeButton.addEventListener('click', () => {
     // Controleer of de dark mode al is geactiveerd
@@ -33,5 +35,24 @@ kylieSound.addEventListener('click', ()=> {
     let audio = new Audio('audio/kylie_rise_and_shine.mp3');
     audio.play();
 });
+
+
+kingKy.addEventListener('click', () => {
+    // Selecteer de header
+    let header = document.querySelector('header');
+    
+    if (isKylieBackgroundActive) {
+        // Verwijder de achtergrondafbeelding
+        header.style.backgroundImage = "";
+        isKylieBackgroundActive = false;
+    } else {
+        // Voeg de achtergrondafbeelding toe
+        header.style.backgroundImage = "url('images/extra-features/new-kylie-old-logo-background.png')";
+        header.style.backgroundSize = "cover";
+        header.style.backgroundPosition = "center";
+        isKylieBackgroundActive = true;
+    }
+});
+
 
 
