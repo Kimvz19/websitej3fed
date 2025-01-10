@@ -524,9 +524,51 @@ article:nth-of-type(1):has(h1) a:last-of-type {
 /****************/
 
 footer {
-	background-color: var(--color-pink-200);
+	background-color: var(--color-pink-100);
 	color: var(--color-gray-dark);
 	padding: 20px;
+}
+
+footer ol{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+footer button {
+	padding: 10px 20px;
+	background-color: transparent;
+	color: var(--color-gray-dark);
+	border: 1px solid var(--color-gray-dark);
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+footer ol:nth-of-type(1){
+	background-color: green;
+	justify-content: start;
+}
+
+
+footer ol:nth-of-type(2){
+	background-color: blue;
+	justify-content: center;
+}
+
+footer ol:nth-of-type(3){
+	background-color: purple;
+	justify-content: center;
+}
+
+footer ol:nth-of-type(4){
+	background-color: hotpink;
+	justify-content: center;
+}
+
+footer p:last-of-type{
+	display: flex;
+	justify-content: center;
 }
 
 footer input {
@@ -540,66 +582,56 @@ footer input {
 	margin-right: 10px;
 }
 
-footer button {
-	padding: 10px 20px;
-	background-color: transparent;
-	color: var(--color-gray-dark);
-	border: 1px solid var(--color-gray-dark);
-	border-radius: 4px;
-	cursor: pointer;
-	font-size: 14px;
-}
-
 /* Sociale media sectie */
-footer p:nth-of-type(1) {
+/* footer p:nth-of-type(1) {
 	margin-bottom: 5px;
-}
+} */
 
 /* Sociale media sectie */
-footer p:nth-of-type(2),
+/* footer p:nth-of-type(2),
 footer p a {
 	font-size: var(--font-size-small);
 	color: var(--color-gray-dark);
 	margin-top: 8px;
-}
+} */
 
 
 /* Sociale media sectie */
-footer ol:first-of-type {
+/* footer ol:first-of-type {
 	display: flex;
 	justify-content: center;
 	list-style: none;
 	padding: 0;
 	margin: 20px 0;
 	gap: 15px;
-}
+} */
 
 /*    social icons    */
-footer ol:first-of-type li a img {
+/* footer ol:first-of-type li a img {
 	width: 21px;
 	height: 22px;
-}
+} */
 
 /*    social icons    */
-footer ol:nth-of-type(2) {
+/* footer ol:nth-of-type(2) {
 	list-style: none;
 	display: flex;
 	justify-content: center;
 	gap: 19px;
-}
+} */
 
 /*    links   */
-footer ol:nth-of-type(3) {
+/* footer ol:nth-of-type(3) {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
 
 	list-style: none;
 	margin: 20px 0;
-}
+} */
 
-footer>p:last-of-type {
+/* footer>p:last-of-type {
 	display: flex;
 	justify-content: center;
 	font-size: var(--font-size-small);
-}
+} */
