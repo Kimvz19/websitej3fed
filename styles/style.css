@@ -482,14 +482,14 @@ section:nth-of-type(11):has(img) {
   
   section:nth-of-type(11):has(img) .image-grid a {
 	display: inline-block;
-	width: calc(50% - 1.5em);
+	width: calc(50% - 1.7em);
 	max-width: 18em; /* Limiteert de breedte */
   }
   
   section:nth-of-type(11):has(img) .image-grid img {
 	border-radius: 2em;
 	width: 100%;
-	height: auto;
+	max-height: 17em;
   }
 
 
