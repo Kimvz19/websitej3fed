@@ -736,10 +736,10 @@ section:nth-of-type(3):has(div) div {
 	border-radius: 0.5em;
 	margin: 2em;
 	text-align: center;
-	
+
 }
 
-section:nth-of-type(3):has(div) p{
+section:nth-of-type(3):has(div) p {
 	width: 10em;
 }
 
@@ -756,20 +756,24 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 /* HOW TO EARN POINTS */
 
-.earn-points{
+.earn-points {
 	background-color: green;
 	display: flex;
 	flex-direction: column;
 	padding-top: 1em;
 }
 
-.earn-points ul{
+.earn-points ul {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.earn-points h2{
+.earn-points img{
+	width: 5em;
+}
+
+.earn-points h2 {
 	color: black;
 }
 
@@ -783,25 +787,27 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	justify-content: center;
 
 	border: 0.05em solid var(--color-pink-200);
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-.earn-points li:nth-of-type(2), 
+.earn-points li:nth-of-type(2),
 .earn-points li:nth-of-type(3),
 .earn-points li:nth-of-type(6),
 .earn-points li:nth-of-type(7),
 .earn-points li:nth-of-type(10),
-.earn-points li:nth-of-type(11)
-{
+.earn-points li:nth-of-type(11) {
 	background-color: var(--color-pink-100);
 }
 
-.earn-points li:nth-of-type(1), 
+.earn-points li:nth-of-type(1),
 .earn-points li:nth-of-type(4),
 .earn-points li:nth-of-type(5),
 .earn-points li:nth-of-type(8),
 .earn-points li:nth-of-type(9),
-.earn-points li:nth-of-type(12)
-{
+.earn-points li:nth-of-type(12) {
 	background-color: var(--color-white);
+}
+
+.earn-points li p:first-of-type {
+    font-weight: bolder;
+	background-color: aqua;
 }
