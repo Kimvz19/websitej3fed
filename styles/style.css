@@ -345,7 +345,7 @@ section:nth-of-type(4):has(video) li:nth-of-type(2) video {
 /******************************/
 
 
-section:nth-of-type(5):has(li) {
+section:nth-of-type(5):has(img) {
 	background-color: var(--color-pink-200);
 	height: 48em;
 	padding-top: 1.2em;
@@ -356,27 +356,27 @@ section:nth-of-type(5):has(li) {
 	flex-direction: column;
 }
 
-section:nth-of-type(5):has(li) img {
+section:nth-of-type(5):has(img) img {
 	border-radius: 1.5em;
 	max-width: 28em;
 	margin: 2em;
 }
 
 
-section:nth-of-type(5):has(li) ol {
+section:nth-of-type(5):has(img) ol {
 	background-color: var(--color-white);
 	border-radius: 1.3em;
 	width: 28em;
 	padding: 1.5em;
 }
 
-section:nth-of-type(5):has(li) p {
+section:nth-of-type(5):has(img) p {
 	width: 23em;
 	text-align: center;
 	padding-bottom: 1em;
 }
 
-section:nth-of-type(5):has(li) a {
+section:nth-of-type(5):has(img) a {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
@@ -810,4 +810,45 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 .earn-points li p:first-of-type {
     font-weight: bolder;
 	background-color: hotpink;
+}
+
+/* HOW TO use POINTS */
+section:nth-of-type(5):has(ul) {
+	background-color: var(--color-white);
+    height: 18em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	padding-top: 2em;
+}
+
+section:nth-of-type(5):has(ul) ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 2em;
+}
+
+section:nth-of-type(5):has(ul) h2{
+	color: black;
+}
+
+section:nth-of-type(5):has(ul) li{
+	background-color: var(--color-pink-200);
+	padding: 1.5em 2em;
+	border-radius: 0.5em;
+	text-align: center;
+	margin: 0.3em;
+	width: 9.5em;
+
+}
+
+section:nth-of-type(5):has(ul) p:first-child{
+	font-size: var(--font-size-large);
+	font-family: var(--font-family2);
+	line-height: var(--line-height);
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	width: 4em;
 }
