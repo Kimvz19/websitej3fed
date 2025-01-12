@@ -673,7 +673,6 @@ background-color: #5c514a;
  section:nth-of-type(2):has(container) h1 {
 	color: var(--color-white);
 	width: 12em;
-	padding-top: 0.7em;
 }
 
 /*   p  */
