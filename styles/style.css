@@ -778,7 +778,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 }
 
 .earn-points li {
-	width: 20em;
+	width: 15em;
 	height: 15em;
 
 	display: flex;
@@ -809,5 +809,5 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 .earn-points li p:first-of-type {
     font-weight: bolder;
-	background-color: aqua;
+	background-color: hotpink;
 }
