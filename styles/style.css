@@ -115,14 +115,14 @@ h2 {
 	text-transform: uppercase;
 }
 
-button{
+button {
 	border-radius: 0.5em;
 	padding: 1em 1em 1em 1em;
 	text-decoration: none;
 }
 
 
-a{
+a {
 	text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ a{
 /***************************************/
 /*  General article styling products   */
 /***************************************/
-article{
+article {
 	border-radius: 0.2em;
 	border: 0.1em solid rgba(179, 132, 143, 0.5);
 
@@ -143,12 +143,12 @@ article{
 }
 
 /* img */
-article img{
+article img {
 	width: 27em;
 }
 
 /* p - 1 */
-article li:nth-of-type(2) p{
+article li:nth-of-type(2) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
@@ -158,7 +158,7 @@ article li:nth-of-type(2) p{
 }
 
 /* p - 3 */
-article li:nth-of-type(3) p{
+article li:nth-of-type(3) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: end;
@@ -166,21 +166,21 @@ article li:nth-of-type(3) p{
 }
 
 /* p - 4 */
-article li:nth-of-type(4) p{
+article li:nth-of-type(4) p {
 	margin: .5rem .5rem 0 .5rem;
 	display: grid;
 	justify-content: start;
 }
 
 /* stars review */
-article section:has(li){
+article section:has(li) {
 	margin: .5rem .5rem 0 .5rem;
 	display: flex;
 	flex-direction: row;
 }
 
 /* button */
-article button{
+article button {
 	background-color: var(--color-gray-dark);
 	color: var(--color-pink-100);
 	border-style: none;
@@ -205,13 +205,13 @@ section:nth-of-type(1):has(button) {
 
 section:nth-of-type(1):has(button) button {
 	background-color: var(--color-pink-300);
-	color: var(--color-pink-500); 
+	color: var(--color-pink-500);
 	padding: 0.5em;
 	border: 0.15em solid var(--color-pink-500);
 	border-radius: 1em;
-	display: flex; 
-	align-items: center; 
-	gap: 0.5em; 
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
 }
 
 section:nth-of-type(1):has(button) img {
@@ -289,30 +289,30 @@ section:nth-of-type(4):has(video) {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-} 
+}
 
 section:nth-of-type(4):has(video) li {
 	background-color: var(--color-pink-200);
 	display: flex;
 	justify-content: center;
 	padding: 0.3em;
-} 
+}
 
 /*   image  */
 section:nth-of-type(4):has(video) img {
 	max-width: 33em;
-} 
+}
 
 
 section:nth-of-type(4):has(video) h2 {
 	width: 10em;
-} 
+}
 
 /*   p  */
 section:nth-of-type(4):has(video) p {
 	text-align: center;
 	width: 25.5em;
-} 
+}
 
 /*   p  */
 section:nth-of-type(4):has(video) li:nth-of-type(3) p {
@@ -322,18 +322,18 @@ section:nth-of-type(4):has(video) li:nth-of-type(3) p {
 	size: var(--font-size-medium);
 	color: var(--color-pink-500);
 	font-family: var(--font-family2);
-} 
+}
 
 section:nth-of-type(4):has(video) li:nth-of-type(6) a {
 	background-color: white;
 	border-radius: 0.5em;
 	padding: 1em 1em 1em 1em;
 	color: var(--color-gray-dark);
-} 
+}
 
 section:nth-of-type(4):has(video) li:nth-of-type(2) video {
 	display: none;
-} 
+}
 
 
 
@@ -352,13 +352,13 @@ section:nth-of-type(5):has(li) {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-} 
+}
 
 section:nth-of-type(5):has(li) img {
 	border-radius: 1.5em;
 	max-width: 28em;
 	margin: 2em;
-} 
+}
 
 
 section:nth-of-type(5):has(li) ol {
@@ -366,13 +366,13 @@ section:nth-of-type(5):has(li) ol {
 	border-radius: 1.3em;
 	width: 28em;
 	padding: 1.5em;
-} 
+}
 
 section:nth-of-type(5):has(li) p {
 	width: 23em;
 	text-align: center;
 	padding-bottom: 1em;
-} 
+}
 
 section:nth-of-type(5):has(li) a {
 	border-radius: 0.5em;
@@ -380,7 +380,7 @@ section:nth-of-type(5):has(li) a {
 	border: 0.1em solid var(--color-gray-dark);
 	padding: 0.6em 0.9em;
 	color: var(--color-gray-dark);
-} 
+}
 
 /******************************/
 /*        product holiday      */
@@ -391,7 +391,7 @@ section:nth-of-type(6):has(article) {
 	background-color: var(--color-pink-200);
 	padding-top: 1em;
 	padding-bottom: 2em;
-} 
+}
 
 /* button*/
 /* has gebruik */
@@ -462,7 +462,7 @@ section:nth-of-type(8):has(article) {
 /******************************/
 /* Shop Holiday gift guide */
 /******************************/
-section:nth-of-type(9){
+section:nth-of-type(9) {
 	background-color: var(--color-pink-200);
 	height: 29em;
 	display: flex;
@@ -472,7 +472,7 @@ section:nth-of-type(9){
 
 }
 
-section:nth-of-type(9) container{
+section:nth-of-type(9) container {
 	height: 17em;
 	display: flex;
 	flex-direction: row;
@@ -481,13 +481,13 @@ section:nth-of-type(9) container{
 	margin: 2em;
 }
 
-section:nth-of-type(9) container img{
+section:nth-of-type(9) container img {
 	width: 100%;
 	height: 15em;
 	border-radius: 0.3em;
 }
 
-section:nth-of-type(9) container p{
+section:nth-of-type(9) container p {
 	color: var(--color-white);
 	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
@@ -500,21 +500,21 @@ section:nth-of-type(9) container p{
 }
 
 section:nth-of-type(9) a:last-child {
-    border-radius: 0.5em;
-    border-color: transparent;
-    border: 0.1em solid var(--color-gray-dark);
-    padding: 0.6em 1.1em;
-    color: var(--color-gray-dark);
-    text-align: center;
-    display: inline-block;
-    margin: 2em auto 0 auto; 
-    max-width: 12em; 
+	border-radius: 0.5em;
+	border-color: transparent;
+	border: 0.1em solid var(--color-gray-dark);
+	padding: 0.6em 1.1em;
+	color: var(--color-gray-dark);
+	text-align: center;
+	display: inline-block;
+	margin: 2em auto 0 auto;
+	max-width: 12em;
 }
 
 /******************************/
 /* Visual try out */
 /******************************/
-section:nth-of-type(10){
+section:nth-of-type(10) {
 	background: green;
 	display: flex;
 	align-items: center;
@@ -523,26 +523,30 @@ section:nth-of-type(10){
 	padding-top: 5em;
 }
 
-section:nth-of-type(10) h2{
+section:nth-of-type(10) h2 {
 	color: var(--color-white);
 	margin-top: -14.5em;
 	font-size: 1.5em;
 }
 
-section:nth-of-type(10) img{
-    max-width: 28em; /* Maximale breedte */
-    height: 35em; /* Specifieke hoogte */
-    border-radius: 3em; /* Houdt de afgeronde hoeken */
-    object-fit: cover; /* Zorgt ervoor dat de afbeelding wordt bijgesneden om de container te vullen */
-    object-position: center;
+section:nth-of-type(10) img {
+	max-width: 28em;
+	/* Maximale breedte */
+	height: 35em;
+	/* Specifieke hoogte */
+	border-radius: 3em;
+	/* Houdt de afgeronde hoeken */
+	object-fit: cover;
+	/* Zorgt ervoor dat de afbeelding wordt bijgesneden om de container te vullen */
+	object-position: center;
 }
 
-section:nth-of-type(10) a:last-child{
+section:nth-of-type(10) a:last-child {
 	border-radius: 0.5em;
 	background-color: var(--color-white);
-    padding: 0.8em 1.1em;
-    color: var(--color-gray-dark);
-    text-align: center;
+	padding: 0.8em 1.1em;
+	color: var(--color-gray-dark);
+	text-align: center;
 }
 
 /******************************/
@@ -552,31 +556,32 @@ section:nth-of-type(10) a:last-child{
 section:nth-of-type(11):has(img) {
 	background-color: var(--color-pink-100);
 	padding-top: 5em;
-	text-align: center; 
-  }
-  
-  section:nth-of-type(11):has(img) h2 {
-	margin-bottom: 2em; 
-  }
-  
-  section:nth-of-type(11):has(img) .image-grid {
+	text-align: center;
+}
+
+section:nth-of-type(11):has(img) h2 {
+	margin-bottom: 2em;
+}
+
+section:nth-of-type(11):has(img) .image-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 1.5em;
-  }
-  
-  section:nth-of-type(11):has(img) .image-grid a {
+}
+
+section:nth-of-type(11):has(img) .image-grid a {
 	display: inline-block;
 	width: calc(50% - 1.7em);
-	max-width: 18em; /* Limiteert de breedte */
-  }
-  
-  section:nth-of-type(11):has(img) .image-grid img {
+	max-width: 18em;
+	/* Limiteert de breedte */
+}
+
+section:nth-of-type(11):has(img) .image-grid img {
 	border-radius: 2em;
 	width: 100%;
 	max-height: 17em;
-  }
+}
 
 
 
@@ -598,7 +603,7 @@ footer {
 	padding: 20px;
 }
 
-footer ol{
+footer ol {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -611,36 +616,36 @@ footer button {
 	border: 1px solid var(--color-gray-dark);
 }
 
-footer ol:nth-of-type(1){
+footer ol:nth-of-type(1) {
 	background-color: green;
 	justify-content: start;
 
 }
 
-footer ol:nth-of-type(1) li:first-child{
+footer ol:nth-of-type(1) li:first-child {
 	width: 19em;
 }
 
-footer ol:nth-of-type(2){
+footer ol:nth-of-type(2) {
 	background-color: blue;
 	justify-content: center;
 }
 
-footer ol:nth-of-type(2) a img{
+footer ol:nth-of-type(2) a img {
 	height: 1.7em;
 }
 
-footer ol:nth-of-type(3){
+footer ol:nth-of-type(3) {
 	background-color: purple;
 	justify-content: center;
 }
 
-footer ol:nth-of-type(4){
+footer ol:nth-of-type(4) {
 	background-color: hotpink;
 	justify-content: center;
 }
 
-footer p:last-of-type{
+footer p:last-of-type {
 	display: flex;
 	justify-content: center;
 }
@@ -661,16 +666,18 @@ footer input {
 /* Reward page */
 /******************************/
 
-section:nth-of-type(2):has(container){
-background-color: #5c514a;
+/* Uitleg rewards - section 1 met content */
+section:nth-of-type(2):has(container) {
+	background-color: #5c514a;
 }
+
 /*   image  */
- section:nth-of-type(2):has(container) img {
+section:nth-of-type(2):has(container) img {
 	width: 100%;
 }
 
 /*   h1  */
- section:nth-of-type(2):has(container) h1 {
+section:nth-of-type(2):has(container) h1 {
 	color: var(--color-white);
 	width: 12em;
 }
@@ -697,11 +704,46 @@ section:nth-of-type(2):has(container) a:first-of-type {
 	color: var(--color-white);
 }
 
-
 section:nth-of-type(2):has(h1) a:last-of-type {
 	background-color: var(--color-gray-dark);
 	border-radius: 0.5em;
 	padding: 1em 2em 1em 2em;
 	text-decoration: none;
 	color: var(--color-white);
+}
+
+/* stappen - section 2 met content */
+/* SECTION HOW IT WORKS */
+
+section:nth-of-type(3):has(div) {
+	height: 45em;
+	background-color: var(--color-pink-100);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2em;
+}
+
+section:nth-of-type(3):has(div) h2 {
+	color: black;
+}
+
+section:nth-of-type(3):has(div) div {
+	background-color: var(--color-white);
+	padding: 1.5em 3.5em;
+	border-radius: 0.5em;
+	margin: 2em;
+	text-align: center;
+	
+}
+
+section:nth-of-type(3):has(div) p:nth-of-type(1),
+section:nth-of-type(3):has(div) p:nth-of-type(2) {
+	font-size: var(--font-size-medium);
+	font-family: var(--font-family2);
+	line-height: var(--line-height);
+	color: var(--color-pink-500);
+	text-align: center;
+	text-transform: uppercase;
+	max-width: 5em;
 }
