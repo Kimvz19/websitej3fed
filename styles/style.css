@@ -769,7 +769,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	flex-wrap: wrap;
 }
 
-.earn-points img{
+.earn-points img {
 	width: 5em;
 }
 
@@ -789,6 +789,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	border: 0.05em solid var(--color-pink-200);
 	box-sizing: border-box;
 }
+
 .earn-points li:nth-of-type(2),
 .earn-points li:nth-of-type(3),
 .earn-points li:nth-of-type(6),
@@ -808,32 +809,33 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 }
 
 .earn-points li p:first-of-type {
-    font-weight: bolder;
+	font-weight: bolder;
 	background-color: hotpink;
 }
 
 /* HOW TO use POINTS */
 section:nth-of-type(5):has(ul) {
 	background-color: var(--color-white);
-    height: 18em;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+	height: 18em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	padding-top: 2em;
 }
 
-section:nth-of-type(5):has(ul) ul{
+section:nth-of-type(5):has(ul) ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	padding-top: 2em;
 }
 
-section:nth-of-type(5):has(ul) h2{
+section:nth-of-type(5):has(ul) h2,
+section:nth-of-type(6):has(ul) h2 {
 	color: black;
 }
 
-section:nth-of-type(5):has(ul) li{
+section:nth-of-type(5):has(ul) li {
 	background-color: var(--color-pink-200);
 	padding: 1.5em 2em;
 	border-radius: 0.5em;
@@ -843,7 +845,7 @@ section:nth-of-type(5):has(ul) li{
 
 }
 
-section:nth-of-type(5):has(ul) p:first-child{
+section:nth-of-type(5):has(ul) p:first-child {
 	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
 	line-height: var(--line-height);
@@ -854,3 +856,33 @@ section:nth-of-type(5):has(ul) p:first-child{
 }
 
 /* HOW TO use POINTS */
+
+section:nth-of-type(6):has(ul) {
+	background-color: var(--color-white);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 18em;
+}
+
+section:nth-of-type(6):has(ul) ul{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+section:nth-of-type(6):has(ul) li{
+    width: 6.6em;
+    border-radius: 1em;
+    border: 0.1em solid lightgray;
+    display: flex; 
+    justify-content: center;
+	flex-direction: column;
+    align-items: center;
+    padding: 2em  0em;
+}
+
+section:nth-of-type(6):has(ul) img {
+	width: 3em;
+}
