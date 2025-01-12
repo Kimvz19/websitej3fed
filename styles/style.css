@@ -737,6 +737,10 @@ section:nth-of-type(3):has(div) div {
 	
 }
 
+section:nth-of-type(3):has(div) p{
+	width: 10em;
+}
+
 section:nth-of-type(3):has(div) p:nth-of-type(1),
 section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	font-size: var(--font-size-medium);
@@ -745,5 +749,5 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	color: var(--color-pink-500);
 	text-align: center;
 	text-transform: uppercase;
-	max-width: 5em;
 }
+
