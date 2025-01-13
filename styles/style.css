@@ -667,15 +667,19 @@ footer input {
 /* Uitleg rewards - section 1 met content */
 section:nth-of-type(2):has(container) {
 	background-color: #5c514a;
+	height: auto;
 }
 /*  image  */
 section:nth-of-type(2):has(container) img {
 	width: 100%;
+	clip-path: polygon(0 0, 100% 0, 100% 88%, 0 88%);
+	background-color: var(--color-gray-dark);
 }
 /*   h1  */
 section:nth-of-type(2):has(container) h1 {
 	color: var(--color-white);
 	width: 12em;
+	padding-top: 4em;
 }
 /*   p  */
 section:nth-of-type(2):has(container) p {
