@@ -900,7 +900,7 @@ section:nth-of-type(6):has(ul) img {
 .vip-tiers section {
     display: flex;
     flex-direction: column;
-    border: 0.1em solid var(--color-pink-100);
+    border: 0.15em solid var(--color-pink-100);
     border-radius: 0.5em;
     margin: 0.5em;
 	height: 25em;
@@ -930,7 +930,7 @@ section:nth-of-type(6):has(ul) img {
 .vip-tiers span {
     text-align: center;
     width: 10em; 
-    background-color:  var(--color-pink-300);
+    background-color: rgba(239, 215, 229, 0.5);
     padding: 0.5em 0;
     display: inline-block; 
     border-radius: 0.5em; 
