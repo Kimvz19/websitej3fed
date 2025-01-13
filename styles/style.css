@@ -893,14 +893,14 @@ section:nth-of-type(6):has(ul) img {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    background-color: green;
+    background-color: var(--color-white);
     height: 90em;
 }
 
 .vip-tiers section {
     display: flex;
     flex-direction: column;
-    border: 0.1em solid var(--color-white);
+    border: 0.1em solid var(--color-pink-100);
     border-radius: 0.5em;
     margin: 0.5em;
 	height: 25em;
@@ -919,8 +919,7 @@ section:nth-of-type(6):has(ul) img {
 
 .vip-tiers img {
     width: 4em;
-    display: block; /* Zorg ervoor dat de afbeelding als een blokelement werkt */
-    margin: 0 auto; /* Centreer de afbeelding horizontaal */
+    margin: 0 auto;
 }
 
 .vip-tiers h3,
@@ -930,11 +929,11 @@ section:nth-of-type(6):has(ul) img {
 
 .vip-tiers span {
     text-align: center;
-    width: 10em; /* Breedte van 10em */
-    background-color: rgba(255, 192, 203, 0.5); /* Roze achtergrond met 50% doorzichtigheid */
-    padding: 0.5em 0; /* Padding boven en onder */
-    display: inline-block; /* Correct toepassen van breedte */
-    border-radius: 0.5em; /* Optionele afgeronde hoeken */
-    margin: 0.5em auto; /* Plaatst het element onder de h2 en centreert het horizontaal */
+    width: 10em; 
+    background-color:  var(--color-pink-300);
+    padding: 0.5em 0;
+    display: inline-block; 
+    border-radius: 0.5em; 
+    margin: 0.5em auto; 
 }
 
