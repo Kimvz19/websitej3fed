@@ -295,6 +295,7 @@ section:nth-of-type(4):has(video) {
 
 /*   li  */
 section:nth-of-type(4):has(video) li {
+	background-color: var(--color-pink-100);
 	display: flex;
 	justify-content: center;
 	padding: 0.3em;
