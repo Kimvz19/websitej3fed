@@ -222,14 +222,13 @@ section:nth-of-type(1):has(button) img {
 }
 
 
-
 /*******************************/
 /*   Holiday gift guide list  */
 /******************************/
 
-/*   section - second op home   */
+/*   section*/
 section:nth-of-type(2):has(h1) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	height: 49em;
 	gap: 0.8em;
 
@@ -273,7 +272,7 @@ section:nth-of-type(2):has(h1) a:last-of-type {
 
 /*  section */
 section:nth-of-type(3):has(article) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	padding-top: 5em;
 }
 
@@ -283,8 +282,9 @@ section:nth-of-type(3):has(article) {
 /*  Holiday Advent Calendar */
 /******************************/
 
+/*   section  */
 section:nth-of-type(4):has(video) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	height: 54em;
 	padding-top: 2em;
 
@@ -294,6 +294,7 @@ section:nth-of-type(4):has(video) {
 	flex-direction: column;
 }
 
+/*   li  */
 section:nth-of-type(4):has(video) li {
 	background-color: var(--color-pink-200);
 	display: flex;
@@ -306,7 +307,7 @@ section:nth-of-type(4):has(video) img {
 	max-width: 33em;
 }
 
-
+/*   h2  */
 section:nth-of-type(4):has(video) h2 {
 	width: 10em;
 }
@@ -317,7 +318,7 @@ section:nth-of-type(4):has(video) p {
 	width: 25.5em;
 }
 
-/*   p  */
+/*   li 3 p  */
 section:nth-of-type(4):has(video) li:nth-of-type(3) p {
 	text-align: center;
 	text-transform: uppercase;
@@ -327,6 +328,7 @@ section:nth-of-type(4):has(video) li:nth-of-type(3) p {
 	font-family: var(--font-family2);
 }
 
+/*   li 6 a  */
 section:nth-of-type(4):has(video) li:nth-of-type(6) a {
 	background-color: white;
 	border-radius: 0.5em;
@@ -334,6 +336,7 @@ section:nth-of-type(4):has(video) li:nth-of-type(6) a {
 	color: var(--color-gray-dark);
 }
 
+/*   video */
 section:nth-of-type(4):has(video) li:nth-of-type(2) video {
 	display: none;
 }
@@ -344,10 +347,9 @@ section:nth-of-type(4):has(video) li:nth-of-type(2) video {
 /*  Holiday collection */
 /*  holiday day paragraph */
 /******************************/
-
-
+/*   section */
 section:nth-of-type(5):has(img) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	height: 48em;
 	padding-top: 1.2em;
 
@@ -357,13 +359,14 @@ section:nth-of-type(5):has(img) {
 	flex-direction: column;
 }
 
+/* img */
 section:nth-of-type(5):has(img) img {
 	border-radius: 1.5em;
 	max-width: 28em;
 	margin: 2em;
 }
 
-
+/*  ol  */
 section:nth-of-type(5):has(img) ol {
 	background-color: var(--color-white);
 	border-radius: 1.3em;
@@ -371,12 +374,14 @@ section:nth-of-type(5):has(img) ol {
 	padding: 1.5em;
 }
 
+/*  p  */
 section:nth-of-type(5):has(img) p {
 	width: 23em;
 	text-align: center;
 	padding-bottom: 1em;
 }
 
+/*  a  */
 section:nth-of-type(5):has(img) a {
 	border-radius: 0.5em;
 	border-color: transparent;
@@ -391,7 +396,7 @@ section:nth-of-type(5):has(img) a {
 
 /*  section */
 section:nth-of-type(6):has(article) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	padding-top: 1em;
 	padding-bottom: 2em;
 }
@@ -425,21 +430,19 @@ section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) but
 	flex-direction: column;
 	padding-bottom: 2em;
 }
-
 /*   image  */
 .kylie-gala img {
 	max-width: 33em;
 	height: auto;
 }
-
+/*  h2  */
 .kylie-gala h2 {
 	width: 15em;
 }
-
+/*  p  */
 .kylie-gala p {
 	width: 15em;
 }
-
 /*   a, last type */
 .kylie-gala a:last-of-type {
 	border-radius: 0.5em;
@@ -456,7 +459,7 @@ section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) but
 
 /*  section */
 section:nth-of-type(8):has(article) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	padding-top: 5em 0;
 
 }
@@ -464,8 +467,9 @@ section:nth-of-type(8):has(article) {
 /******************************/
 /* Shop Holiday gift guide */
 /******************************/
+/*  section  */
 section:nth-of-type(9) {
-	background-color: var(--color-pink-200);
+	background: var(--color-pink-100);
 	height: 29em;
 	display: flex;
 	justify-content: center;
@@ -473,7 +477,7 @@ section:nth-of-type(9) {
 	padding-top: 3em;
 
 }
-
+/*  container  */
 section:nth-of-type(9) container {
 	height: 17em;
 	display: flex;
@@ -482,13 +486,13 @@ section:nth-of-type(9) container {
 	gap: 3em;
 	margin: 2em;
 }
-
+/*  container img  */
 section:nth-of-type(9) container img {
 	width: 100%;
 	height: 15em;
 	border-radius: 0.3em;
 }
-
+/*  container p   */
 section:nth-of-type(9) container p {
 	color: var(--color-white);
 	font-size: var(--font-size-large);
@@ -500,7 +504,7 @@ section:nth-of-type(9) container p {
 	width: 7.4em;
 	text-align: center;
 }
-
+/*  a  */
 section:nth-of-type(9) a:last-child {
 	border-radius: 0.5em;
 	border-color: transparent;
@@ -516,21 +520,22 @@ section:nth-of-type(9) a:last-child {
 /******************************/
 /* Visual try out */
 /******************************/
+/*  section  */
 section:nth-of-type(10) {
-	background: green;
+	background: var(--color-pink-100);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	height: 41em;
 	padding-top: 5em;
 }
-
+/*  h2  */
 section:nth-of-type(10) h2 {
 	color: var(--color-white);
 	margin-top: -14.5em;
 	font-size: 1.5em;
 }
-
+/*  img  */
 section:nth-of-type(10) img {
 	max-width: 28em;
 	/* Maximale breedte */
@@ -542,7 +547,7 @@ section:nth-of-type(10) img {
 	/* Zorgt ervoor dat de afbeelding wordt bijgesneden om de container te vullen */
 	object-position: center;
 }
-
+/*  a  */
 section:nth-of-type(10) a:last-child {
 	border-radius: 0.5em;
 	background-color: var(--color-white);
