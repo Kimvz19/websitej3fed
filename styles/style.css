@@ -11,7 +11,6 @@
 }
 
 
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -559,31 +558,31 @@ section:nth-of-type(10) a:last-child {
 /******************************/
 /* Shop our IG */
 /******************************/
-
+/*  section  */
 section:nth-of-type(11):has(img) {
 	background-color: var(--color-pink-100);
 	padding-top: 5em;
 	text-align: center;
 }
-
+/*  h2  */
 section:nth-of-type(11):has(img) h2 {
 	margin-bottom: 2em;
 }
-
+/*  div  */
 section:nth-of-type(11):has(img) .image-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 1.5em;
 }
-
+/*  div a  */
 section:nth-of-type(11):has(img) .image-grid a {
 	display: inline-block;
 	width: calc(50% - 1.7em);
 	max-width: 18em;
 	/* Limiteert de breedte */
 }
-
+/*  div img  */
 section:nth-of-type(11):has(img) .image-grid img {
 	border-radius: 2em;
 	width: 100%;
@@ -591,72 +590,64 @@ section:nth-of-type(11):has(img) .image-grid img {
 }
 
 
-
-
-
-
-/*  surface plane options   */
-
-
-
-
 /****************/
 /*    Footer    */
 /****************/
+
 
 footer {
 	background-color: var(--color-pink-100);
 	color: var(--color-gray-dark);
 	padding: 20px;
 }
-
+/*  ol  */
 footer ol {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
 	gap: 2em;
 }
-
+/*  button  */
 footer button {
 	background-color: transparent;
 	color: var(--color-gray-dark);
 	border: 1px solid var(--color-gray-dark);
 }
-
+/*  ol 1  */
 footer ol:nth-of-type(1) {
 	background-color: green;
 	justify-content: start;
 
 }
-
+/*  ol li 1  */
 footer ol:nth-of-type(1) li:first-child {
 	width: 19em;
 }
-
+/*  ol li 2  */
 footer ol:nth-of-type(2) {
 	background-color: blue;
 	justify-content: center;
 }
-
+/*  img  */
 footer ol:nth-of-type(2) a img {
 	height: 1.7em;
 }
-
+/*  ol 3  */
 footer ol:nth-of-type(3) {
 	background-color: purple;
 	justify-content: center;
 }
-
+/*  ol 4  */
 footer ol:nth-of-type(4) {
 	background-color: hotpink;
 	justify-content: center;
 }
-
+/*  p laatste  */
 footer p:last-of-type {
 	display: flex;
 	justify-content: center;
 }
-
+/*  input  */
 footer input {
 	width: 100%;
 	max-width: 400px;
@@ -677,31 +668,27 @@ footer input {
 section:nth-of-type(2):has(container) {
 	background-color: #5c514a;
 }
-
-/*   image  */
+/*  image  */
 section:nth-of-type(2):has(container) img {
 	width: 100%;
 }
-
 /*   h1  */
 section:nth-of-type(2):has(container) h1 {
 	color: var(--color-white);
 	width: 12em;
 }
-
 /*   p  */
 section:nth-of-type(2):has(container) p {
 	text-align: center;
 	color: var(--color-white);
 }
-
-/*   a, last type */
+/*  container*/
 section:nth-of-type(2):has(h1) container {
 	display: flex;
 	flex-direction: row;
 	gap: 1em;
 }
-
+/*  a   */
 section:nth-of-type(2):has(container) a:first-of-type {
 	background-color: transparent;
 	border: 0.2em solid var(--color-white);
@@ -710,7 +697,7 @@ section:nth-of-type(2):has(container) a:first-of-type {
 	text-decoration: none;
 	color: var(--color-white);
 }
-
+/*  a  */
 section:nth-of-type(2):has(h1) a:last-of-type {
 	background-color: var(--color-gray-dark);
 	border-radius: 0.5em;
@@ -719,9 +706,11 @@ section:nth-of-type(2):has(h1) a:last-of-type {
 	color: var(--color-white);
 }
 
-/* stappen - section 2 met content */
-/* SECTION HOW IT WORKS */
 
+/* stappen - section 2 met content */
+/* HOW IT WORKS */
+
+/*  section  */
 section:nth-of-type(3):has(div) {
 	height: 45em;
 	background-color: var(--color-pink-100);
@@ -730,11 +719,11 @@ section:nth-of-type(3):has(div) {
 	align-items: center;
 	padding-top: 2em;
 }
-
+/*  h2  */
 section:nth-of-type(3):has(div) h2 {
 	color: black;
 }
-
+/*  div  */
 section:nth-of-type(3):has(div) div {
 	background-color: var(--color-white);
 	padding: 1.5em 3.5em;
@@ -743,11 +732,11 @@ section:nth-of-type(3):has(div) div {
 	text-align: center;
 
 }
-
+/*  p  */
 section:nth-of-type(3):has(div) p {
 	width: 10em;
 }
-
+/*  p  */
 section:nth-of-type(3):has(div) p:nth-of-type(1),
 section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	font-size: var(--font-size-medium);
@@ -760,28 +749,28 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 
 /* HOW TO EARN POINTS */
-
+/*  class  */
 .earn-points {
 	background-color: green;
 	display: flex;
 	flex-direction: column;
 	padding-top: 1em;
 }
-
+/*  ul  */
 .earn-points ul {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-
+/*  img  */
 .earn-points img {
 	width: 5em;
 }
-
+/*  h2  */
 .earn-points h2 {
 	color: black;
 }
-
+/*  li  */
 .earn-points li {
 	width: 15em;
 	height: 15em;
@@ -795,6 +784,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	box-sizing: border-box;
 }
 
+/*  li's  */ 
 .earn-points li:nth-of-type(2),
 .earn-points li:nth-of-type(3),
 .earn-points li:nth-of-type(6),
@@ -804,6 +794,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	background-color: var(--color-pink-100);
 }
 
+/*  li's  */ 
 .earn-points li:nth-of-type(1),
 .earn-points li:nth-of-type(4),
 .earn-points li:nth-of-type(5),
@@ -813,12 +804,14 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	background-color: var(--color-white);
 }
 
+/*  p  */ 
 .earn-points li p:first-of-type {
 	font-weight: bolder;
 	/* werkt nog niet */
 }
 
 /* HOW TO use POINTS */
+/*  section  */ 
 section:nth-of-type(5):has(ul) {
 	background-color: var(--color-white);
 	height: 18em;
@@ -827,19 +820,19 @@ section:nth-of-type(5):has(ul) {
 	flex-direction: column;
 	padding-top: 2em;
 }
-
+/*  ul  */ 
 section:nth-of-type(5):has(ul) ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	padding-top: 2em;
 }
-
+/*  h2  */ 
 section:nth-of-type(5):has(ul) h2,
 section:nth-of-type(6):has(ul) h2 {
 	color: black;
 }
-
+/*  li  */ 
 section:nth-of-type(5):has(ul) li {
 	background-color: var(--color-pink-200);
 	padding: 1.5em 2em;
@@ -849,7 +842,7 @@ section:nth-of-type(5):has(ul) li {
 	width: 9.5em;
 
 }
-
+/*  p  */ 
 section:nth-of-type(5):has(ul) p:first-child {
 	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
@@ -861,7 +854,7 @@ section:nth-of-type(5):has(ul) p:first-child {
 }
 
 /* Redeem points */
-
+/*  section  */ 
 section:nth-of-type(6):has(ul) {
 	background-color: var(--color-white);
 	display: flex;
@@ -870,13 +863,13 @@ section:nth-of-type(6):has(ul) {
 	align-items: center;
 	height: 18em;
 }
-
+/*  ul  */ 
 section:nth-of-type(6):has(ul) ul {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1em;
 }
-
+/*  li  */ 
 section:nth-of-type(6):has(ul) li {
 	width: 6.6em;
 	border-radius: 1em;
@@ -887,13 +880,14 @@ section:nth-of-type(6):has(ul) li {
 	align-items: center;
 	padding: 2em 0em;
 }
-
+/*  img  */ 
 section:nth-of-type(6):has(ul) img {
 	width: 3em;
 }
 
 
 /* vip tiers */
+/*  class  */ 
 .vip-tiers {
     display: flex;
     flex-direction: column;
@@ -901,7 +895,7 @@ section:nth-of-type(6):has(ul) img {
     background-color: var(--color-white);
     height: 90em;
 }
-
+/*  section  */ 
 .vip-tiers section {
     display: flex;
     flex-direction: column;
@@ -910,28 +904,27 @@ section:nth-of-type(6):has(ul) img {
     margin: 0.5em;
 	height: 25em;
 }
-
+/*  ul  */ 
 .vip-tiers ul {
     list-style: disc;
     color: var(--color-pink-300);
     padding-left: 3em; 
 }
-
-
+/*  p  */ 
 .vip-tiers ul li p {
     text-align: left; 
 }
-
+/*  section  */ 
 .vip-tiers img {
     width: 4em;
     margin: 0 auto;
 }
-
+/*  h3  */ 
 .vip-tiers h3,
 .vip-tiers h2 {
     color: black;
 }
-
+/*  span  */ 
 .vip-tiers span {
     text-align: center;
     width: 10em; 
