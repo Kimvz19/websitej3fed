@@ -867,7 +867,7 @@ section:nth-of-type(6):has(ul) {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 18em;
+	height: 20em;
 }
 /*  ul  */ 
 section:nth-of-type(6):has(ul) ul {
@@ -897,9 +897,8 @@ section:nth-of-type(6):has(ul) img {
 .vip-tiers {
     display: flex;
     flex-direction: column;
-    gap: 2em;
     background-color: var(--color-white);
-    height: 90em;
+    height: 83em;
 }
 /*  section  */ 
 .vip-tiers section {
