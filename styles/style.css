@@ -755,7 +755,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 /* HOW TO EARN POINTS */
 /*  class  */
 .earn-points {
-	background-color: green;
+	background-color: var(--color-white);
 	display: flex;
 	flex-direction: column;
 	padding-top: 1em;
@@ -814,7 +814,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	/* werkt nog niet */
 }
 
-/* HOW TO use POINTS */
+/* HOW TO USE POINTS */
 /*  section  */ 
 section:nth-of-type(5):has(ul) {
 	background-color: var(--color-white);
@@ -838,12 +838,14 @@ section:nth-of-type(6):has(ul) h2 {
 }
 /*  li  */ 
 section:nth-of-type(5):has(ul) li {
-	background-color: var(--color-pink-200);
+	background-color: var(--color-pink-100);
 	padding: 1.5em 2em;
 	border-radius: 0.5em;
 	text-align: center;
 	margin: 0.3em;
 	width: 9.5em;
+
+	border: 0.05em solid var(--color-pink-200);
 
 }
 /*  p  */ 
