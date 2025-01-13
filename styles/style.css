@@ -606,17 +606,13 @@ footer ol {
 	display: flex;
 	flex-direction: row;
 	gap: 2em;
+	
 }
-/*  button  */
-footer button {
-	background-color: transparent;
-	color: var(--color-gray-dark);
-	border: 1px solid var(--color-gray-dark);
-}
+
 /*  ol 1  */
 footer ol:nth-of-type(1) {
-	background-color: green;
-	justify-content: start;
+	justify-content: center;
+	gap: 1em;
 
 }
 /*  ol li 1  */
@@ -625,23 +621,32 @@ footer ol:nth-of-type(1) li:first-child {
 }
 /*  ol li 2  */
 footer ol:nth-of-type(2) {
-	background-color: blue;
 	justify-content: center;
+	padding: 2em 1em;
 }
 /*  img  */
 footer ol:nth-of-type(2) a img {
-	height: 1.7em;
+	height: 1.5em;
 }
 /*  ol 3  */
 footer ol:nth-of-type(3) {
-	background-color: purple;
 	justify-content: center;
+	padding-bottom: 2em;
+	font-size: 0.9em ;
+
 }
 /*  ol 4  */
 footer ol:nth-of-type(4) {
-	background-color: hotpink;
 	justify-content: center;
+	padding: 1.5em;
+	font-size: 0.69em;
 }
+
+footer p:first-child{
+	display: flex;
+	justify-content: flex-start;
+}
+
 /*  p laatste  */
 footer p:last-of-type {
 	display: flex;
@@ -650,13 +655,19 @@ footer p:last-of-type {
 /*  input  */
 footer input {
 	width: 100%;
-	max-width: 400px;
-	padding: 10px;
+	max-width: 35em;
+	padding: 0.8em 4em;
 	border: 1px solid var(--color-gray-dark);
 	background-color: transparent;
 	border-radius: 4px;
 	font-size: 14px;
-	margin-right: 10px;
+}
+
+footer button {
+	background-color: transparent;
+	color: var(--color-gray-dark);
+	border: 1px solid var(--color-gray-dark);
+	padding: 0.8em 4em;
 }
 
 
@@ -945,7 +956,6 @@ section:nth-of-type(6):has(ul) img {
     margin: 0.5em auto; 
 }
 
-
 /* refer a friend */
 /*  section  */ 
 section:nth-of-type(8):has(input){
@@ -968,7 +978,6 @@ section:nth-of-type(8):has(input) input, section:nth-of-type(8):has(input) butto
 	font-size: 14px;
 	font-family: var(--font-family1);
 }
-
 
 /* FAQ Section Styling */
 section:nth-of-type(9):has(details) {
