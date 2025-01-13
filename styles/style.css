@@ -415,7 +415,7 @@ section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) but
 /******************************/
 
 /*   article  */
-kylie-gala{
+kylie-gala {
 	background-color: var(--color-white);
 	height: 47.8em;
 	gap: 0.8em;
@@ -428,7 +428,7 @@ kylie-gala{
 }
 
 /*   image  */
-kylie-gala img{
+kylie-gala img {
 	max-width: 33em;
 }
 
@@ -810,7 +810,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 .earn-points li p:first-of-type {
 	font-weight: bolder;
-/* werkt nog niet */
+	/* werkt nog niet */
 }
 
 /* HOW TO use POINTS */
@@ -866,21 +866,21 @@ section:nth-of-type(6):has(ul) {
 	height: 18em;
 }
 
-section:nth-of-type(6):has(ul) ul{
+section:nth-of-type(6):has(ul) ul {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1em;
 }
 
-section:nth-of-type(6):has(ul) li{
-    width: 6.6em;
-    border-radius: 1em;
-    border: 0.1em solid lightgray;
-    display: flex; 
-    justify-content: center;
+section:nth-of-type(6):has(ul) li {
+	width: 6.6em;
+	border-radius: 1em;
+	border: 0.1em solid lightgray;
+	display: flex;
+	justify-content: center;
 	flex-direction: column;
-    align-items: center;
-    padding: 2em  0em;
+	align-items: center;
+	padding: 2em 0em;
 }
 
 section:nth-of-type(6):has(ul) img {
@@ -889,27 +889,51 @@ section:nth-of-type(6):has(ul) img {
 
 
 /* vip tiers */
-
-.vip-tiers{
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 2em;
-background-color: green;
+.vip-tiers {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: green;
+    height: 90em;
 }
 
-.vip-tiers section{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-
-	border: 0.5 solid var(--color-white);
+.vip-tiers section {
+    display: flex;
+    flex-direction: column;
+    border: 0.1em solid var(--color-white);
+    border-radius: 0.5em;
+    margin: 0.5em;
 }
 
-.vip-tiers img{
-	width: 4em;
+.vip-tiers ul {
+    list-style: disc;
+    color: var(--color-pink-300);
+    padding-left: 3em; 
 }
 
-.vip-tiers h3, .vip-tiers h2{
-	color: black;
+
+.vip-tiers ul li p {
+    text-align: left; 
 }
+
+.vip-tiers img {
+    width: 4em;
+    display: block; /* Zorg ervoor dat de afbeelding als een blokelement werkt */
+    margin: 0 auto; /* Centreer de afbeelding horizontaal */
+}
+
+.vip-tiers h3,
+.vip-tiers h2 {
+    color: black;
+}
+
+.vip-tiers span {
+    text-align: center;
+    width: 10em; /* Breedte van 10em */
+    background-color: rgba(255, 192, 203, 0.5); /* Roze achtergrond met 50% doorzichtigheid */
+    padding: 0.5em 0; /* Padding boven en onder */
+    display: inline-block; /* Correct toepassen van breedte */
+    border-radius: 0.5em; /* Optionele afgeronde hoeken */
+    margin: 0.5em auto; /* Plaatst het element onder de h2 en centreert het horizontaal */
+}
+
