@@ -415,9 +415,8 @@ section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) but
 /******************************/
 
 /*   article  */
-kylie-gala {
+.kylie-gala{
 	background-color: var(--color-white);
-	height: 47.8em;
 	gap: 0.8em;
 
 	display: flex;
@@ -428,20 +427,21 @@ kylie-gala {
 }
 
 /*   image  */
-kylie-gala img {
+.kylie-gala img {
 	max-width: 33em;
+	height: auto;
 }
 
-kylie-gala h2 {
+.kylie-gala h2 {
 	width: 15em;
 }
 
-kylie-gala p {
+.kylie-gala p {
 	width: 15em;
 }
 
 /*   a, last type */
-kylie-gala a:last-of-type {
+.kylie-gala a:last-of-type {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);

@@ -242,6 +242,14 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 </details>
 
 
+<details>
+  <summary> Styling van website </summary>
+
+  #### 13 januari 2025
+  - Styling van allebei de pagina's af
+
+</details>
+
 
 ## Toegankelijkheidstest 2/2 
 
@@ -252,10 +260,6 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
 </details>
-
-
-
-
 
 
 
