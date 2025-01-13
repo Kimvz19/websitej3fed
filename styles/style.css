@@ -903,6 +903,7 @@ section:nth-of-type(6):has(ul) img {
     border: 0.1em solid var(--color-white);
     border-radius: 0.5em;
     margin: 0.5em;
+	height: 25em;
 }
 
 .vip-tiers ul {
