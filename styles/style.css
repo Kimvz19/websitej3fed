@@ -504,7 +504,7 @@ section:nth-of-type(9) {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	padding-top: 3em;
+	padding-top: 1.5em;
 
 }
 
@@ -561,7 +561,8 @@ section:nth-of-type(10) {
 	align-items: center;
 	flex-direction: column;
 	height: 41em;
-	padding-top: 5em;
+	padding-top: 1.5em;
+
 }
 
 /*  h2  */
@@ -571,9 +572,8 @@ section:nth-of-type(10) h2 {
 	font-size: 1.5em;
 }
 
-/*  img  */
 section:nth-of-type(10) img {
-	max-width: 28em;
+	max-width: 22em;
 	/* Maximale breedte */
 	height: 35em;
 	/* Specifieke hoogte */
