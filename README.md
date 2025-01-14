@@ -250,10 +250,7 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   #### 14 januari 2025
   Ik heb vandaag nog een checklist gemaakt van dingen die nog gedaan moeten 
   worden voor vrijdag 15:00!
-
 <img src="readme-images/aantekeningen.png" width="400px" alt="aantekeningen van dingen die ik nog moet doen">
-
-
 </details>
 
 
