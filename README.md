@@ -247,12 +247,17 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
   #### 13 januari 2025
   - Styling van allebei de pagina's afgemaakt 
+
   #### 14 januari 2025
   Ik heb vandaag nog een checklist gemaakt van dingen die nog gedaan moeten 
   worden voor vrijdag 15:00!
+
+  Tijdens het coderen wist ik niet meer zeker in wat voor grootte telefoon ik moest nemen.
+  Uit de opdracht kwam ik erachter dat ik voor een te grootte telefoon programmeerde, het moet namelijk voor Iphone SE, 375 x 667. 
+
+
 <img src="readme-images/aantekeningen.png" width="400px" alt="aantekeningen van dingen die ik nog moet doen">
 </details>
-
 
 ## Toegankelijkheidstest 2/2 
 
