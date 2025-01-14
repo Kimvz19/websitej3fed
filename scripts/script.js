@@ -78,17 +78,22 @@ kingKy.addEventListener('click', () => {
 
 //dialog button
 function handleSubmit() {
-    let emailInput = document.getElementById('emailInput');
+    // Gebruik querySelector om te selecteren op basis van de class
+    let emailInput = document.querySelector('.emailInput');
     let emailDialog = document.getElementById('emailDialog');
-    let dialogMessage = document.getElementById('dialogMessage');
-
+    let dialogMessage = document.querySelector('.dialogMessage');
     let email = emailInput.value.trim();
 
-    if (email === '') {
+    // Controleer of het emailadres geldig is volgens de HTML5-validatie
+    if (!emailInput.checkValidity()) {
         dialogMessage.textContent = 'Please enter a valid email address';
     } else {
-        dialogMessage.textContent = `Thank you!`;
+        dialogMessage.textContent = `Thank you for signing up!`;
+
+        // Maak het invoerveld leeg nadat het e-mailadres is goedgekeurd
+        emailInput.value = ''; // Reset het invoerveld
     }
+
 
     emailDialog.showModal();
 }
