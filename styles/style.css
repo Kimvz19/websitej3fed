@@ -292,7 +292,7 @@ section:nth-of-type(4):has(video) {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 1em;
+	padding-top: 1.5em;
 }
 
 /*   li  */
