@@ -637,7 +637,6 @@ section:nth-of-type(11):has(img) .image-grid img {
 /*    Footer    */
 /****************/
 
-
 footer {
 	background-color: var(--color-pink-100);
 	color: var(--color-gray-dark);
@@ -717,7 +716,7 @@ footer button {
 	background-color: transparent;
 	color: var(--color-gray-dark);
 	border: 1px solid var(--color-gray-dark);
-	padding: 0.8em 4em;
+	padding: 0.9em 1.9em;
 }
 
 /******************************/
