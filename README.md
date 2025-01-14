@@ -246,7 +246,13 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   <summary> Styling van website </summary>
 
   #### 13 januari 2025
-  - Styling van allebei de pagina's af
+  - Styling van allebei de pagina's afgemaakt 
+  #### 14 januari 2025
+  Ik heb vandaag nog een checklist gemaakt van dingen die nog gedaan moeten 
+  worden voor vrijdag 15:00!
+
+<img src="readme-images/aantekeningen.png" width="400px" alt="aantekeningen van dingen die ik nog moet doen">
+
 
 </details>
 
