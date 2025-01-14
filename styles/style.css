@@ -167,6 +167,7 @@ article li:nth-of-type(3) p {
 	justify-content: end;
 	margin-top: -1.4em;
 }
+
 /* p - 4 */
 article li:nth-of-type(4) p {
 	margin-left: .5em;
@@ -276,7 +277,7 @@ section:nth-of-type(3):has(article) {
 	flex-direction: row;
 }
 
-section:nth-of-type(3):has(article) ol{
+section:nth-of-type(3):has(article) ol {
 	width: 20em;
 }
 
@@ -361,8 +362,8 @@ section:nth-of-type(5):has(img) {
 	flex-direction: column;
 }
 
-section:nth-of-type(5):has(img) h2{
-font-size: 1.4em;
+section:nth-of-type(5):has(img) h2 {
+	font-size: 1.4em;
 }
 
 /* img */
@@ -412,7 +413,7 @@ section:nth-of-type(6):has(article) {
 	padding-bottom: 2em;
 }
 
-section:nth-of-type(3):has(article) ol{
+section:nth-of-type(3):has(article) ol {
 	width: 20em;
 }
 
@@ -490,7 +491,7 @@ section:nth-of-type(8):has(article) {
 	padding-bottom: 2em;
 }
 
-section:nth-of-type(8):has(article) ol{
+section:nth-of-type(8):has(article) ol {
 	width: 20em;
 }
 
@@ -648,15 +649,12 @@ footer ol {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	gap: 2em;
-
 }
 
 /*  ol 1  */
 footer ol:nth-of-type(1) {
 	justify-content: center;
 	gap: 1em;
-
 }
 
 /*  ol li 1  */
@@ -678,16 +676,29 @@ footer ol:nth-of-type(2) a img {
 /*  ol 3  */
 footer ol:nth-of-type(3) {
 	justify-content: center;
-	padding-bottom: 2em;
-	font-size: 0.9em;
-
+	padding-bottom: 1em;
+	font-size: 0.6em;
+	gap: 0.8em;
 }
 
 /*  ol 4  */
 footer ol:nth-of-type(4) {
 	justify-content: center;
-	padding: 1.5em;
+	padding: 1em;
 	font-size: 0.69em;
+	gap: 0.8em;
+}
+
+footer ol:nth-of-type(4) li a{
+		color: var(--color-gray-dark);
+		text-decoration: underline;
+		display: inline-block; /* Maakt het mogelijk om breedte toe te passen */
+		white-space: nowrap; /* Zorgt dat tekst niet op meerdere regels komt */
+		text-align: center; /* Optioneel: om de tekst te centreren */
+}
+
+footer p a{
+	color: var(--color-gray-dark);
 }
 
 footer p:first-child {
