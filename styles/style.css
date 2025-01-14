@@ -202,7 +202,7 @@ section:nth-of-type(1):has(button) {
 	justify-content: center;
 	gap: 1em;
 	padding-top: 0.4em;
-	margin-bottom: 1.2em;
+	margin-bottom: 1.4em;
 }
 
 section:nth-of-type(1):has(button) button {
