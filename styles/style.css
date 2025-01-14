@@ -147,11 +147,12 @@ article {
 /* img */
 article img {
 	width: 19.96em;
+	margin-bottom: 1em;
 }
 
 /* p - 1 */
 article li:nth-of-type(2) p {
-	margin: .5rem .5rem 0 .5rem;
+	margin-left: .5em;
 	display: grid;
 	justify-content: start;
 
@@ -161,7 +162,7 @@ article li:nth-of-type(2) p {
 
 /* p - 3 */
 article li:nth-of-type(3) p {
-	margin: .5rem .5rem 0 .5rem;
+	margin-right: .5em;
 	display: grid;
 	justify-content: end;
 	margin-top: -1.4em;
@@ -169,14 +170,14 @@ article li:nth-of-type(3) p {
 
 /* p - 4 */
 article li:nth-of-type(4) p {
-	margin: .5rem .5rem 0 .5rem;
+	margin-left: .5em;
 	display: grid;
 	justify-content: start;
 }
 
 /* stars review */
 article section:has(li) {
-	margin: .5rem .5rem 0 .5rem;
+	margin: 0 0.5em;
 	display: flex;
 	flex-direction: row;
 }
