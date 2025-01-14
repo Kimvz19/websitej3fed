@@ -601,6 +601,7 @@ section:nth-of-type(11):has(img) {
 	background-color: var(--color-pink-100);
 	padding-top: 5em;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 /*  h2  */
