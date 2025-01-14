@@ -76,4 +76,22 @@ kingKy.addEventListener('click', () => {
 });
 
 
+//dialog button
+function handleSubmit() {
+    let emailInput = document.getElementById('emailInput');
+    let emailDialog = document.getElementById('emailDialog');
+    let dialogMessage = document.getElementById('dialogMessage');
+
+    let email = emailInput.value.trim();
+
+    if (email === '') {
+        dialogMessage.textContent = 'Please enter a valid email address';
+    } else {
+        dialogMessage.textContent = `Thank you!`;
+    }
+
+    emailDialog.showModal();
+}
+
+
 

@@ -514,9 +514,17 @@
         <!-- email -->
         <p>sign up for updates:</p>
         <ol>
-            <li><input type="text" placeholder="email address"></li>
-            <li><button>submit</button></li>
+            <li><input id="emailInput" type="text" placeholder="Email address"></li>
+            <li> <button onclick="handleSubmit()">Submit</button></li>
         </ol>
+
+        <!-- Dialog -->
+        <dialog id="emailDialog">
+            <p id="dialogMessage"></p>
+            <button onclick="emailDialog.close()">Close</button>
+        </dialog>
+
+
         <p>by signing up you agree to our <a href="">terms</a></p>
         <!-- socials -->
         <ol>
