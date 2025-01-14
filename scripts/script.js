@@ -7,9 +7,16 @@ let darkModeButton = document.querySelector('.pinkModeButton');
 let kylieSound = document.querySelector('.soundButton');
 let kingKy = document.querySelector('.kylieBackgroundButton');
 let isKylieBackgroundActive = false;  //default 
-
+let hamburgerMenu = document.querySelector(".hamburger-menu");
+let hiddenMenu = document.querySelector(".hidden-menu");
 
 // Functies
+// functie om hamburger menu werkende te maken
+hamburgerMenu.addEventListener("click", () => {
+    hiddenMenu.classList.toggle("open");
+});
+
+
 //functie roze kleur te veranderen
 darkModeButton.addEventListener('click', () => {
     // Controleer of de dark mode al is geactiveerd
