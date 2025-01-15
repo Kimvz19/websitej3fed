@@ -137,9 +137,12 @@ a {
 	flex-direction: row;
 }
 
-.products-row:nth-last-child(){
-	background-color: green;
+.products-row:nth-of-type(2) article button {
+	color:var(--color-gray-dark) ;
+    background-color: var(--color-white);
+	border: 0.1em solid var(--color-gray-dark);
 }
+
 article {
 	border-radius: 0.2em;
 	width: 20em;
@@ -194,7 +197,7 @@ article button {
 	color: var(--color-pink-100);
 	border-style: none;
 	margin-top: 0.5em;
-	padding: 1em 7em;
+	padding: .8em 7em;
 	place-content: center;
 	place-content: center;
 }
