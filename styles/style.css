@@ -138,7 +138,6 @@ a {
 	justify-content: center; /* Buttons centreren in de container */
 	align-items: center; /* Verticaal uitlijnen */
 	padding-bottom: 1em;
-	margin-top: -3.5em;
   }
   
   .bullet {
@@ -153,10 +152,6 @@ a {
   .pagination-container .bullet:first-child {
 	background-color: var(--color-gray-dark); /* Vervang dit met de gewenste kleur */
   }
-
-  .pagination-container:last-of-type {
-	margin-top: 1em;
-    }
 	
 
 /****************************/
@@ -206,7 +201,7 @@ section:nth-of-type(1):has(button) img {
 .products-row{
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 5em;
+	padding-bottom: 1em;
 	background-color: var(--color-pink-100);
 }
 
