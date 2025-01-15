@@ -627,6 +627,7 @@ section:nth-of-type(11):has(img) .image-grid {
 	justify-content: center;
 	gap: .5em;
 	margin: .5em;
+	max-width: 23em;
 }
 
 /*  div a  */
@@ -641,6 +642,7 @@ section:nth-of-type(11):has(img) .image-grid a {
 section:nth-of-type(11):has(img) .image-grid img {
 	border-radius: .8em;
 	width: 100%;
+	max-width: 13em;
 }
 
 
