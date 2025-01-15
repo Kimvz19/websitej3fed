@@ -90,6 +90,9 @@ header p {
 	font-size: 13px;
 	width: 100%;
 }
+main{
+	background-color: var(--color-pink-100);
+}
 
 section ol,
 article ol,
@@ -133,7 +136,9 @@ a {
 	justify-content: center; /* Buttons centreren in de container */
 	align-items: center; /* Verticaal uitlijnen */
 	padding-bottom: 1em;
+	margin-top: -3.5em;
   }
+
   
   .bullet {
 	width: 0.5em; /* Diameter van de cirkel */
@@ -144,13 +149,13 @@ a {
 	cursor: pointer; /* Verander de cursor naar pointer */
   }
   
-  /* Kleur de eerste button */
   .pagination-container .bullet:first-child {
 	background-color: var(--color-gray-dark); /* Vervang dit met de gewenste kleur */
   }
-  
 
- 
+  .pagination-container:last-of-type {
+	margin-top: 1em;
+    }
 
 /****************************/
 /*  surface plane options   */
@@ -199,7 +204,7 @@ section:nth-of-type(1):has(button) img {
 .products-row{
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 1.5em;
+	padding-bottom: 5em;
 	background-color: var(--color-pink-100);
 }
 
