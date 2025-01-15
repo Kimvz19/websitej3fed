@@ -860,20 +860,19 @@ section:nth-of-type(3):has(div) div {
 	background-color: var(--color-white);
 	padding: 1.5em 3.5em;
 	border-radius: 0.5em;
-	margin: 2em;
+	margin: .5em 2em;
 	text-align: center;
-
-}
-
-/*  p  */
-section:nth-of-type(3):has(div) p {
-	width: 10em;
+	place-content: center
+	;
+	width: 18em;
+	height: 12em;
+	flex-shrink: 0;
 }
 
 /*  p  */
 section:nth-of-type(3):has(div) p:nth-of-type(1),
 section:nth-of-type(3):has(div) p:nth-of-type(2) {
-	font-size: var(--font-size-medium);
+	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
 	line-height: var(--line-height);
 	color: var(--color-pink-500);
