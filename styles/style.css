@@ -199,6 +199,7 @@ section:nth-of-type(1):has(button) img {
 .products-row{
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 1.5em;
 }
 
 /* class nth 2  button */
