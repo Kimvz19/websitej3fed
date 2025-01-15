@@ -862,8 +862,7 @@ section:nth-of-type(3):has(div) div {
 	border-radius: 0.5em;
 	margin: .5em 2em;
 	text-align: center;
-	place-content: center
-	;
+	place-content: center;
 	width: 18em;
 	height: 12em;
 	flex-shrink: 0;
@@ -909,8 +908,8 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 /*  li  */
 .earn-points li {
-	width: 15em;
-	height: 15em;
+	width: 12em;
+	height: 12em;
 
 	display: flex;
 	flex-direction: column;
