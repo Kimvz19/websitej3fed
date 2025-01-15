@@ -1102,6 +1102,7 @@ section:nth-of-type(8):has(input) {
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 2em 2em;
+	margin-top: 1em;
 }
 
 /*  input button  */
