@@ -450,7 +450,6 @@ section:nth-of-type(4):has(ol) a {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 2em;
 	padding-bottom: 2em;
 }
 
