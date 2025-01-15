@@ -1041,7 +1041,6 @@ section:nth-of-type(6):has(ul) img {
 	flex-direction: column;
 	align-items: center;
 	background-color: var(--color-white);
-	height: 83em;
 }
 
 /*  section  */
@@ -1055,7 +1054,6 @@ section:nth-of-type(6):has(ul) img {
 	border: 0.15em solid var(--color-pink-100);
 	border-radius: 0.5em;
 	margin: 0.5em;
-	height: 25em;
 }
 
 /*  ul  */
@@ -1063,6 +1061,7 @@ section:nth-of-type(6):has(ul) img {
 	list-style: disc;
 	color: var(--color-pink-300);
 	padding-left: 3em;
+	padding-bottom: 1em;
 }
 
 /*  p  */
@@ -1072,8 +1071,9 @@ section:nth-of-type(6):has(ul) img {
 
 /*  section  */
 .vip-tiers img {
-	width: 4em;
+	width: 9em;
 	margin: 0 auto;
+	padding: 1em;
 }
 
 /*  h3  */
