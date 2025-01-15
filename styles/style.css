@@ -451,14 +451,22 @@ section:nth-of-type(4):has(ol) a {
 /* Shop Holiday gift guide */
 /******************************/
 
-/*  container  */
+section:nth-of-type(6):has(a){
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 3em;
+}
+
+
 section:nth-of-type(6):has(a) ul {
 	height: 17em;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	gap: 1em;
-	margin: .5em;
+	gap: .5em;
+	margin-left: 6.5em;
 }
 
 /*  container img  */
@@ -489,8 +497,6 @@ section:nth-of-type(6):has(a) a:last-child {
 	padding: 0.6em 1.1em;
 	color: var(--color-gray-dark);
 	text-align: center;
-	display: inline-block;
-	margin: 2em auto 0 auto;
 	max-width: 12em;
 }
 
