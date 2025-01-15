@@ -142,6 +142,8 @@ article {
 	margin: 1em .2em 0 1em;
 	grid-template-rows: 30em max-content max-content;
 	grid-template-columns: 1fr max-content;
+
+	height: 80em;
 }
 
 /* img */
@@ -176,10 +178,11 @@ article li:nth-of-type(4) p {
 }
 
 /* stars review */
-article ul:has(li) {
+article li:nth-of-type(2),article li:nth-of-type(3), article li:nth-of-type(4),
+article li:nth-of-type(5), article li:nth-of-type(6) {
+	background: green;
 	margin: 0 0.5em;
 	display: flex;
-	flex-direction: row;
 }
 
 /* button */
