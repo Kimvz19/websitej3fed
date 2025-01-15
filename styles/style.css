@@ -585,7 +585,10 @@ section:nth-of-type(8):has(img) .image-grid img {
 	max-width: 13em;
 }
 
-
+section:nth-of-type(8):has(img) svg{
+	object-fit: contain;
+	color: var(--color-gray-dark);
+}
 /****************/
 /*    Footer    */
 /****************/
