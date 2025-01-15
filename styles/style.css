@@ -962,7 +962,7 @@ section:nth-of-type(5):has(ul) ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 /*  h2  */
@@ -974,11 +974,11 @@ section:nth-of-type(6):has(ul) h2 {
 /*  li  */
 section:nth-of-type(5):has(ul) li {
 	background-color: var(--color-pink-100);
-	padding: 1.5em 2em;
+	padding: 1.5em .5em;
 	border-radius: 0.5em;
 	text-align: center;
 	margin: 0.3em;
-	width: 9.5em;
+	width: 7.5em;
 
 	border: 0.05em solid var(--color-pink-200);
 
