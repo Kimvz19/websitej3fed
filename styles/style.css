@@ -504,7 +504,7 @@ section:nth-of-type(6):has(a) a:last-child {
 /* Visual try out */
 /******************************/
 /*  section  */
-section:nth-of-type(7):has(div) {
+section:nth-of-type(7) {
 	background: var(--color-pink-100);
 	display: flex;
 	align-items: center;
@@ -515,26 +515,22 @@ section:nth-of-type(7):has(div) {
 }
 
 /*  h2  */
-section:nth-of-type(7):has(div) h2 {
+section:nth-of-type(7) h2 {
 	color: var(--color-white);
 	margin-top: -14.5em;
 	font-size: 1.5em;
 }
 
-section:nth-of-type(7):has(div) img {
-	max-width: 22em;
-	/* Maximale breedte */
+section:nth-of-type(7) img {
+	max-width: 25em;
 	height: 35em;
-	/* Specifieke hoogte */
 	border-radius: 3em;
-	/* Houdt de afgeronde hoeken */
 	object-fit: cover;
-	/* Zorgt ervoor dat de afbeelding wordt bijgesneden om de container te vullen */
 	object-position: center;
 }
 
 /*  a  */
-section:nth-of-type(7):has(div) a:last-child {
+section:nth-of-type(7) a:last-child {
 	border-radius: 0.5em;
 	background-color: var(--color-white);
 	padding: 0.8em 1.1em;
