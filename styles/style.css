@@ -1010,7 +1010,7 @@ section:nth-of-type(5):has(ul) p:first-child {
 
 /* Redeem points */
 /*  section  */
-section:nth-of-type(6):has(ul) {
+.redeempoints{
 	background-color: var(--color-white);
 	display: flex;
 	flex-direction: column;
@@ -1020,18 +1020,18 @@ section:nth-of-type(6):has(ul) {
 }
 
 /*  ul  */
-section:nth-of-type(6):has(ul) ul {
+.redeempoints ul {
 	display: flex;
 	flex-wrap: wrap;
 	gap: .6em;
 }
 
-section:nth-of-type(6):has(ul) h2{
+.redeempoints h2{
 	width: 12em;
 }
 
 /*  li  */
-section:nth-of-type(6):has(ul) li {
+.redeempoints li {
 	border-radius: 1em;
 	border: 0.1em solid lightgray;
 	display: flex;
@@ -1042,7 +1042,7 @@ section:nth-of-type(6):has(ul) li {
 }
 
 /*  img  */
-section:nth-of-type(6):has(ul) img {
+.redeempoints img {
 	width: 3em;
 }
 
