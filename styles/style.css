@@ -627,14 +627,14 @@ section:nth-of-type(11):has(img) .image-grid {
 	justify-content: center;
 	gap: .5em;
 	margin: .5em;
-	max-width: 23em;
+	max-width: 1em;
 }
 
 /*  div a  */
 section:nth-of-type(11):has(img) .image-grid a {
 	display: inline-block;
 	width: calc(56% - 1.7em);
-	max-height: 15em;
+	max-height: 23em;
 	/* Limiteert de breedte */
 }
 
