@@ -199,11 +199,22 @@ article button {
 /*  surface plane options   */
 section:nth-of-type(1):has(button) {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 0.4em;
+	margin-bottom: .5em;
+	gap: .5em;
+}
+
+section:nth-of-type(1):has(button) h3{
+	font-size: var(--font-size-small);
+}
+
+section:nth-of-type(1):has(button) ul{
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	gap: 1em;
-	padding-top: 0.4em;
-	margin-bottom: 1.2em;
 }
 
 section:nth-of-type(1):has(button) button {
