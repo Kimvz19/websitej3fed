@@ -142,8 +142,15 @@ article {
 	margin: 1em .2em 0 1em;
 	grid-template-rows: 30em max-content max-content;
 	grid-template-columns: 1fr max-content;
+}
 
-	height: 80em;
+article:nth-of-type(1) {
+	background: green;
+	padding-top: 2em;
+
+	display: flex;
+	flex-direction: row;
+	margin: 1em;
 }
 
 /* img */
@@ -152,29 +159,16 @@ article img {
 	margin-bottom: 1em;
 }
 
-/* p - 1 */
-article li:nth-of-type(2) p {
-	margin-left: .5em;
+/* h3 */
+article:has(h3) h3 {
 	display: grid;
 	justify-content: start;
-
+	text-transform: none;
 	font-weight: bolder;
+	font-family: var(--font-family1);
 	font-size: var(--font-size-medium);
-}
-
-/* p - 3 */
-article li:nth-of-type(3) p {
-	margin-right: .5em;
-	display: grid;
-	justify-content: end;
-	margin-top: -1.4em;
-}
-
-/* p - 4 */
-article li:nth-of-type(4) p {
-	margin-left: .5em;
-	display: grid;
-	justify-content: start;
+	line-height: var(--line-height);
+	color: var(--color-gray-dark);
 }
 
 /* stars review */
@@ -192,6 +186,37 @@ article button {
 	border-style: none;
 	margin-top: 0.5em;
 	padding: 1em 7em;
+	place-content: center;
+}
+
+/******************************/
+/*        product holiday      */
+/******************************/
+
+/*  section */
+section:nth-of-type(6):has(article) {
+	background: var(--color-pink-100);
+	padding-top: 2em;
+
+	display: flex;
+	flex-direction: row;
+
+	padding-bottom: 2em;
+}
+
+section:nth-of-type(3):has(article) ol {
+	width: 20em;
+}
+
+/* button*/
+/* has gebruik */
+section:nth-of-type(6):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
+section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
+	color: var(--color-gray-dark);
+	border: 0.1em solid var(--color-gray-dark);
+	background-color: transparent;
+	margin-top: 1em;
+	font-family: var(--font-family1);
 }
 
 
@@ -277,31 +302,13 @@ section:nth-of-type(2):has(h1) a:last-of-type {
 }
 
 
-
-/*******************************/
-/*  new products list */
-/******************************/
-
-/*  section */
-section:nth-of-type(3):has(article) {
-	background: var(--color-pink-100);
-	padding-top: 2em;
-
-	display: flex;
-	flex-direction: row;
-}
-
-section:nth-of-type(3):has(article) ol:first-child {
-	width: 20em;
-}
-
 /******************************/
 /*  Online exclusive */
 /*  Holiday Advent Calendar */
 /******************************/
 
 /*   section  */
-section:nth-of-type(4):has(video) {
+section:nth-of-type(3):has(video) {
 	background: var(--color-pink-100);
 	display: flex;
 	justify-content: center;
@@ -311,24 +318,24 @@ section:nth-of-type(4):has(video) {
 }
 
 /*   li  */
-section:nth-of-type(4):has(video) li {
+section:nth-of-type(3):has(video) li {
 	background-color: var(--color-pink-100);
 	display: flex;
 	justify-content: center;
 }
 
 /*   image  */
-section:nth-of-type(4):has(video) img {
+section:nth-of-type(3):has(video) img {
 	max-width: 26em;
 }
 
 /*   h2  */
-section:nth-of-type(4):has(video) h2 {
+section:nth-of-type(3):has(video) h2 {
 	width: 10em;
 }
 
 /*   p  */
-section:nth-of-type(4):has(video) p {
+section:nth-of-type(3):has(video) p {
 	text-align: center;
 	width: 25em;
 	margin: .7em;
@@ -336,7 +343,7 @@ section:nth-of-type(4):has(video) p {
 }
 
 /*   li 3 p  */
-section:nth-of-type(4):has(video) li:nth-of-type(3) p {
+section:nth-of-type(3):has(video) li:nth-of-type(3) p {
 	text-align: center;
 	text-transform: uppercase;
 	width: 25.5em;
@@ -345,7 +352,7 @@ section:nth-of-type(4):has(video) li:nth-of-type(3) p {
 }
 
 /*   li 6 a  */
-section:nth-of-type(4):has(video) li:nth-of-type(6) a {
+section:nth-of-type(3):has(video) li:nth-of-type(6) a {
 	background-color: white;
 	border-radius: 0.5em;
 	padding: 1em 1em 1em 1em;
@@ -353,7 +360,7 @@ section:nth-of-type(4):has(video) li:nth-of-type(6) a {
 }
 
 /*   video */
-section:nth-of-type(4):has(video) li:nth-of-type(2) video {
+section:nth-of-type(3):has(video) li:nth-of-type(2) video {
 	display: none;
 }
 
@@ -364,7 +371,7 @@ section:nth-of-type(4):has(video) li:nth-of-type(2) video {
 /*  holiday day paragraph */
 /******************************/
 /*   section */
-section:nth-of-type(5):has(img) {
+section:nth-of-type(4):has(img) {
 	background: var(--color-pink-100);
 	/* height: 48em; */
 	/* padding-top: 1.2em; */
@@ -375,19 +382,19 @@ section:nth-of-type(5):has(img) {
 	flex-direction: column;
 }
 
-section:nth-of-type(5):has(img) h2 {
+section:nth-of-type(4):has(img) h2 {
 	font-size: 1.4em;
 }
 
 /* img */
-section:nth-of-type(5):has(img) img {
+section:nth-of-type(4):has(img) img {
 	border-radius: 1.5em;
 	max-width: 22em;
 	margin: 2em;
 }
 
 /*  ol  */
-section:nth-of-type(5):has(img) ol {
+section:nth-of-type(4):has(img) ol {
 	background-color: var(--color-white);
 	border-radius: 1.3em;
 	width: 22em;
@@ -395,7 +402,7 @@ section:nth-of-type(5):has(img) ol {
 }
 
 /*  p  */
-section:nth-of-type(5):has(img) p {
+section:nth-of-type(4):has(img) p {
 	text-align: center;
 	padding-bottom: 2em;
 	width: 21.5em;
@@ -403,44 +410,12 @@ section:nth-of-type(5):has(img) p {
 }
 
 /*  a  */
-section:nth-of-type(5):has(img) a {
+section:nth-of-type(4):has(img) a {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
 	padding: 0.6em 0.9em;
 	color: var(--color-gray-dark);
-}
-
-/******************************/
-/*        product holiday      */
-/******************************/
-
-/*  section */
-section:nth-of-type(6):has(article) {
-	background: var(--color-pink-100);
-	padding-top: 2em;
-
-	display: flex;
-	flex-direction: row;
-
-	padding-bottom: 2em;
-}
-
-section:nth-of-type(3):has(article) ol {
-	width: 20em;
-}
-
-
-
-/* button*/
-/* has gebruik */
-section:nth-of-type(6):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
-section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
-	color: var(--color-gray-dark);
-	border: 0.1em solid var(--color-gray-dark);
-	background-color: transparent;
-	margin-top: 1em;
-	font-family: var(--font-family1);
 }
 
 
@@ -490,29 +465,10 @@ section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) but
 
 
 /******************************/
-/* other products */
-/******************************/
-
-/*  section */
-section:nth-of-type(8):has(article) {
-	background: var(--color-pink-100);
-	padding-top: 2em;
-
-	display: flex;
-	flex-direction: row;
-
-	padding-bottom: 2em;
-}
-
-section:nth-of-type(8):has(article) ol {
-	width: 20em;
-}
-
-/******************************/
 /* Shop Holiday gift guide */
 /******************************/
 /*  section  */
-section:nth-of-type(9) {
+section:nth-of-type(6) {
 	background: var(--color-pink-100);
 	height: 29em;
 	display: flex;
@@ -523,7 +479,7 @@ section:nth-of-type(9) {
 }
 
 /*  container  */
-section:nth-of-type(9) container {
+section:nth-of-type(6) ul {
 	height: 17em;
 	display: flex;
 	flex-direction: row;
@@ -533,14 +489,14 @@ section:nth-of-type(9) container {
 }
 
 /*  container img  */
-section:nth-of-type(9) container img {
+section:nth-of-type(6) ul img {
 	width: 100%;
 	height: 15em;
 	border-radius: 0.3em;
 }
 
 /*  container p   */
-section:nth-of-type(9) container p {
+section:nth-of-type(6) ul p {
 	color: var(--color-white);
 	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
@@ -553,7 +509,7 @@ section:nth-of-type(9) container p {
 }
 
 /*  a  */
-section:nth-of-type(9) a:last-child {
+section:nth-of-type(6) a:last-child {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
@@ -569,7 +525,7 @@ section:nth-of-type(9) a:last-child {
 /* Visual try out */
 /******************************/
 /*  section  */
-section:nth-of-type(10) {
+section:nth-of-type(7) {
 	background: var(--color-pink-100);
 	display: flex;
 	align-items: center;
@@ -580,13 +536,13 @@ section:nth-of-type(10) {
 }
 
 /*  h2  */
-section:nth-of-type(10) h2 {
+section:nth-of-type(7) h2 {
 	color: var(--color-white);
 	margin-top: -14.5em;
 	font-size: 1.5em;
 }
 
-section:nth-of-type(10) img {
+section:nth-of-type(7) img {
 	max-width: 22em;
 	/* Maximale breedte */
 	height: 35em;
@@ -599,7 +555,7 @@ section:nth-of-type(10) img {
 }
 
 /*  a  */
-section:nth-of-type(10) a:last-child {
+section:nth-of-type(7) a:last-child {
 	border-radius: 0.5em;
 	background-color: var(--color-white);
 	padding: 0.8em 1.1em;
@@ -611,7 +567,7 @@ section:nth-of-type(10) a:last-child {
 /* Shop our IG */
 /******************************/
 /*  section  */
-section:nth-of-type(11):has(img) {
+section:nth-of-type(8):has(img) {
 	background-color: var(--color-pink-100);
 	padding-top: 5em;
 	text-align: center;
@@ -619,12 +575,12 @@ section:nth-of-type(11):has(img) {
 }
 
 /*  h2  */
-section:nth-of-type(11):has(img) h2 {
+section:nth-of-type(8):has(img) h2 {
 	margin-bottom: .5em;
 }
 
 /*  div  */
-section:nth-of-type(11):has(img) .image-grid {
+section:nth-of-type(8):has(img) .image-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -634,7 +590,7 @@ section:nth-of-type(11):has(img) .image-grid {
 }
 
 /*  div a  */
-section:nth-of-type(11):has(img) .image-grid a {
+section:nth-of-type(8):has(img) .image-grid a {
 	display: inline-block;
 	width: calc(56% - 1.7em);
 	max-height: 23em;
@@ -642,7 +598,7 @@ section:nth-of-type(11):has(img) .image-grid a {
 }
 
 /*  div img  */
-section:nth-of-type(11):has(img) .image-grid img {
+section:nth-of-type(8):has(img) .image-grid img {
 	border-radius: .8em;
 	width: 100%;
 	max-width: 13em;
