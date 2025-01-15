@@ -176,7 +176,7 @@ article li:nth-of-type(4) p {
 }
 
 /* stars review */
-article section:has(li) {
+article ul:has(li) {
 	margin: 0 0.5em;
 	display: flex;
 	flex-direction: row;
@@ -288,7 +288,7 @@ section:nth-of-type(3):has(article) {
 	flex-direction: row;
 }
 
-section:nth-of-type(3):has(article) ol {
+section:nth-of-type(3):has(article) ol:first-child {
 	width: 20em;
 }
 
