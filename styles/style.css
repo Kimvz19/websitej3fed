@@ -132,8 +132,17 @@ a {
 /***************************************/
 /*  General article styling products   */
 /***************************************/
+.products-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.products-row:nth-last-child(){
+	background-color: green;
+}
 article {
 	border-radius: 0.2em;
+	width: 20em;
 	border: 0.1em solid rgba(179, 132, 143, 0.5);
 
 	background-color: var(--color-white);
@@ -144,18 +153,9 @@ article {
 	grid-template-columns: 1fr max-content;
 }
 
-article:nth-of-type(1) {
-	background: green;
-	padding-top: 2em;
-
-	display: flex;
-	flex-direction: row;
-	margin: 1em;
-}
-
 /* img */
 article img {
-	width: 19.96em;
+	width: 19.8em;
 	margin-bottom: 1em;
 }
 
@@ -172,11 +172,20 @@ article:has(h3) h3 {
 }
 
 /* stars review */
-article li:nth-of-type(2),article li:nth-of-type(3), article li:nth-of-type(4),
-article li:nth-of-type(5), article li:nth-of-type(6) {
-	background: green;
+article li:nth-of-type(2),
+article li:nth-of-type(3),
+article li:nth-of-type(5){
 	margin: 0 0.5em;
 	display: flex;
+	justify-content: start;
+}
+
+/* price */
+article li:nth-of-type(4) {
+	display: flex;
+	justify-content: end;
+	margin-top: -1.35em;
+	margin-right: .5em;
 }
 
 /* button */
@@ -187,36 +196,7 @@ article button {
 	margin-top: 0.5em;
 	padding: 1em 7em;
 	place-content: center;
-}
-
-/******************************/
-/*        product holiday      */
-/******************************/
-
-/*  section */
-section:nth-of-type(6):has(article) {
-	background: var(--color-pink-100);
-	padding-top: 2em;
-
-	display: flex;
-	flex-direction: row;
-
-	padding-bottom: 2em;
-}
-
-section:nth-of-type(3):has(article) ol {
-	width: 20em;
-}
-
-/* button*/
-/* has gebruik */
-section:nth-of-type(6):has(article) article:nth-of-type(1) li:nth-of-type(5) button,
-section:nth-of-type(6):has(article) article:nth-of-type(2) li:nth-of-type(5) button {
-	color: var(--color-gray-dark);
-	border: 0.1em solid var(--color-gray-dark);
-	background-color: transparent;
-	margin-top: 1em;
-	font-family: var(--font-family1);
+	place-content: center;
 }
 
 
@@ -234,11 +214,11 @@ section:nth-of-type(1):has(button) {
 	gap: .5em;
 }
 
-section:nth-of-type(1):has(button) h3{
+section:nth-of-type(1):has(button) h3 {
 	font-size: var(--font-size-small);
 }
 
-section:nth-of-type(1):has(button) ul{
+section:nth-of-type(1):has(button) ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -467,16 +447,6 @@ section:nth-of-type(4):has(ol) a {
 /******************************/
 /* Shop Holiday gift guide */
 /******************************/
-/*  section  */
-section:nth-of-type(6):has(a) {
-	background: var(--color-pink-100);
-	height: 29em;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	padding-top: 1.5em;
-
-}
 
 /*  container  */
 section:nth-of-type(6):has(a) ul {
@@ -612,7 +582,7 @@ section:nth-of-type(8):has(img) .image-grid img {
 footer {
 	background-color: var(--color-pink-100);
 	color: var(--color-gray-dark);
-	padding: 3em 2em 2em 2em ;
+	padding: 3em 2em 2em 2em;
 	margin-top: 2em;
 }
 
@@ -662,15 +632,15 @@ footer ol:nth-of-type(4) {
 	gap: 0.8em;
 }
 
-footer ol:nth-of-type(4) li a{
-		color: var(--color-gray-dark);
-		text-decoration: underline;
-		display: inline-block;
-		white-space: nowrap; 
-		text-align: center; 
+footer ol:nth-of-type(4) li a {
+	color: var(--color-gray-dark);
+	text-decoration: underline;
+	display: inline-block;
+	white-space: nowrap;
+	text-align: center;
 }
 
-footer p a{
+footer p a {
 	color: var(--color-gray-dark);
 }
 
@@ -937,7 +907,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 }
 
 /*  h2  */
-.usePoints h2{
+.usePoints h2 {
 	color: black;
 }
 
@@ -967,7 +937,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 /* Redeem points */
 /*  section  */
-.redeempoints{
+.redeempoints {
 	background-color: var(--color-white);
 	display: flex;
 	flex-direction: column;
@@ -983,7 +953,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	gap: .3em;
 }
 
-.redeempoints h2{
+.redeempoints h2 {
 	width: 12em;
 	color: black;
 }
