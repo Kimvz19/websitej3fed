@@ -641,7 +641,8 @@ section:nth-of-type(11):has(img) .image-grid img {
 footer {
 	background-color: var(--color-pink-100);
 	color: var(--color-gray-dark);
-	padding: 4em 2em 2em 2em ;
+	padding: 3em 2em 2em 2em ;
+	margin-top: 2em;
 }
 
 /*  ol  */
@@ -1121,8 +1122,8 @@ section:nth-of-type(8):has(input) button {
 
 /* FAQ Section Styling */
 section:nth-of-type(9):has(details) {
-	background-color: var(--color-pink-100);
-	height: 60em;
+	background-color: var(--color-white);
+	height: 64em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
