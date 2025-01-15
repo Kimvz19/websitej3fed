@@ -547,48 +547,40 @@ section:nth-of-type(7):has(a) a:last-child {
 /******************************/
 /* Shop our IG */
 /******************************/
-/*  section  */
+/*  Section styling */
 section:nth-of-type(8):has(img) {
-	background-color: var(--color-pink-100);
-	padding-top: 5em;
-	text-align: center;
-	padding-bottom: 1em;
+    background-color: var(--color-pink-100);
+    padding-top: 5em;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
-/*  h2  */
+/*  H2 styling */
 section:nth-of-type(8):has(img) h2 {
-	margin-bottom: .5em;
+    margin-bottom: 0.5em;
 }
 
-/*  div  */
+/*  Image grid styling */
 section:nth-of-type(8):has(img) .image-grid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 0.5em;
-	max-width: 23em;
+    display: flex; /* Flexbox voor flexibele indeling */
+    flex-wrap: wrap; /* Laat de items doorlopen naar een nieuwe rij indien nodig */
+    justify-content: center; /* Centraal uitlijnen */
+    gap: 1em; /* Ruimte tussen items */
+	margin: 1em;
 }
 
-/*  div a  */
+/*  Links binnen de grid */
 section:nth-of-type(8):has(img) .image-grid a {
-	display: inline-block;
-	width: calc(56% - 3em);
-	height: 75%;
-	/* Limiteert de breedte */
+    flex: 1 1 calc(34% - .5em); /* Elke link neemt 25% van de breedte in, min de gap */
 }
 
-/*  div img  */
+/*  Afbeeldingen binnen de grid */
 section:nth-of-type(8):has(img) .image-grid img {
-	border-radius: .8em;
-	width: 100%;
-	height: 75%;
-	max-width: 11em;
+    border-radius: 2em; /* Maakt de randen afgerond */
+    width: 100%; /* Afbeelding vult de volledige breedte van de container */
+    height: auto; /* Behoudt de oorspronkelijke verhoudingen van de afbeelding */
 }
 
-section:nth-of-type(8):has(img) svg{
-	object-fit: contain;
-	color: var(--color-gray-dark);
-}
 /****************/
 /*    Footer    */
 /****************/
