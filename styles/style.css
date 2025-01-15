@@ -565,16 +565,15 @@ section:nth-of-type(8):has(img) .image-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: .5em;
-	margin: .5em;
+	gap: 0.5em;
 	max-width: 23em;
 }
 
 /*  div a  */
 section:nth-of-type(8):has(img) .image-grid a {
 	display: inline-block;
-	width: calc(56% - 1.7em);
-	max-height: 23em;
+	width: calc(56% - 3em);
+	height: 75%;
 	/* Limiteert de breedte */
 }
 
@@ -582,7 +581,8 @@ section:nth-of-type(8):has(img) .image-grid a {
 section:nth-of-type(8):has(img) .image-grid img {
 	border-radius: .8em;
 	width: 100%;
-	max-width: 13em;
+	height: 75%;
+	max-width: 11em;
 }
 
 section:nth-of-type(8):has(img) svg{
