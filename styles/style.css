@@ -693,9 +693,9 @@ footer ol:nth-of-type(4) {
 footer ol:nth-of-type(4) li a{
 		color: var(--color-gray-dark);
 		text-decoration: underline;
-		display: inline-block; /* Maakt het mogelijk om breedte toe te passen */
-		white-space: nowrap; /* Zorgt dat tekst niet op meerdere regels komt */
-		text-align: center; /* Optioneel: om de tekst te centreren */
+		display: inline-block;
+		white-space: nowrap; 
+		text-align: center; 
 }
 
 footer p a{
@@ -799,12 +799,14 @@ section:nth-of-type(2):has(container) h1 {
 	color: var(--color-white);
 	width: 12em;
 	padding-top: 4em;
+	font-size: 2em;
 }
 
 /*   p  */
 section:nth-of-type(2):has(container) p {
 	text-align: center;
 	color: var(--color-white);
+	font-size: 0.9em;
 }
 
 /*  container*/
@@ -812,12 +814,13 @@ section:nth-of-type(2):has(h1) container {
 	display: flex;
 	flex-direction: row;
 	gap: 1em;
+	padding-bottom: 1em;
 }
 
 /*  a   */
 section:nth-of-type(2):has(container) a:first-of-type {
 	background-color: transparent;
-	border: 0.2em solid var(--color-white);
+	border: 0.1em solid var(--color-white);
 	border-radius: 0.5em;
 	padding: 1em 2em 1em 2em;
 	text-decoration: none;
