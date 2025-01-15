@@ -1010,12 +1010,15 @@ section:nth-of-type(6):has(ul) {
 section:nth-of-type(6):has(ul) ul {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1em;
+	gap: .6em;
+}
+
+section:nth-of-type(6):has(ul) h2{
+	width: 12em;
 }
 
 /*  li  */
 section:nth-of-type(6):has(ul) li {
-	width: 6.6em;
 	border-radius: 1em;
 	border: 0.1em solid lightgray;
 	display: flex;
