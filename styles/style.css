@@ -783,20 +783,20 @@ dialog button {
 /******************************/
 
 /* Uitleg rewards - section 1 met content */
-section:nth-of-type(2):has(container) {
+section:nth-of-type(2):has(div) {
 	background-color: #5c514a;
 	height: auto;
 }
 
 /*  image  */
-section:nth-of-type(2):has(container) img {
+section:nth-of-type(2):has(div) img {
 	width: 100%;
 	clip-path: polygon(0 0, 100% 0, 100% 88%, 0 88%);
 	background-color: var(--color-gray-dark);
 }
 
 /*   h1  */
-section:nth-of-type(2):has(container) h1 {
+section:nth-of-type(2):has(div) h1 {
 	color: var(--color-white);
 	width: 12em;
 	padding-top: 4em;
@@ -804,14 +804,14 @@ section:nth-of-type(2):has(container) h1 {
 }
 
 /*   p  */
-section:nth-of-type(2):has(container) p {
+section:nth-of-type(2):has(div) p {
 	text-align: center;
 	color: var(--color-white);
 	font-size: 0.9em;
 }
 
 /*  container*/
-section:nth-of-type(2):has(h1) container {
+section:nth-of-type(2):has(h1) div {
 	display: flex;
 	flex-direction: row;
 	gap: 1em;
@@ -819,7 +819,7 @@ section:nth-of-type(2):has(h1) container {
 }
 
 /*  a   */
-section:nth-of-type(2):has(container) a:first-of-type {
+section:nth-of-type(2):has(div) a:first-of-type {
 	background-color: transparent;
 	border: 0.1em solid var(--color-white);
 	border-radius: 0.5em;
