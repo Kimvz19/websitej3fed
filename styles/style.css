@@ -985,6 +985,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 .redeempoints h2{
 	width: 12em;
+	color: black;
 }
 
 /*  li  */
