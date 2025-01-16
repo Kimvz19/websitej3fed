@@ -1277,28 +1277,68 @@ details div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 
 	position: fixed;
 
 	left: -100%;
-	width: 100%;
-	height: 100%;
+	width: 50%;
 	background-color: var(--color-white);
 	/* box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2); */
 	transition: left 0.3s ease;
-	z-index: 1;
+	z-index: 3;
 }
 
-.hidden-menu ul {
+.hidden-menu ul{
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	margin: 1em;
 }
 
-.hidden-menu ul li {
-	margin: 15px 0;
+/*       icons hamburgermenu       */
+.hidden-menu ul:nth-of-type(1),
+.hidden-menu ul:nth-of-type(2) div
+ {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.hidden-menu ul:nth-of-type(1) button{
+	border: none;
+	background-color: white;
+}
+
+.hidden-menu ul:nth-of-type(1) a{
+	font-size: 0.7em;
+	font-family: var(--font-family2);
+	line-height: var(--line-height);
 	color: var(--color-pink-500);
+	text-align: center;
+	text-transform: uppercase;
+	background-color: var(--color-pink-200);
+	border: .2em solid var(--color-pink-500);
+	padding: .5em 2em ;
+	border-radius: .5em;
+}
+
+.hidden-menu ul:nth-of-type(2) a{
+	color: var(--color-gray-dark);
+}
+
+.hidden-menu ul:nth-of-type(2) div img{
+	width: 2em;
+}
+
+/*       icons hamburgermenu       */
+.hidden-menu ul:nth-of-type(3),
+.hidden-menu ul:nth-of-type(4){
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* .hidden-menu ul li {
+	margin: 15px 0;
+	color: green;
 }
 
 .hidden-menu ul li a {
@@ -1311,4 +1351,4 @@ details div {
 /* Actieve menu */
 .hidden-menu.open {
 	left: 0;
-}
+} 
