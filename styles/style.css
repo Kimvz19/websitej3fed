@@ -1227,8 +1227,8 @@ details div {
 .hidden-menu ul:first-of-type {
 	display: flex;
 	flex-direction: column;
-	margin: 1em;
-	gap: 1em;
+	margin: var(--spacing-medium);
+	gap: var(--spacing-medium);
 }
 
 .hidden-menu ul:first-of-type li {
@@ -1245,7 +1245,7 @@ details div {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	gap: 1em;
+	gap: var(--spacing-medium);
 	margin: 1em 0;
 	padding: 0;
 }
@@ -1264,15 +1264,15 @@ details div {
 	background-color: var(--color-pink-200);
 	border: 0.2em solid var(--color-pink-500);
 	padding: 0.5em 2em;
-	border-radius: 0.5em;
+	border-radius: var(--spacing-small);
 	text-decoration: none;
 }
 
 .hidden-menu ul:nth-of-type(3) {
 	display: flex;
 	flex-direction: column;
-	gap: 1em;
-	margin-top: 1em;
+	gap: var(--spacing-medium);
+	margin-top: var(--spacing-medium);
 }
 
 .hidden-menu ul:nth-of-type(3) li {
@@ -1282,17 +1282,17 @@ details div {
 .hidden-menu ul:nth-of-type(3) details {
 	display: flex;
 	flex-direction: column;
-	gap: 0.5em;
+	gap: var(--spacing-small);
 }
 
 .hidden-menu ul:nth-of-type(3) summary {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	gap: 1em;
+	gap: var(--spacing-medium);
 	cursor: pointer;
 	border-bottom: .05em solid var(--color-pink-500);
-	padding-bottom: 0.5em;
+	padding-bottom: var(--spacing-small);
 }
 
 .hidden-menu ul:nth-of-type(3) li:last-child summary {
