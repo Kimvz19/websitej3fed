@@ -1147,7 +1147,7 @@ section:nth-of-type(9):has(details) img {
 	margin-bottom: var(--spacing-medium);
 }
 
-
+/******************************/
 /* Details Styling */
 /******************************/
 details {
@@ -1203,6 +1203,10 @@ details div {
 	cursor: pointer;
 }
 
+
+/******************************/
+/*       hamburger meu        */
+/******************************/
 .hidden-menu {
 	display: flex;
 	flex-direction: column;
