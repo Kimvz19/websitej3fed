@@ -730,13 +730,27 @@ footer ol:nth-of-type(2) a img {
 	height: 1.5em;
 }
 
-/*  ol 3  */
+/* ol 3 */
 footer ol:nth-of-type(3) {
-	justify-content: center;
-	padding-bottom: 1em;
-	font-size: 0.6em;
-	gap: 0.8em;
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 1em;
+    font-size: 1.2em; 
+    flex-wrap: nowrap; 
+    gap: .5em; 
 }
+
+/* ol 3 li */
+footer ol:nth-of-type(3) li {
+    white-space: nowrap; 
+    font-size: 1em; 
+}
+
+
+footer ol:nth-of-type(3) li a {
+    font-size: 0.9em;
+}
+
 
 /*  ol 4  */
 footer ol:nth-of-type(4) {
@@ -1266,7 +1280,7 @@ details div {
 	width: 100%;
 	height: 100%;
 	background-color: var(--color-white);
-	box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2); */
 	transition: left 0.3s ease;
 	z-index: 1;
 }
