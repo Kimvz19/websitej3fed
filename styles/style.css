@@ -224,6 +224,7 @@ article {
 	margin: 1em .2em 0 1em;
 	grid-template-rows: 30em max-content max-content;
 	grid-template-columns: 1fr max-content;
+	position: relative;
 }
 
 /* img */
@@ -259,6 +260,18 @@ article li:nth-of-type(4) {
 	justify-content: end;
 	margin-top: -1.35em;
 	margin-right: .5em;
+}
+
+article span{
+	position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: pink;
+    color: var(--color-gray-dark);
+    font-size: var(--font-size-small);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+	z-index: 2;
 }
 
 /* button */
