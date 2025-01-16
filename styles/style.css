@@ -1277,7 +1277,8 @@ details div {
     justify-content: flex-start; 
     position: fixed;
     left: -100%;
-    width: 50%;
+    width: 100%;
+	max-width: 24em;
     height: 100vh;
     background-color: var(--color-white);
     transition: left 0.3s ease;
