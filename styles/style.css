@@ -29,67 +29,25 @@
 	--font-family1: "TTChocolatesTrl-Regular";
 	--font-family2: "UniversLTStd-Bold";
 	--font-family3: "Arial";
-	--font-family4: "TTChocolatesTrl-Bold"
+	--font-family4: "TTChocolatesTrl-Bold";
 	--font-size-small: 12px;
 	--font-size-medium: 16px;
 	--font-size-large: 25px;
 	--line-height: 1.5;
 	--letter-spacing: 0.05em;
+	--spacing-small: 0.5em;
+	--spacing-medium: 1em;
 }
 
-/*********************/
-/*       General     */
-/*********************/
+/***********************/
+/*    General styling  */
+/***********************/
 
 body {
 	font-family: var(--font-family1);
-	background-color: var(--color-white);
 }
 
-header {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-}
-
-header nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
-header nav ol {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	list-style: none;
-	width: 100%;
-}
-
-header nav ol li {
-	margin: 0 10px;
-	display: flex;
-	align-items: center;
-}
-
-header nav ol li svg {
-	width: 10em;
-	height: auto;
-	color: var(--color-gray-dark);
-	text-align: center;
-	margin-top: 10px;
-}
-
-header span {
-	background-color: var(--color-pink-300);
-	line-height: var(--line-height);
-	font-family: var(--font-family3);
-	text-align: center;
-	font-size: 13px;
-	width: 100%;
-}
-main{
+main {
 	background-color: var(--color-pink-100);
 }
 
@@ -120,38 +78,60 @@ h3 {
 }
 
 button {
-	border-radius: 0.5em;
+	border-radius: var(--spacing-small);
 	text-decoration: none;
 }
-
 
 a {
 	text-decoration: none;
 }
 
 
-/*       bullets     */
-.pagination-container {
-	display: flex; /* Flexbox inschakelen */
-	gap: 0.2em; /* Ruimte tussen de buttons */
-	justify-content: center; /* Buttons centreren in de container */
-	align-items: center; /* Verticaal uitlijnen */
-	padding-bottom: 1em;
-  }
-  
-  .bullet {
-	width: 0.5em; /* Diameter van de cirkel */
-	height: 0.5em; /* Hoogte gelijk aan de breedte */
-	border: 1px solid var(--color-gray-dark); /* Dunne rand */
-	border-radius: 50%; /* Maakt het een perfecte cirkel */
-	background-color: transparent; /* Geen achtergrondkleur */
-	cursor: pointer; /* Verander de cursor naar pointer */
-  }
-  
-  .pagination-container .bullet:first-child {
-	background-color: var(--color-gray-dark); /* Vervang dit met de gewenste kleur */
-  }
-	
+/*   header & navigatie*/
+header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+header nav ol {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	width: 100%;
+}
+
+header nav ol li {
+	display: flex;
+	align-items: center;
+	margin: 0 10px;
+}
+
+header nav ol li svg {
+	width: 10em;
+	height: auto;
+	color: var(--color-gray-dark);
+	text-align: center;
+	margin-top: 10px;
+}
+
+header span {
+	background-color: var(--color-pink-300);
+	line-height: var(--line-height);
+	font-family: var(--font-family3);
+	text-align: center;
+	font-size: 13px;
+	width: 100%;
+}
+
 
 /****************************/
 /*  surface plane options   */
@@ -163,8 +143,8 @@ section:nth-of-type(1):has(button) {
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 0.4em;
-	margin-bottom: .5em;
-	gap: .5em;
+	margin-bottom: var(--spacing-small);
+	gap: var(--spacing-small);
 }
 
 section:nth-of-type(1):has(button) h3 {
@@ -175,7 +155,7 @@ section:nth-of-type(1):has(button) ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	gap: .5em;
+	gap: var(--spacing-small);
 }
 
 section:nth-of-type(1):has(button) button {
@@ -183,7 +163,7 @@ section:nth-of-type(1):has(button) button {
 	color: var(--color-pink-500);
 	padding: 0.3em;
 	border: 0.15em solid var(--color-pink-500);
-	border-radius: 1em;
+	border-radius: var(--spacing-medium);
 	display: flex;
 	align-items: center;
 	height: 2.5em;
@@ -194,20 +174,21 @@ section:nth-of-type(1):has(button) img {
 }
 
 
+
 /***************************************/
-/*  General article styling products   */
+/*         article styling products   */
 /***************************************/
-.products-row{
+.products-row {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 1em;
+	padding-bottom: var(--spacing-medium);
 	background-color: var(--color-pink-100);
 }
 
 /* class nth 2  button */
 .products-row:nth-of-type(2) article button {
-	color:var(--color-gray-dark) ;
-    background-color: var(--color-white);
+	color: var(--color-gray-dark);
+	background-color: var(--color-white);
 	border: 0.1em solid var(--color-gray-dark);
 }
 
@@ -216,13 +197,11 @@ article {
 	border-radius: 0.2em;
 	width: 20em;
 	border: 0.1em solid rgba(179, 132, 143, 0.5);
-
 	background-color: var(--color-white);
-
 	display: grid;
 	margin: 1em .2em 0 1em;
 	grid-template-rows: 30em max-content max-content;
-	grid-template-columns: 1fr max-content;
+	grid-template-columns: 1fr;
 	position: relative;
 }
 
@@ -247,8 +226,7 @@ article:has(h3) h3 {
 /* stars review */
 article li:nth-of-type(2),
 article li:nth-of-type(3),
-article li:nth-of-type(5)
-{
+article li:nth-of-type(5) {
 	margin: 0 0.5em;
 	display: flex;
 	justify-content: start;
@@ -262,7 +240,7 @@ article li:nth-of-type(4) {
 	margin-right: .5em;
 }
 
-article:has(.color-circle) li:nth-of-type(5){
+article:has(.color-circle) li:nth-of-type(5) {
 	display: flex;
 	justify-content: end;
 	margin-top: -1.35em;
@@ -270,34 +248,34 @@ article:has(.color-circle) li:nth-of-type(5){
 }
 
 article:has(.color-circle) li:nth-of-type(4),
-article:has(.color-circle) li:nth-of-type(6){
+article:has(.color-circle) li:nth-of-type(6) {
 	margin: 0 0.5em;
 	display: flex;
 	justify-content: start;
 }
 
-article span:nth-of-type(1){
+article span:nth-of-type(1) {
 	position: absolute;
-    top: 0.5em;
-    right: 0.5em;
-    background-color: var(--color-pink-100);
-    color: var(--color-gray-dark);
-    font-size: var(--font-size-small);
-    padding: 0.5em 1em;
-    border-radius: .5em;
+	top: var(--spacing-small);
+	right: var(--spacing-small);
+	background-color: var(--color-pink-100);
+	color: var(--color-gray-dark);
+	font-size: var(--font-size-small);
+	padding: 0.5em 1em;
+	border-radius: var(--spacing-small);
 	z-index: 2;
 }
 
-article span:nth-of-type(2){
+article span:nth-of-type(2) {
 	position: absolute;
-    bottom: 14em; 
-    left: 11.5%;
-    transform: translateX(-50%); 
-    color: var(--color-gray-dark);
-    font-size: var(--font-size-small);
-    padding: 0.5em 1em;
-    border-radius: .5em;
-    z-index: 2;
+	bottom: 14em;
+	left: 11.5%;
+	transform: translateX(-50%);
+	color: var(--color-gray-dark);
+	font-size: var(--font-size-small);
+	padding: 0.5em 1em;
+	border-radius: var(--spacing-small);
+	z-index: 2;
 }
 
 /* button */
@@ -305,20 +283,51 @@ article button {
 	background-color: var(--color-gray-dark);
 	color: var(--color-pink-100);
 	border-style: none;
-	margin-top: 0.5em;
+	margin-top: var(--spacing-small);
 	padding: .8em 7em;
-	place-content: center;
 	place-content: center;
 }
 
-.stars-row{
+.stars-row {
 	display: flex;
 	flex-direction: row;
 }
 
-.stars-row p{
+.stars-row p {
 	font-size: .9em;
 	padding-left: .3em;
+}
+
+
+/*   bullets  voor bij de articles   */
+
+.bullet {
+	width: var(--spacing-small);
+	height: var(--spacing-small);
+	border: 1px solid var(--color-gray-dark);
+	border-radius: 50%;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.bullet.active {
+    background-color: var(--color-gray-dark);
+}
+
+.bullet:hover {
+    background-color: var(--color-pink-300);
+}
+
+.pagination-container {
+	display: flex;
+	gap: 0.2em;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 1em;
+}
+
+.pagination-container .bullet:first-child {
+	background-color: var(--color-gray-dark);
 }
 
 
@@ -534,25 +543,26 @@ section:nth-of-type(4):has(ol) a {
 /* Shop Holiday gift guide */
 /******************************/
 
-section:nth-of-type(6):has(a){
+section:nth-of-type(6):has(a) {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin: 3em;
-	position: relative; 
+	position: relative;
 }
 
 .shop-now {
 	border-radius: 0.5em;
-    border: 0.1em solid var(--color-gray-dark);
-    padding: 0.6em 1.1em;
-    color: var(--color-gray-dark);
-    text-align: center;
-    max-width: 12em;
-    display: inline-block;
-    text-decoration: none; /* Verwijdert de standaard onderstreping */
-  }
+	border: 0.1em solid var(--color-gray-dark);
+	padding: 0.6em 1.1em;
+	color: var(--color-gray-dark);
+	text-align: center;
+	max-width: 12em;
+	display: inline-block;
+	text-decoration: none;
+	/* Verwijdert de standaard onderstreping */
+}
 
 
 section:nth-of-type(6):has(a) ul {
@@ -584,7 +594,7 @@ section:nth-of-type(6):has(a) ul p {
 }
 
 /*  a deze anders linken */
-section:nth-of-type(6):has(a) a:nth-last-of-type(2){
+section:nth-of-type(6):has(a) a:nth-last-of-type(2) {
 	border-radius: 0.5em;
 	border-color: transparent;
 	border: 0.1em solid var(--color-gray-dark);
@@ -596,28 +606,28 @@ section:nth-of-type(6):has(a) a:nth-last-of-type(2){
 
 
 .arrow {
-    display: flex;
-    justify-content: space-between;
-    position: absolute; 
-    top: 55%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%); 
-    width: 100%; 
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 55%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	width: 100%;
 }
 
 
 .arrow button {
-    background-color: transparent; 
-    border: none; 
-    padding: 0;
-    cursor: pointer; 
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
 }
 
 
 .arrow button img {
-    width: 2em; 
-    height: auto; 
+	width: 2em;
+	height: auto;
 }
 
 
@@ -663,34 +673,34 @@ section:nth-of-type(7):has(a) a:last-child {
 /* Shop our IG */
 /******************************/
 section:nth-of-type(8):has(img) {
-    background-color: var(--color-pink-100);
-    padding-top: 5em;
-    text-align: center;
-    padding-bottom: 1em;
+	background-color: var(--color-pink-100);
+	padding-top: 5em;
+	text-align: center;
+	padding-bottom: 1em;
 }
 
 section:nth-of-type(8):has(img) h2 {
-    margin-bottom: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 section:nth-of-type(8):has(img) .image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 1em;
 	gap: .5em;
 }
 
 section:nth-of-type(8):has(img) .image-grid a {
-    flex: 1 1 calc(50% - 0.5em);
+	flex: 1 1 calc(50% - 0.5em);
 	height: 100%;
 
 }
 
 section:nth-of-type(8):has(img) .image-grid img {
-    border-radius: 2em;
-    width: 100%;
-    height: 82%;
+	border-radius: 2em;
+	width: 100%;
+	height: 82%;
 }
 
 
@@ -736,23 +746,23 @@ footer ol:nth-of-type(2) a img {
 
 /* ol 3 */
 footer ol:nth-of-type(3) {
-    display: flex;
-    justify-content: center; 
-    padding-bottom: 1em;
-    font-size: 1.2em; 
-    flex-wrap: nowrap; 
-    gap: .5em; 
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1em;
+	font-size: 1.2em;
+	flex-wrap: nowrap;
+	gap: .5em;
 }
 
 /* ol 3 li */
 footer ol:nth-of-type(3) li {
-    white-space: nowrap; 
-    font-size: 1em; 
+	white-space: nowrap;
+	font-size: 1em;
 }
 
 
 footer ol:nth-of-type(3) li a {
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 
 
@@ -1106,7 +1116,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	width: 3em;
 }
 
-.redeempoints div{
+.redeempoints div {
 	top: 475%;
 }
 
@@ -1241,6 +1251,7 @@ details summary {
 	text-align: left;
 	margin: 0 1em;
 }
+
 /* Voeg een "+" icon toe */
 details summary::after {
 	content: '+';
@@ -1272,18 +1283,18 @@ details div {
 }
 
 .hidden-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    position: fixed;
-    left: -100%;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: fixed;
+	left: -100%;
+	width: 100%;
 	max-width: 24em;
-    height: 100vh;
-    background-color: var(--color-white);
-    transition: left 0.3s ease;
-    z-index: 3;
-    overflow-y: auto; 
+	height: 100vh;
+	background-color: var(--color-white);
+	transition: left 0.3s ease;
+	z-index: 3;
+	overflow-y: auto;
 }
 
 .hidden-menu ul {
@@ -1374,4 +1385,4 @@ details div {
 /* Actieve menu */
 .hidden-menu.open {
 	left: 0;
-} 
+}
