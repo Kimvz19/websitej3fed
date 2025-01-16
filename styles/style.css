@@ -208,7 +208,7 @@ article {
 /* img */
 article img {
 	width: 19.8em;
-	margin-bottom: 1em;
+	margin-bottom: var(--spacing-medium);
 }
 
 /* h3 */
@@ -237,14 +237,14 @@ article li:nth-of-type(4) {
 	display: flex;
 	justify-content: end;
 	margin-top: -1.35em;
-	margin-right: .5em;
+	margin-right: var(--spacing-small);
 }
 
 article:has(.color-circle) li:nth-of-type(5) {
 	display: flex;
 	justify-content: end;
 	margin-top: -1.35em;
-	margin-right: .5em;
+	margin-right: var(--spacing-small);
 }
 
 article:has(.color-circle) li:nth-of-type(4),
