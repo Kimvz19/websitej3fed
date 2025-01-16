@@ -300,7 +300,6 @@ article button {
 
 
 /*   bullets  voor bij de articles   */
-
 .bullet {
 	width: var(--spacing-small);
 	height: var(--spacing-small);
@@ -340,7 +339,6 @@ article button {
 /*   Holiday gift guide list  */
 /******************************/
 
-/*   section*/
 section:nth-of-type(2):has(h1) {
 	background: var(--color-pink-100);
 	gap: 0.8em;
@@ -351,28 +349,24 @@ section:nth-of-type(2):has(h1) {
 	flex-direction: column;
 }
 
-/*   image  */
 section:nth-of-type(2):has(h1) img {
 	max-width: 33em;
 	clip-path: polygon(0 0, 100% 0, 100% 76%, 0 76%);
 }
 
-/*   h1  */
 section:nth-of-type(2):has(h1) h1 {
 	width: 6em;
 	margin-top: -6em;
 }
 
-/*   p  */
 section:nth-of-type(2):has(h1) p {
 	text-align: center;
 }
 
-/*   a, last type */
 section:nth-of-type(2):has(h1) a:last-of-type {
-	background-color: white;
-	border-radius: 0.5em;
-	padding: 1em 1em 1em 1em;
+	background-color: var(--color-white);
+	border-radius: var(--spacing-small);
+	padding: var(--spacing-medium);
 	color: var(--color-gray-dark);
 }
 
@@ -382,7 +376,6 @@ section:nth-of-type(2):has(h1) a:last-of-type {
 /*  Holiday Advent Calendar */
 /******************************/
 
-/*   section  */
 section:nth-of-type(3):has(video) {
 	background: var(--color-pink-100);
 	display: flex;
@@ -392,24 +385,20 @@ section:nth-of-type(3):has(video) {
 	padding-top: 1.5em;
 }
 
-/*   li  */
 section:nth-of-type(3):has(video) li {
 	background-color: var(--color-pink-100);
 	display: flex;
 	justify-content: center;
 }
 
-/*   image  */
 section:nth-of-type(3):has(video) img {
 	max-width: 26em;
 }
 
-/*   h2  */
 section:nth-of-type(3):has(video) h2 {
 	width: 10em;
 }
 
-/*   p  */
 section:nth-of-type(3):has(video) p {
 	text-align: center;
 	width: 25em;
@@ -417,7 +406,6 @@ section:nth-of-type(3):has(video) p {
 	font-size: 0.92em;
 }
 
-/*   li 3 p  */
 section:nth-of-type(3):has(video) li:nth-of-type(2) p {
 	text-align: center;
 	text-transform: uppercase;
@@ -426,11 +414,10 @@ section:nth-of-type(3):has(video) li:nth-of-type(2) p {
 	font-family: var(--font-family2);
 }
 
-/*   li 6 a  */
 section:nth-of-type(3):has(video) li:nth-of-type(5) a {
-	background-color: white;
-	border-radius: 0.5em;
-	padding: 1em 1em 1em 1em;
+	background-color: var(--color-white);
+	border-radius: var(--spacing-small);
+	padding: var(--spacing-medium);
 	color: var(--color-gray-dark);
 }
 
