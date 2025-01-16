@@ -10,15 +10,14 @@
 	box-sizing: border-box;
 }
 
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 
 /* Colors */
 :root {
-	--color-gray-dark: #393939;
 	--color-white: rgb(255, 255, 255);
+	--color-gray-dark: #393939;
 	--color-pink-100: #f8f1f4;
 	--color-pink-200: #e7dae2;
 	--color-pink-300: #efd7e5;
@@ -30,6 +29,7 @@
 	--font-family1: "TTChocolatesTrl-Regular";
 	--font-family2: "UniversLTStd-Bold";
 	--font-family3: "Arial";
+	--font-family4: "TTChocolatesTrl-Bold"
 	--font-size-small: 12px;
 	--font-size-medium: 16px;
 	--font-size-large: 25px;

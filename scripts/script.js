@@ -15,8 +15,6 @@ let header = document.querySelector('header');
 let buttons = document.querySelectorAll('button');
 
 // Functies
-
-
 // hamburger menu icon openen
 hamburgerMenu.addEventListener("click", () => {
     hiddenMenu.classList.toggle("open");
