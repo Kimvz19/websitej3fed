@@ -639,14 +639,14 @@ section:nth-of-type(7):has(a) {
 /*  h2  */
 section:nth-of-type(7):has(a) h2 {
 	color: var(--color-white);
-	margin-top: -14.5em;
+	margin-top: -12.5em;
 	font-size: 1.5em;
 }
 
 section:nth-of-type(7):has(a) img {
-	max-width: 25em;
-	height: 35em;
-	border-radius: 3em;
+	max-width: 22em;
+	height: 30em;
+	border-radius: 2em;
 	object-fit: cover;
 	object-position: center;
 }
