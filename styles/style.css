@@ -301,10 +301,6 @@ article span:nth-of-type(2){
     z-index: 2;
 }
 
-
-
-
-
 /* button */
 article button {
 	background-color: var(--color-gray-dark);
