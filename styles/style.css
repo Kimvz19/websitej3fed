@@ -600,7 +600,6 @@ section:nth-of-type(6):has(a) a:nth-last-of-type(2) {
 /******************************/
 /* Visual try out */
 /******************************/
-/*  section  */
 section:nth-of-type(7):has(a) {
 	background: var(--color-pink-100);
 	display: flex;
@@ -611,7 +610,6 @@ section:nth-of-type(7):has(a) {
 
 }
 
-/*  h2  */
 section:nth-of-type(7):has(a) h2 {
 	color: var(--color-white);
 	margin-top: -12.5em;
@@ -626,9 +624,8 @@ section:nth-of-type(7):has(a) img {
 	object-position: center;
 }
 
-/*  a  */
 section:nth-of-type(7):has(a) a:last-child {
-	border-radius: 0.5em;
+	border-radius: var(--spacing-small);
 	background-color: var(--color-white);
 	padding: 0.8em 1.1em;
 	color: var(--color-gray-dark);
@@ -642,19 +639,19 @@ section:nth-of-type(8):has(img) {
 	background-color: var(--color-pink-100);
 	padding-top: 5em;
 	text-align: center;
-	padding-bottom: 1em;
+	padding-bottom: var(--spacing-medium);
 }
 
 section:nth-of-type(8):has(img) h2 {
-	margin-bottom: 0.5em;
+	margin-bottom: var(--spacing-small);
 }
 
 section:nth-of-type(8):has(img) .image-grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 1em;
-	gap: .5em;
+	margin: var(--spacing-medium);
+	gap: var(--spacing-small);
 }
 
 section:nth-of-type(8):has(img) .image-grid a {
@@ -673,69 +670,58 @@ section:nth-of-type(8):has(img) .image-grid img {
 /****************/
 /*    Footer    */
 /****************/
-
 footer {
 	background-color: var(--color-pink-100);
 	color: var(--color-gray-dark);
-	padding: 3em 2em 2em 2em;
+	padding: 3em 2em 2em;
 }
 
-/*  ol  */
 footer ol {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
 }
 
-/*  ol 1  */
 footer ol:nth-of-type(1) {
 	justify-content: center;
-	gap: 1em;
+	gap: var(--spacing-medium);
 }
 
-/*  ol li 1  */
 footer ol:nth-of-type(1) li:first-child {
 	width: 19em;
 }
 
-/*  ol li 2  */
 footer ol:nth-of-type(2) {
 	justify-content: center;
 	padding: 2em 1em;
 	gap: 2em;
 }
 
-/*  img  */
 footer ol:nth-of-type(2) a img {
 	height: 1.5em;
 }
 
-/* ol 3 */
 footer ol:nth-of-type(3) {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 1em;
+	padding-bottom: var(--spacing-medium);
 	font-size: 1.2em;
 	flex-wrap: nowrap;
-	gap: .5em;
+	gap: var(--spacing-small);
 }
 
-/* ol 3 li */
 footer ol:nth-of-type(3) li {
 	white-space: nowrap;
 	font-size: 1em;
 }
 
-
 footer ol:nth-of-type(3) li a {
 	font-size: 0.9em;
 }
 
-
-/*  ol 4  */
 footer ol:nth-of-type(4) {
 	justify-content: center;
-	padding: 1em;
+	padding: var(--spacing-medium);
 	font-size: 0.69em;
 	gap: 0.8em;
 }
@@ -757,7 +743,6 @@ footer p:first-child {
 	justify-content: flex-start;
 }
 
-/*  p laatste  */
 footer p:last-of-type {
 	display: flex;
 	justify-content: center;
@@ -784,7 +769,6 @@ footer button {
 /******************************/
 /* dialog button email */
 /******************************/
-/* Basic styles for the dialog */
 dialog {
 	border: none;
 	border-radius: 10px;
@@ -800,7 +784,6 @@ dialog {
 dialog::backdrop {
 	background-color: rgba(0, 0, 0, 0.5);
 }
-
 /* Binnen de dialog */
 .dialogContent {
 	display: flex;
@@ -813,7 +796,6 @@ dialog::backdrop {
 	margin-bottom: 15px;
 	color: var(--color-gray-dark);
 }
-
 /* Close button styling */
 dialog button {
 	border: none;
@@ -844,7 +826,6 @@ section:nth-of-type(2):has(div) img {
 	background-color: var(--color-gray-dark);
 }
 
-/*   h1  */
 section:nth-of-type(2):has(div) h1 {
 	color: var(--color-white);
 	width: 12em;
@@ -852,45 +833,39 @@ section:nth-of-type(2):has(div) h1 {
 	font-size: 2em;
 }
 
-/*   p  */
 section:nth-of-type(2):has(div) p {
 	text-align: center;
 	color: var(--color-white);
 	font-size: 0.9em;
 }
 
-/*  container*/
 section:nth-of-type(2):has(h1) div {
 	display: flex;
 	flex-direction: row;
-	gap: 1em;
-	padding-bottom: 1em;
+	gap: var(--spacing-medium);
+	padding-bottom: var(--spacing-medium);
 }
 
-/*  a   */
 section:nth-of-type(2):has(div) a:first-of-type {
 	background-color: transparent;
 	border: 0.1em solid var(--color-white);
-	border-radius: 0.5em;
+	border-radius: var(--spacing-small);
 	padding: 1em 2em 1em 2em;
 	text-decoration: none;
 	color: var(--color-white);
 }
 
-/*  a  */
 section:nth-of-type(2):has(h1) a:last-of-type {
 	background-color: var(--color-gray-dark);
-	border-radius: 0.5em;
+	border-radius: var(--spacing-small);
 	padding: 1em 2em 1em 2em;
 	text-decoration: none;
 	color: var(--color-white);
 }
 
-
-/* stappen - section 2 met content */
+/******************************/
 /* HOW IT WORKS */
-
-/*  section  */
+/******************************/
 section:nth-of-type(3):has(div) {
 	height: 45em;
 	background-color: var(--color-pink-100);
@@ -900,12 +875,10 @@ section:nth-of-type(3):has(div) {
 	padding-top: 2em;
 }
 
-/*  h2  */
 section:nth-of-type(3):has(div) h2 {
 	color: black;
 }
 
-/*  div  */
 section:nth-of-type(3):has(div) div {
 	background-color: var(--color-white);
 	padding: 1.5em 3.5em;
@@ -918,7 +891,6 @@ section:nth-of-type(3):has(div) div {
 	flex-shrink: 0;
 }
 
-/*  p  */
 section:nth-of-type(3):has(div) p:nth-of-type(1),
 section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	font-size: var(--font-size-large);
@@ -929,34 +901,29 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	text-transform: uppercase;
 }
 
-
 /* HOW TO EARN POINTS */
 /*  class  */
 .earn-points {
 	background-color: var(--color-white);
 	display: flex;
 	flex-direction: column;
-	padding-top: 1em;
+	padding-top: var(--spacing-medium);
 }
 
-/*  ul  */
 .earn-points ul {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-/*  img  */
 .earn-points img {
 	width: 5em;
 }
 
-/*  h2  */
 .earn-points h2 {
 	color: black;
 }
 
-/*  li  */
 .earn-points li {
 	width: 11em;
 	height: 11em;
@@ -969,7 +936,6 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	box-sizing: border-box;
 }
 
-/*  li's  */
 .earn-points li:nth-of-type(2),
 .earn-points li:nth-of-type(3),
 .earn-points li:nth-of-type(6),
@@ -979,7 +945,6 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	background-color: var(--color-pink-100);
 }
 
-/*  li's  */
 .earn-points li:nth-of-type(1),
 .earn-points li:nth-of-type(4),
 .earn-points li:nth-of-type(5),
@@ -989,14 +954,11 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	background-color: var(--color-white);
 }
 
-/*  p  */
 .earn-points li p:first-of-type {
 	font-weight: bolder;
-	/* werkt nog niet */
 }
 
 /* HOW TO USE POINTS */
-/*  section  */
 .usePoints {
 	background-color: var(--color-white);
 	height: 18em;
@@ -1006,20 +968,17 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	padding-top: 2em;
 }
 
-/*  ul  */
 .usePoints ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	padding-top: 1em;
+	padding-top: var(--spacing-medium);
 }
 
-/*  h2  */
 .usePoints h2 {
 	color: black;
 }
 
-/*  li  */
 .usePoints li {
 	background-color: var(--color-pink-100);
 	padding: 1.5em .5em;
@@ -1032,7 +991,6 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 
 }
 
-/*  p  */
 .usePoints p:first-child {
 	font-size: var(--font-size-large);
 	font-family: var(--font-family2);
