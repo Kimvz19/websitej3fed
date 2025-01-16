@@ -1043,6 +1043,12 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	top: 475%;
 }
 
+.redeempoints p{
+	font-weight: bold;
+	font-size: .9em;
+	color: var(--color-gray-dark);
+}
+
 /******************************/
 /* vip tiers */
 /******************************/
