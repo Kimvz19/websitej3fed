@@ -9,12 +9,30 @@ let kingKy = document.querySelector('.kylieBackgroundButton');
 let isKylieBackgroundActive = false;  //default 
 let hamburgerMenu = document.querySelector(".hamburger-menu");
 let hiddenMenu = document.querySelector(".hidden-menu");
+let videoElements = document.querySelectorAll('video');
+
 
 // Functies
 // functie om hamburger menu werkende te maken
 hamburgerMenu.addEventListener("click", () => {
     hiddenMenu.classList.toggle("open");
 });
+
+
+//video advent calendar
+
+videoElements.forEach(function(videoElement) {
+  videoElement.addEventListener('click', function() {
+
+    if (videoElement.paused) {
+      videoElement.play();
+    } else {
+      videoElement.pause(); 
+    }
+  });
+});
+
+
 
 
 //functie roze kleur te veranderen
