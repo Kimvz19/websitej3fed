@@ -81,7 +81,7 @@ header nav ol li svg {
 	margin-top: 10px;
 }
 
-header span p {
+header span {
 	background-color: var(--color-pink-300);
 	line-height: var(--line-height);
 	font-family: var(--font-family3);
@@ -1241,7 +1241,6 @@ details summary {
 	text-align: left;
 	margin: 0 1em;
 }
-
 /* Voeg een "+" icon toe */
 details summary::after {
 	content: '+';
@@ -1276,63 +1275,98 @@ details div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 	position: fixed;
-
-	left: -100%;
 	width: 50%;
 	background-color: var(--color-white);
-	/* box-shadow: 4px 0 8px rgba(0, 0, 0, 0.2); */
 	transition: left 0.3s ease;
 	z-index: 3;
 }
 
-.hidden-menu ul{
+.hidden-menu ul {
 	list-style: none;
-	margin: 1em;
+	padding: 0;
+	margin: 0;
 }
 
-/*       icons hamburgermenu       */
-.hidden-menu ul:nth-of-type(1),
-.hidden-menu ul:nth-of-type(2) div
- {
+.hidden-menu ul:first-of-type {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction: column;
+	margin: 1em;
+	gap: 1em;
 }
 
-.hidden-menu ul:nth-of-type(1) button{
+.hidden-menu ul:first-of-type li {
+	list-style: none;
+}
+
+.hidden-menu ul:first-of-type button {
 	border: none;
 	background-color: white;
+	cursor: pointer;
 }
 
-.hidden-menu ul:nth-of-type(1) a{
-	font-size: 0.7em;
+.hidden-menu ul:nth-of-type(2) {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1em;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.hidden-menu ul:nth-of-type(2) li {
+	list-style: none;
+}
+
+.hidden-menu ul:nth-of-type(2) a {
+	font-size: 1em;
 	font-family: var(--font-family2);
 	line-height: var(--line-height);
 	color: var(--color-pink-500);
 	text-align: center;
 	text-transform: uppercase;
 	background-color: var(--color-pink-200);
-	border: .2em solid var(--color-pink-500);
-	padding: .5em 2em ;
-	border-radius: .5em;
+	border: 0.2em solid var(--color-pink-500);
+	padding: 0.5em 2em;
+	border-radius: 0.5em;
+	text-decoration: none;
 }
 
-.hidden-menu ul:nth-of-type(2) a{
-	color: var(--color-gray-dark);
-}
-
-.hidden-menu ul:nth-of-type(2) div img{
-	width: 2em;
-}
-
-/*       icons hamburgermenu       */
-.hidden-menu ul:nth-of-type(3),
-.hidden-menu ul:nth-of-type(4){
+.hidden-menu ul:nth-of-type(3) {
 	display: flex;
 	flex-direction: column;
+	gap: 1em;
+	margin-top: 1em;
 }
+
+.hidden-menu ul:nth-of-type(3) li {
+	list-style: none;
+}
+
+.hidden-menu ul:nth-of-type(3) details {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.hidden-menu ul:nth-of-type(3) summary {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1em;
+	cursor: pointer;
+	border-bottom: .05em solid var(--color-pink-500);
+	padding-bottom: 0.5em;
+}
+
+.hidden-menu ul:nth-of-type(3) li:last-child summary {
+	border-bottom: none;
+}
+
+.hidden-menu ul:nth-of-type(3) summary img {
+	width: 2.5em;
+}
+
 
 
 /* .hidden-menu ul li {
