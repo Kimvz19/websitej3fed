@@ -272,6 +272,10 @@ article button {
 	place-content: center;
 }
 
+.stars-row svg{
+color: hotpink;
+}
+
 
 /****************/
 /*  Home page   */
