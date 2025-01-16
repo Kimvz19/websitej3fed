@@ -410,7 +410,7 @@ section:nth-of-type(3):has(video) p {
 }
 
 /*   li 3 p  */
-section:nth-of-type(3):has(video) li:nth-of-type(3) p {
+section:nth-of-type(3):has(video) li:nth-of-type(2) p {
 	text-align: center;
 	text-transform: uppercase;
 	width: 25.5em;
@@ -419,7 +419,7 @@ section:nth-of-type(3):has(video) li:nth-of-type(3) p {
 }
 
 /*   li 6 a  */
-section:nth-of-type(3):has(video) li:nth-of-type(6) a {
+section:nth-of-type(3):has(video) li:nth-of-type(5) a {
 	background-color: white;
 	border-radius: 0.5em;
 	padding: 1em 1em 1em 1em;
@@ -428,7 +428,7 @@ section:nth-of-type(3):has(video) li:nth-of-type(6) a {
 
 /*   video */
 section:nth-of-type(3):has(video) li:nth-of-type(2) video {
-	display: none;
+	border: none;
 }
 
 
