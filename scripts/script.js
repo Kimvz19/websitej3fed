@@ -7,15 +7,21 @@ let darkModeButton = document.querySelector('.pinkModeButton');
 let kylieSound = document.querySelector('.soundButton');
 let kingKy = document.querySelector('.kylieBackgroundButton');
 let isKylieBackgroundActive = false;  //default 
-let hamburgerMenu = document.querySelector(".hamburger-menu");
-let hiddenMenu = document.querySelector(".hidden-menu");
 let videoElements = document.querySelectorAll('video');
-
+let hamburgerMenu = document.querySelector('.hamburger-menu');
+let hiddenMenu = document.querySelector('.hidden-menu');
+let closeMenu = document.querySelector('.close-menu'); 
 
 // Functies
-// functie om hamburger menu werkende te maken
+
+// Openen 
 hamburgerMenu.addEventListener("click", () => {
     hiddenMenu.classList.toggle("open");
+});
+
+// Sluiten van het menu via de kruis-knop
+closeMenu.addEventListener("click", () => {
+    hiddenMenu.classList.remove("open");
 });
 
 

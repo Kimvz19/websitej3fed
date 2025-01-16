@@ -1276,6 +1276,7 @@ details div {
 	flex-direction: column;
 	justify-content: center;
 	position: fixed;
+	left: -100%;
 	width: 50%;
 	background-color: var(--color-white);
 	transition: left 0.3s ease;
@@ -1365,20 +1366,6 @@ details div {
 
 .hidden-menu ul:nth-of-type(3) summary img {
 	width: 2.5em;
-}
-
-
-
-/* .hidden-menu ul li {
-	margin: 15px 0;
-	color: green;
-}
-
-.hidden-menu ul li a {
-	text-decoration: none;
-	color: var(--color-pink-500);
-	font-size: 18px;
-	font-weight: bold;
 }
 
 /* Actieve menu */
