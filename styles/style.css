@@ -272,9 +272,16 @@ article button {
 	place-content: center;
 }
 
-.stars-row svg{
-color: hotpink;
+.stars-row{
+	display: flex;
+	flex-direction: row;
 }
+
+.stars-row p{
+	font-size: .9em;
+	padding-left: .3em;
+}
+
 
 
 /****************/
