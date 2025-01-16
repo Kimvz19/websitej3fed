@@ -277,7 +277,7 @@ article:has(.color-circle) li:nth-of-type(6){
 	justify-content: start;
 }
 
-article span{
+article span:nth-of-type(1){
 	position: absolute;
     top: 0.5em;
     right: 0.5em;
@@ -288,6 +288,22 @@ article span{
     border-radius: .5em;
 	z-index: 2;
 }
+
+article span:nth-of-type(2){
+	position: absolute;
+    bottom: 14em; /* Plaatst de span 0.5em van de onderkant */
+    left: 11.5%; /* Plaatst de span in het midden */
+    transform: translateX(-50%); /* Verplaatst de span horizontaal naar het midden */
+    color: var(--color-gray-dark);
+    font-size: var(--font-size-small);
+    padding: 0.5em 1em;
+    border-radius: .5em;
+    z-index: 2;
+}
+
+
+
+
 
 /* button */
 article button {
