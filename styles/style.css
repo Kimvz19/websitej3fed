@@ -541,8 +541,19 @@ section:nth-of-type(6):has(a){
 	justify-content: center;
 	align-items: center;
 	margin: 3em;
-	position: relative; /* Zorg ervoor dat de pijltjes absoluut ten opzichte van de sectie worden gepositioneerd */
+	position: relative; 
 }
+
+.shop-now {
+	border-radius: 0.5em;
+    border: 0.1em solid var(--color-gray-dark);
+    padding: 0.6em 1.1em;
+    color: var(--color-gray-dark);
+    text-align: center;
+    max-width: 12em;
+    display: inline-block;
+    text-decoration: none; /* Verwijdert de standaard onderstreping */
+  }
 
 
 section:nth-of-type(6):has(a) ul {
