@@ -248,10 +248,12 @@ article:has(h3) h3 {
 /* stars review */
 article li:nth-of-type(2),
 article li:nth-of-type(3),
-article li:nth-of-type(5){
+article li:nth-of-type(5)
+{
 	margin: 0 0.5em;
 	display: flex;
 	justify-content: start;
+	background-color: green;
 }
 
 /* price */
@@ -260,6 +262,20 @@ article li:nth-of-type(4) {
 	justify-content: end;
 	margin-top: -1.35em;
 	margin-right: .5em;
+}
+
+article:has(.color-circle) li:nth-of-type(5){
+	display: flex;
+	justify-content: end;
+	margin-top: -1.35em;
+	margin-right: .5em;
+}
+
+article:has(.color-circle) li:nth-of-type(4),
+article:has(.color-circle) li:nth-of-type(6){
+	margin: 0 0.5em;
+	display: flex;
+	justify-content: start;
 }
 
 article span{
