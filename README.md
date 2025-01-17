@@ -267,7 +267,17 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
           <img src="readme-images/Wcaglist-2.png" width="400px" alt="Wcag check 2">
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  De wcag list is uitgevoerd met Madelief. 1 van de vragen is zet je code in de code validator en ik ben toen erg geschrokken.
+  Tijdens het coderen heb ik onbewust een paar domme fouten gemaakt met section, dit heb ik allemaal moeten oplossen!
+       <img src="readme-images/probelemen-validator.png" width="400px" alt="validator errors">
+  Ik heb de wcag list als houdvast gehad tijdens het coderen zoals;
+  - video moet je kunnen pauseren 
+  - ik heb audio toegevoegd
+  - gebruik van headings 
+  - gebruik van lists
+  - images hebben alt 
+  - gebruik van a voor links 
+  - gebruik van buttons voor knoppen 
 
 </details>
 
