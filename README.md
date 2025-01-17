@@ -37,7 +37,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://kyliejennercosmetics.eu/en-nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  <img src="readme-images/homepage-kylie.jpg" width="250px" alt="Home pag">
+  <img src="readme-images/home-page-full.png" width="250px" alt="Home page">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   <img src="readme-images/rewardpage-kylie.jpg" width="250px" alt="Decoratie page">
