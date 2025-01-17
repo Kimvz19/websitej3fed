@@ -324,14 +324,10 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  <summary>Mijn bronnen</summary>
+  1. https://codepen.io/kimvz/pen/jENxaBa dialog melding
+  2. https://codepen.io/kimvz/pen/zxOpyrZ grid fish
+  3. https://codepen.io/kimvz/pen/MYgrzNw grid columns
+  4. https://dlo.mijnhva.nl/d2l/le/content/609316/viewContent/2344000/View  animatie button
+  5.
 </details>

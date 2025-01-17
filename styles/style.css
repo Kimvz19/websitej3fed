@@ -310,11 +310,11 @@ article button {
 }
 
 .bullet.active {
-    background-color: var(--color-gray-dark);
+	background-color: var(--color-gray-dark);
 }
 
 .bullet:hover {
-    background-color: var(--color-pink-300);
+	background-color: var(--color-pink-300);
 }
 
 .pagination-container {
@@ -697,8 +697,30 @@ footer ol:nth-of-type(2) {
 	gap: 2em;
 }
 
+
+
 footer ol:nth-of-type(2) a img {
 	height: 1.5em;
+}
+
+/*    animatie social icons    */
+@keyframes twistAndturn {
+	0% {
+		rotate: 0deg;
+	}
+
+	40% {
+		scale: 2;
+	}
+
+	100% {
+		rotate: 180deg;
+	}
+}
+
+footer ol:nth-of-type(2) a img:hover{
+	animation-name: twistAndturn;
+	animation-duration: 1s;
 }
 
 footer ol:nth-of-type(3) {
@@ -725,6 +747,7 @@ footer ol:nth-of-type(4) {
 	font-size: 0.69em;
 	gap: 0.8em;
 }
+
 
 footer ol:nth-of-type(4) li a {
 	color: var(--color-gray-dark);
@@ -784,6 +807,7 @@ dialog {
 dialog::backdrop {
 	background-color: rgba(0, 0, 0, 0.5);
 }
+
 /* Binnen de dialog */
 .dialogContent {
 	display: flex;
@@ -796,6 +820,7 @@ dialog::backdrop {
 	margin-bottom: 15px;
 	color: var(--color-gray-dark);
 }
+
 /* Close button styling */
 dialog button {
 	border: none;
@@ -900,6 +925,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	text-align: center;
 	text-transform: uppercase;
 }
+
 /******************************/
 /* HOW TO EARN POINTS */
 /******************************/
@@ -958,6 +984,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 .earn-points li p:first-of-type {
 	font-weight: bolder;
 }
+
 /******************************/
 /* HOW TO USE POINTS */
 /******************************/
@@ -1002,6 +1029,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	text-transform: uppercase;
 	width: 4em;
 }
+
 /******************************/
 /* Redeem points */
 /******************************/
@@ -1043,7 +1071,7 @@ section:nth-of-type(3):has(div) p:nth-of-type(2) {
 	top: 475%;
 }
 
-.redeempoints p{
+.redeempoints p {
 	font-weight: bold;
 	font-size: .9em;
 	color: var(--color-gray-dark);
