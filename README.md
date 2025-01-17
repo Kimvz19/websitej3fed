@@ -292,11 +292,29 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik ben super blij met het eindresultaat van mijn website! Ik heb veel geleerd over het 
+  gebruik van has(), werken met svg's, details, summary's, nth-of-type, last-type, first-type enzv. 
+  
+  Ik heb nog nooit gewerkt met een dialog, maar toen Danny het voorstelde vond ik dit een leuke
+  toevoeging aan de website als surface plane optie!
+  <img src="readme-images/dialog.png" width="400px" alt="dialog">
 
+  De articles gericht aan de producten heeft mij het meeste werk gekost. In het begin van de website
+  ging ik de articles apart stylen. Dit kost veel tijd en werk, maar na een voortgangsgesprek kreeg ik de 
+  feedback om ze als 1 article te stijlen. Dit heb ik uiteindelijk opgepakt en dit heeft mij veel tijd en moeite 
+  bespaard. 
+   <img src="readme-images/article .png" width="400px" alt="article">
+    <img src="readme-images/arrows.png" width="400px" alt="arrows bij products">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De virtual try out is een video. Ik had alle afbeelden, svg's, icons enzv gedownload van de website toen deze update er was met de holiday collection. Maar de video ben ik vergeten te downloaden. Ik heb nog online gezocht of ik het terug kon vinden, (op andere talen websites), maar omdat de holidays natuurlijk weg zijn, was deze niet vindbaar. 
+
+  Ik ben op social  media gaan kijken en vond een video op instagram van Kylie cosmetics. Deze heb ik in web formaat gezet en de foto van virtual try out gebruikt als poster voor die video. Ik heb laten zien dat ik wel met video kan werken, maar het is dus niet de orignele video die erbij hoorde. 
+  <img src="readme-images/advent-video.png" width="400px" alt="advent video ">
+
+  Deze virtual try out image lijkt op het probleem van hierboven. Ik heb het verkeerde formaat gedownload waardoor de sizing van de image niet gepast was voor de telefoon. Het was net de hele tijd niet mooi of te groot, te klein. 
+  Ik heb online gezocht naar dezelfde image, maar deze was niet te vinden. Dus heb ik de stijling iets aangepast dan de originele styling van de image. 
+  <img src="readme-images/virtual try out.png" width="400px" alt="virtual try out">
 </details>
 
 
