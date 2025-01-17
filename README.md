@@ -319,8 +319,6 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 
 
-
-
 ## Bronnenlijst
 
 <details open>
