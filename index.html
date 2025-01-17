@@ -814,14 +814,23 @@
 
 	<!-- footer-->
 	<footer>
-		<!-- email -->
-		<p>sign up for updates:</p>
+		<!-- Email  -->
+		<p>Sign up for updates:</p>
 		<ol>
-			<!-- input & button -->
-			<li><input type="text" placeholder="email address"></li>
-			<li><button>submit</button></li>
+			<li>
+				<input class="emailInput" type="email" placeholder="Email address" required>
+			</li>
+			<li>
+				<button class="submitButton">Submit</button>
+			</li>
 		</ol>
-		<p>by signing up you agree to our <a href="#">terms</a></p>
+		<p>By signing up you agree to our <a href="#">terms</a></p>
+
+		<!-- Dialog -->
+		<dialog class="emailDialog">
+			<p class="dialogMessage"></p>
+			<button class="closeDialog">Close</button>
+		</dialog>
 
 		<!-- socials -->
 		<ol>

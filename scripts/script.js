@@ -95,24 +95,44 @@ kingKy.addEventListener('click', () => {
 });
 
 
-//dialog button
-function handleSubmit() {
-    // Gebruik querySelector om te selecteren op basis van de class
+
+function EmailSignup() {
+    // variabelen
     let emailInput = document.querySelector('.emailInput');
-    let emailDialog = document.getElementById('emailDialog');
+    let submitButton = document.querySelector('.submitButton');
+    let emailDialog = document.querySelector('.emailDialog');
     let dialogMessage = document.querySelector('.dialogMessage');
-    let email = emailInput.value.trim();
+    let closeDialog = document.querySelector('.closeDialog');
 
-    // controle email
-    if (!emailInput.checkValidity()) {
-        dialogMessage.textContent = 'Please enter a valid email address';
-    } else {
-        dialogMessage.textContent = `Thank you for signing up!`;
+    // button
+    let handleSubmit = () => {
+        let email = emailInput.value.trim();
 
-        emailInput.value = '';
-    }
-    emailDialog.showModal();
+        // Validating Email
+        if (!email) {
+            dialogMessage.textContent = 'Probeer opnieuw!';
+        } else if (!emailInput.checkValidity()) {
+            dialogMessage.textContent = 'Probeer opnieuw!';
+        } else {
+            dialogMessage.textContent = 'Thank you for signing up!';
+            emailInput.value = ''; 
+        }
+
+        emailDialog.showModal(); // dialog
+    };
+
+    // button sluiten
+    let handleClose = () => {
+        emailDialog.close();
+    };
+
+    // Add Event Listeners
+    submitButton.addEventListener('click', handleSubmit);
+    closeDialog.addEventListener('click', handleClose);
 }
+
+// functie uitvoeren
+EmailSignup();
 
 
 
