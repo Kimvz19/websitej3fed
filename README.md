@@ -329,5 +329,15 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
   2. https://codepen.io/kimvz/pen/zxOpyrZ grid fish
   3. https://codepen.io/kimvz/pen/MYgrzNw grid columns
   4. https://dlo.mijnhva.nl/d2l/le/content/609316/viewContent/2344000/View  animatie button
-  5.
+  5. https://chatgpt.com/share/678a16d2-ac18-8000-99c9-1c3142acd35b css code fouten herkennen
+  6. https://chatgpt.com/share/678a16fb-e574-8000-ab63-d6d27a20a302 fout html met div oplossen
+  7. https://chatgpt.com/share/678a1718-49e0-8000-8542-7ee43921addd html probleem oplossen
+  8. https://chatgpt.com/share/678a1742-0054-8000-8781-a4ff85d40a64 roze bolletjes stijling
+  9. https://chatgpt.com/share/678a1786-2e94-8000-b38c-1cddd7322c3b oplossing zoeken verwijdering section
+  10. https://chatgpt.com/share/678a17df-9c40-8000-87ba-b9877fd93371 button styling
+  11. https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows grid columns
+  12. https://cssgridgarden.com/#nl oefenen met grid carrots
+  13. https://flukeout.github.io/ oefenen met nth of type enzv. 
+
+
 </details>
