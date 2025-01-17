@@ -88,11 +88,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-
-
-
-   
-
  ### Breakdowns before feedback: 
 
   #### dynamisch deel (bijv menu): 
@@ -264,6 +259,12 @@ Ook vond hij de opstelling van mijn Html niet helemaal goed dus dit moet ik gaan
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+
+  <img src="readme-images/Wcaglist-2.2.png" width="400px" alt="Wcag check 2">
+    <img src="readme-images/Wcaglist-2.3.png" width="400px" alt="Wcag check 2">
+      <img src="readme-images/Wcaglist-2.4.png" width="400px" alt="Wcag check 2">
+        <img src="readme-images/Wcaglist-2.5.png" width="400px" alt="Wcag check 2">
+          <img src="readme-images/Wcaglist-2.png" width="400px" alt="Wcag check 2">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
